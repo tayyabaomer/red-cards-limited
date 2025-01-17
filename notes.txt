@@ -1,0 +1,94 @@
+Cards Category
+
+1-	Thank you
+    i-	Birthday cards *
+    ii-	Anniversary cards   *
+    iii- Wedding Cards  *
+    iv-	GRADUATION  *
+2-	Events and Occasions
+    i-	Get well    *
+    ii-	Greeting    *
+    iii- Valentine  *
+    iv-	Engagement  *
+3-	Thoughts and Feelings
+    i-	Congratulations *
+    ii-	Sorry   *
+    iii- Goodbye and farewell   *
+
+
+
+Trending Section
+Explore what's trending     (Heading)
+1- Winter Birthday's    (cards)
+2- Engaement Parties    (cards)
+
+
+
+Call to action Section
+More reasons to celebrate   (Heading)
+
+1- Wedding Celebrations
+2- Milestone Birthdays
+3- Anniversay parties
+4- Business Events
+5- Religious Festivals
+6- Graduation Parties
+
+
+
+
+
+
+
+feature section 
+
+Endless ways to spread the joy  (Heading)
+Buy it once, share it everywhere!    (subHeading)
+
+
+<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_1252_29481)">
+        <path d="M19.8707 27.4737V17.5997M16.0355 23.6225L19.8687 27.4719L23.7017 23.6225M7.78997 22.25V12.0145C7.87107 8.6161 10.6563 5.9055 14.0563 5.9201H23.4762C24.4057 5.9201 25.2962 6.29805 25.9402 6.96962L32.2583 13.5523C32.87 14.1882 33.2107 15.0366 33.2107 15.919V29.5255C33.235 32.9532 30.539 35.7805 27.1162 35.92L13.9071 35.9184C10.4519 35.8422 7.71372 32.9807 7.78997 29.5255V28.0845M24.281 10.8419C24.2793 13.194 26.1837 15.1049 28.5375 15.1098H33.1022" stroke="#20282D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+        <clipPath id="clip0_1252_29481">
+            <rect width="40" height="40" fill="white" transform="translate(0.5 0.920044)"></rect>
+        </clipPath>
+    </defs>
+</svg>
+1- Download
+Get a digital copy of your invitation by downloading it to your device.
+
+<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_1252_29486)">
+        <path d="M5.5 18.079C5.5 15.0336 7.99082 12.5444 11.0508 12.5444H29.9653C33.0253 12.5444 35.5 15.0336 35.5 18.079V24.7699C35.5 27.8299 33.0253 30.3044 29.9653 30.3044H28.2108M12.8508 30.3055H11.0508C7.99082 30.3055 5.5 27.8309 5.5 24.7709M12.8552 25.601V31.8849C12.8552 33.7999 14.407 35.3519 16.3222 35.3519H19.4175M24.6797 35.3519C26.5932 35.3519 28.1452 33.7999 28.1452 31.8849V25.601M29.6077 25.601H11.3952M29.9352 18.5047H26.4017M12.8568 12.5675V9.95348C12.8568 8.03997 14.4087 6.48645 16.3238 6.48645H19.9005M24.6813 6.48645C26.5948 6.48645 28.1467 8.03997 28.1467 9.95348V12.5675" stroke="#20282D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+        <clipPath id="clip0_1252_29486">
+            <rect width="40" height="40" fill="white" transform="translate(0.5 0.920044)"></rect>
+        </clipPath>
+    </defs>
+</svg>
+2- Print
+Order prints with FREE shipping or download a high-quality PDF and print at home.
+
+<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_1252_29491)">
+        <path d="M28.4799 35.3202C26.0935 35.3202 24.16 33.3852 24.16 31.0004C24.16 28.6138 26.0935 26.6804 28.4799 26.6804C30.8664 26.6804 32.7999 28.6138 32.7999 31.0004C32.7999 31.6398 32.661 32.2468 32.4115 32.793M6.88114 20.918C6.88114 18.5315 8.81461 16.5981 11.2011 16.5981C13.5876 16.5981 15.521 18.5315 15.521 20.918C15.521 23.3046 13.5876 25.238 11.2011 25.238C10.4534 25.238 9.75015 25.0483 9.13691 24.7142M28.4806 6.51996C30.8671 6.51996 32.8006 8.45343 32.8006 10.8399C32.8006 13.2264 30.8671 15.1599 28.4806 15.1599C26.0942 15.1599 24.1607 13.2264 24.1607 10.8399C24.1607 9.92882 24.4425 9.08375 24.9238 8.38708M14.9295 23.0933L24.765 28.8253M24.7495 13.0141L14.928 18.7445" stroke="#20282D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+        <clipPath id="clip0_1252_29491">
+            <rect width="40" height="40" fill="white" transform="translate(0.5 0.920044)"></rect>
+        </clipPath>
+    </defs>
+</svg>
+3- Share
+Spread the word on social media, by text message, or email to friends and family.
+
+<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13.887 26.9784L15.1567 28.248L17.628 25.7769M13.887 18.899L15.1567 20.1687L17.628 17.6974M21.9682 28.0685H27.1133M21.9682 19.989H27.1133M14.3666 8.57629C10.9111 8.57629 8.10904 11.3783 8.10904 14.8339V29.663C8.10904 33.1185 10.9111 35.9207 14.3666 35.9207H21.0287M26.6328 8.57629C30.0883 8.57629 32.8903 11.3783 32.8903 14.8339V29.663C32.8903 33.1185 30.0883 35.9207 26.6328 35.9207M24.3722 5.92004C25.6208 5.92004 26.6327 6.93189 26.6327 8.18049V9.13559C26.6327 10.3842 25.6208 11.3961 24.3722 11.3961H16.6276C15.379 11.3961 14.3672 10.3842 14.3672 9.13559V8.18049C14.3672 6.93189 15.379 5.92004 16.6276 5.92004H20.5" stroke="#20282D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+4- Manage
+Create an online event page to collect RSVPs and manage all the little details!
+
+

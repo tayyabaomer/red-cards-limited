@@ -1,0 +1,26 @@
+
+Primary colors
+#ffffff white 
+#f4f4f4 grey color
+#e9e9ea light gray
+#fd5c63  Airbnb/red color  
+#20282d black text
+
+Secondary color
+#5174e7 blue color
+#cbd5f8 light blue
+
+
+Tertiary color
+#1bc47d green color
+#bbedd8 light green color
+
+#ff5985 pink color
+#ffcdda light pink color
+
+#ff9059 peach
+#ffdecd light peach
+
+
+cards caetegory
+#ffdecd peach color
