@@ -64,11 +64,16 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 2dvh 5dvh;
+    z-index: 15;
+    /* border-bottom: 1px solid black; */
+    height: 12vh;
+    position: sticky;
+    color: var(--black);
+    opacity: 1;
 }
 
 nav > ul {
     /* background-color: #1bc47d; */
-    height: 5vh;
     display: flex;
     align-items: center;
     gap: 1.5vh;
@@ -122,19 +127,22 @@ nav > ul > li > a:hover {
     align-items: center;
     justify-content: flex-start;
     gap: 1rem;
+    isolation: isolate;
 }
 
 .has-submenu > ul {
     background-color: hsl(0, 0%, 83%, 20%);
     position: absolute;
-    top: 135%;
+    top: 100%;
     transform: translate(-35%);
     border-radius: .5rem;
     padding: 1rem;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     border: 0.5px solid var(--light-gray);
-    display: none;
+    /* display: none; */
+    visibility: hidden;
     opacity: 0;
+    z-index: 10;
 }
 
 .has-submenu > ul > .submenu {
@@ -177,7 +185,7 @@ nav > ul > li > a:hover {
 
 .submenus-menu ul li a::after {
     content: url(../../images/nav-icons/icon-arrow-right.svg);
-    background-color: var(--blue);
+    background-color: var(--red);
     border-radius: 50%;
     padding: 0.3rem 0.6rem;
 }
