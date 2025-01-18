@@ -9,6 +9,7 @@
     /* primary colors */
     --bg-color: #ffffff;
     --red: #fd5c63;
+    --light-red:hsl(357, 97.60%, 90%);
     --black: #20282d;
     --grey: #f4f4f4;
     --light-gray: #e9e9ea;
