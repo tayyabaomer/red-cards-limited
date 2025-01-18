@@ -59,7 +59,7 @@
 
 header {
     width: 100%;
-    /* background-color: #cbd5f8; */
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,8 +68,11 @@ header {
     /* border-bottom: 1px solid black; */
     height: 12vh;
     position: sticky;
+    top: 0;
+    left: 0;
     color: var(--black);
     opacity: 1;
+    z-index: 50;
 }
 
 nav > ul {

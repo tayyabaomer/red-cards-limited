@@ -1,1 +1,173 @@
 @import url(../global.css);
+
+
+
+:root {
+
+    /* CSS COLORS */
+
+    /* primary colors */
+    --bg-color: #ffffff;
+    --red: #fd5c63;
+    --light-red:hsl(357, 97.60%, 90%);
+    --black: #20282d;
+    --grey: #f4f4f4;
+    --light-gray: #e9e9ea;
+    --lighter-gray: hsl(0, 0%, 83%, 20%);
+
+    /* Secondary color, specially for login btn */
+    --blue: #5174e7; 
+    --light-blue: #cbd5f8;
+
+    /* Tertiary color, for homepage section bg */
+    --blue: #5174e7; 
+    --light-blue: #cbd5f8;
+
+    --green: #1bc47d;
+    --light-green: #bbedd8;
+    
+    --pink: #ff5985;
+    --light-pink: #ffcdda;
+    
+    --peach: #ff9059 ;
+    --light-peach: #ffdecd;
+
+    
+    /* # padding spaces */
+    --section-padding: 10dvh 5dvh;
+
+    /* Font styles */
+    --GSans-var: 'GeneralSans-Variable';
+    --GSans-varItal: 'GeneralSans-VariableItalic';
+    --GSans-extraLight: 'GeneralSans-Extralight';
+    --GSans-extraLightItalic: 'GeneralSans-ExtralightItalic';
+    --GSans-light: 'GeneralSans-Light';
+    --GSans-lightItalic: 'GeneralSans-LightItalic';
+    --GSans-reg: 'GeneralSans-Regular';
+    --GSans-italic: 'GeneralSans-Italic';
+    --GSans-med: 'GeneralSans-Medium';
+    --GSans-medItal: 'GeneralSans-MediumItalic';
+    --GSans-semibold: 'GeneralSans-Semibold';
+    --GSans-semiboldItal: 'GeneralSans-SemiboldItalic';
+    --GSans-bold: 'GeneralSans-Bold';
+    --GSans-boldItal: 'GeneralSans-BoldItalic';
+
+
+}
+
+
+.hero {
+    color: var(--black);
+    width: 100%;
+    padding: var(--section-padding);
+    height: 100dvh;
+    /* background-color: #fd5c63; */
+}
+
+
+.hero-container {
+    height: 100dvh;
+    /* background-color: #1bc47d; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-left  {
+    width: 45%;
+    /* background-color: #ffcdda; */
+}
+
+.hero-subTitle {
+    border-left: 5px solid var(--blue);
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    padding-left: 3rem;
+    padding-right: 6rem;
+    display: inline-block;
+    /* background-color: #cbd5f8; */
+    /* color: var(--blue); */
+    color: var(--blue);
+    margin-bottom: 3rem;
+}
+
+.hero-subTitle h5 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    margin-bottom: 3rem;
+}
+
+.hero-title h2 {
+    /* text-transform: uppercase; */
+    font-family: var(--GSans-med);
+    /* font-weight: 300; */
+    font-size: 5rem;
+    line-height: 1.2;
+}
+
+.hero-title-span {
+    display: inline-flex;
+    color: var(--blue);
+}
+
+.hero-description {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+/* hero left container */
+
+.hero-right {
+    /* background-color: #5174e7; */
+    width: 40%;
+    height: 90dvh;
+}
+
+.hero-right-container {
+    /* height: inherit; */
+    /* height: 75dvh; */
+    position: relative;
+    /* background-color: #5174e7; */
+    isolation: isolate;
+}
+
+.hero-right-container .hero-svg {
+    height: 95dvh;
+    width: 100dvh;
+    z-index: 2;
+    position: absolute;
+    /* top: 100%; */
+    left: 30%;
+    transform: translate(-50%, -5%);
+}
+
+.hero-backdrop {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, 5%);
+}
+
+.hero-right-container .img {    
+    position: absolute;
+    top: 2rem;
+    left: 30%;
+    transform: translate(-50%, -10%);
+    height: 80dvh;
+    /* width: 70dvh; */
+    top: 0%;
+    border-radius: 1rem;
+    z-index: 5;
+}
+
+.hero-backdrop  {
+    height: 80dvh;
+    width: 90dvh;
+    background-color: var(--light-blue);
+    border-radius: 5rem;
+    z-index: -1;
+}
