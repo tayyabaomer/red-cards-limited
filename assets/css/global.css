@@ -13,6 +13,7 @@
     --black: #20282d;
     --grey: #f4f4f4;
     --light-gray: #e9e9ea;
+    --lighter-gray: hsl(0, 0%, 83%, 20%);
 
     /* Secondary color, specially for login btn */
     --blue: #5174e7; 
@@ -30,6 +31,10 @@
     
     --peach: #ff9059 ;
     --light-peach: #ffdecd;
+
+
+    /* # padding spaces */
+    --section-padding: 10dvh 5dvh;
 
 
     /* Font styles */
@@ -78,4 +83,8 @@ button {
     background: none;
     color: var(--black);
     cursor: pointer;
+}
+
+li {
+    list-style: none;
 }

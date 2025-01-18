@@ -9,6 +9,14 @@ logo -
 
 home -
 brands -
+    - open me
+    - ink favtory
+    - hallmark
+    - archies
+    - greetings island
+    - Japan Art Press</a></li>
+    - APrints
+    - paperless post
 cards -
 contact us -
 

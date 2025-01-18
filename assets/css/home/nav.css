@@ -14,6 +14,7 @@
     --black: #20282d;
     --grey: #f4f4f4;
     --light-gray: #e9e9ea;
+    --lighter-gray: hsl(0, 0%, 83%, 20%);
 
     /* Secondary color, specially for login btn */
     --blue: #5174e7; 
@@ -32,6 +33,9 @@
     --peach: #ff9059 ;
     --light-peach: #ffdecd;
 
+    
+    /* # padding spaces */
+    --section-padding: 10dvh 5dvh;
 
     /* Font styles */
     --GSans-var: 'GeneralSans-Variable';
@@ -54,6 +58,128 @@
 
 
 header {
-    background-color: #cbd5f8;
-    
+    width: 100%;
+    /* background-color: #cbd5f8; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2dvh 5dvh;
 }
+
+nav > ul {
+    /* background-color: #1bc47d; */
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+
+nav > ul > li {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+nav > ul > li > a {
+    border-radius: 25px;
+    padding: 0.8rem 1.9rem;
+    transition: 0.3s ease-in-out background-color;
+}
+
+nav > ul > li > a:hover {
+    background-color: var(--light-gray);
+}
+
+.brands-anchor {
+    cursor: default;
+}
+
+
+.menu-profiles {
+    /* background-color: #1bc47d; */
+    display: flex;
+    align-items: center;
+    gap: 1dvh;
+}
+
+.menu-profiles li {
+    padding: 0.8rem;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 83%, 20%);
+    /* background-color: var(--light-red); */
+    transition: 0.3s ease-in-out background-color;
+}
+
+.menu-profiles li:hover{
+    background-color: var(--light-gray);
+}
+
+
+/* Submenu Style starts */
+.has-submenu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.has-submenu > ul {
+    background-color: hsl(0, 0%, 83%, 20%);
+    position: absolute;
+    top: 135%;
+    transform: translate(-35%);
+    border-radius: .5rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    border: 0.5px solid var(--light-gray);
+    display: none;
+    opacity: 0;
+}
+
+.has-submenu > ul > .submenu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+    /* background-color: #cbd5f8; */
+}
+
+.submenus-menu {
+    padding: 0.2rem;
+}
+
+.submenus-menu h5{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.submenus-menu > ul > li {
+    font-size: 1.1rem;
+    font-weight: 600;
+    /* background-color: #1bc47d; */
+}
+
+.submenus-menu > ul > li > a {
+    /* background-color: var(--light-gray); */
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem 1.8rem;
+    display: inline-block;
+    width: 20rem;
+    margin-bottom: 0.5rem;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.submenus-menu ul li a::after {
+    content: url(../../images/nav-icons/icon-arrow-right.svg);
+    background-color: var(--blue);
+    border-radius: 50%;
+    padding: 0.3rem 0.6rem;
+}
+
+/* Submenu Style End */
