@@ -60,7 +60,7 @@
     color: var(--black);
     width: 100%;
     padding: var(--section-padding);
-    height: 100dvh;
+    height: 110dvh;
     /* background-color: #fd5c63; */
 }
 
@@ -141,21 +141,21 @@
     z-index: 2;
     position: absolute;
     /* top: 100%; */
-    left: 30%;
+    left: 35%;
     transform: translate(-50%, -5%);
 }
 
 .hero-backdrop {
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 35%;
     transform: translate(-50%, 5%);
 }
 
 .hero-right-container .img {    
     position: absolute;
     top: 2rem;
-    left: 30%;
+    left: 35%;
     transform: translate(-50%, -10%);
     height: 80dvh;
     /* width: 70dvh; */

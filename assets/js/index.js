@@ -41,20 +41,20 @@ function navAnimation() {
         const submenu = link.querySelector('ul');
     
         link.addEventListener('mouseenter', () => {
-            console.log("hello");
+            // console.log("hello");
                 gsap.to(submenu, {
                     // display: "block",
                     visibility: "visible",
                     duration: 0.5,
                     opacity: 1,
                     ease: "power2-out",
-                    y: 30
+                    // y: 5
                 })
     
         })
     
         link.addEventListener('mouseleave', () => {
-            console.log("HI");
+            // console.log("HI");
             
             gsap.to(submenu, {
                 // display: "none",
@@ -62,7 +62,7 @@ function navAnimation() {
                 duration: 0.5,
                 opacity: 0,
                 ease: "power2-out",
-                y: -30
+                // y: -5
             })
         })
     })
@@ -95,7 +95,21 @@ function navAnimation() {
 
 
 
+const submenuLinks = document.querySelectorAll('.submenus-menu > ul > li > a');
 
+submenuLinks.forEach(element => {
+
+    element.addEventListener('mouseenter', () => {
+        gsap.to(element, {
+            padding: '1rem 1.1rem',
+        })
+    })
+    element.addEventListener('mouseleave', () => {
+        gsap.to(element, {
+            padding: '1rem 1.8rem',
+        })
+    })
+});
 
 
 
