@@ -148,23 +148,23 @@ heroTitles.forEach(function(prlxH2) {
 // shrink and grow svg in brands names link
 
 function brandNameSvg() {
-    const brandLinks = document.querySelectorAll('.brands h4');
+    // const brandLinks = document.querySelectorAll('.brands h4');
     const brandName = document.querySelectorAll('.brands-name-container a');
     
+    // this code is not working because it need to have two heading one on top of each other sp that they can animate in real time
+    // brandLinks.forEach( elems => {
     
-    brandLinks.forEach( elems => {
+    //     const elemTextContent = elems.textContent;
+    //     const elemSplitText = elemTextContent.split('');
     
-        const elemTextContent = elems.textContent;
-        const elemSplitText = elemTextContent.split('');
+    //     let clutter = '';
     
-        let clutter = '';
+    //     elemSplitText.forEach( letter => {
+    //         const letterSpan = `<span>${letter}</span>`;
+    //         clutter += letterSpan       // adding span with letters in clutter variable
+    //     })
     
-        elemSplitText.forEach( letter => {
-            const letterSpan = `<span>${letter}</span>`;
-            clutter += letterSpan       // adding span with letters in clutter variable
-        })
-    
-        elems.innerHTML = clutter;
+    //     elems.innerHTML = clutter;
     
         // console.log(elemTextContent);
         // console.log(elemSplitText);
@@ -172,34 +172,43 @@ function brandNameSvg() {
     
     
         brandName.forEach( name => {
-            const svgs = name.querySelectorAll(".brands-name-container a svg");
+            const svgs = name.querySelector(".brands-name-container a svg");
             name.addEventListener('mouseenter', () => {
                 // console.log(name);
                 
-                gsap.from(svgs, {
+                gsap.to(svgs, {
                     // y: 0,
                     scale: 1.4,
                     duration: 0.5,
                     ease: 'power2.in'
+                })
+
+                gsap.to(name, {
+                    paddingRight: '2rem',
+                    gap: '2rem'
                 })
     
             })
             name.addEventListener('mouseleave', () => {
     
                 // const svgs = name.querySelectorAll(".brands h4 span");
-                gsap.from(svgs, {
+                gsap.to(svgs, {
                     // y: 100,
                     // stagger: 0.02,
                     scale: 1,
                     duration: 0.5,
                     ease: 'power2.out'
                 })
+                gsap.to(name, {
+                    paddingRight: '2.3rem',
+                    gap: '1rem'
+                })
     
             })
         })
     
     
-    })
+    // })
 }
 
 

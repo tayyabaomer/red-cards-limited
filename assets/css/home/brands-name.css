@@ -127,6 +127,7 @@
 .brands-name-container a svg {
     height: 1.8rem;
     width: 1.8rem;
+    scale: 1;
 }
 
 .brands-name-container a:nth-child(1) {
