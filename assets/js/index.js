@@ -115,11 +115,99 @@ function submenuAnimation() {
 }
 
 
+// Splitted Text for brand Name section
+function herotitleTextAnimation() {
+  
+var heroTitles = document.querySelectorAll('.hero-title');
+
+heroTitles.forEach(function(prlxH2) {
+    var prlxH2TextContent = prlxH2.querySelector('h2').textContent;
+    var prlxH2SplittedText = prlxH2TextContent.split('');
+
+    var clutter = '';
+    prlxH2SplittedText.forEach(function(elem) {
+        clutter += `<span>${elem}</span>`;
+    });
+
+    prlxH2.querySelector('h2').innerHTML = clutter;
+
+    const h2Span = prlxH2.querySelectorAll('h2 span')
+    gsap.from(h2Span, {
+        y: 100,
+        stagger: 0.02,
+        duration: 0.8,
+    });
+    
+});
 
 
 
+}
 
 
+// shrink and grow svg in brands names link
+
+function brandNameSvg() {
+    const brandLinks = document.querySelectorAll('.brands h4');
+    const brandName = document.querySelectorAll('.brands-name-container a');
+    
+    
+    brandLinks.forEach( elems => {
+    
+        const elemTextContent = elems.textContent;
+        const elemSplitText = elemTextContent.split('');
+    
+        let clutter = '';
+    
+        elemSplitText.forEach( letter => {
+            const letterSpan = `<span>${letter}</span>`;
+            clutter += letterSpan       // adding span with letters in clutter variable
+        })
+    
+        elems.innerHTML = clutter;
+    
+        // console.log(elemTextContent);
+        // console.log(elemSplitText);
+        // console.log(clutter);
+    
+    
+        brandName.forEach( name => {
+            const svgs = name.querySelectorAll(".brands-name-container a svg");
+            name.addEventListener('mouseenter', () => {
+                // console.log(name);
+                
+                gsap.from(svgs, {
+                    // y: 0,
+                    scale: 1.4,
+                    duration: 0.5,
+                    ease: 'power2.in'
+                })
+    
+            })
+            name.addEventListener('mouseleave', () => {
+    
+                // const svgs = name.querySelectorAll(".brands h4 span");
+                gsap.from(svgs, {
+                    // y: 100,
+                    // stagger: 0.02,
+                    scale: 1,
+                    duration: 0.5,
+                    ease: 'power2.out'
+                })
+    
+            })
+        })
+    
+    
+    })
+}
+
+
+
+// Svg grow and shrink
+brandNameSvg()
+// Hero Title animation
+herotitleTextAnimation()
 // submenu anchor animation
 submenuAnimation()
 // Loading animation of navbar with timeline function

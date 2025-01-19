@@ -80,7 +80,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 2rem;
+    /* gap: 2rem; */
     /* background-color: #ffcdda; */
 }
 
@@ -94,7 +94,7 @@
     /* background-color: #cbd5f8; */
     /* color: var(--blue); */
     color: var(--blue);
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .hero-subTitle h5 {
@@ -111,7 +111,14 @@
     font-family: var(--GSans-med);
     /* font-weight: 300; */
     font-size: 5rem;
-    line-height: 1.2;
+    line-height: 1;
+    overflow: hidden;
+    /* background-color: #1bc47d; */
+}
+
+.hero-title h2 span {
+    display: inline-block;
+    /* background-color: #fd5c63; */
 }
 
 .hero-title-span {
@@ -121,6 +128,7 @@
 }
 
 .hero-description {
+    margin-top: 2rem;
     font-size: 1.5rem;
     letter-spacing: 1px;
     line-height: 1.5;

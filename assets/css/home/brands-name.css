@@ -112,6 +112,7 @@
     padding: 1rem 2.3rem;
     font-family: var(--GSans-med);
     gap: 1rem;
+    transition: 0.3s ease-in-out border;
 }
 
 .brands {
