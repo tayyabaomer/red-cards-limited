@@ -94,10 +94,15 @@ li {
 
 .heading {
   font-family: var(--GSans-med);
-  font-size: 5rem;
+  font-size: 4rem;
+}
+
+.heading2 {
+  font-family: var(--GSans-reg);
+  font-size: 3.2rem;
 }
 
 .sub-heading {
-  font-family: var(--GSans-reg);
-  font-size: 2.6rem;
+  font-family: var(--GSans-light);
+  font-size: 2.2rem;
 }

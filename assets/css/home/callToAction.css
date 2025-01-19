@@ -1,5 +1,151 @@
 @import url(../global.css);
 
-.actionLinksContainer {
-    width: 60%;
+:root {
+
+    /* CSS COLORS */
+
+    /* primary colors */
+    --bg-color: #ffffff;
+    --red: #fd5c63;
+    --light-red:hsl(357, 97.60%, 90%);
+    --black: #20282d;
+    --grey: #f4f4f4;
+    --light-gray: #e9e9ea;
+    --lighter-gray: hsl(0, 0%, 83%, 20%);
+
+    /* Secondary color, specially for login btn */
+    --blue: #5174e7; 
+    --light-blue: #cbd5f8;
+
+    /* Tertiary color, for homepage section bg */
+    --blue: #5174e7; 
+    --light-blue: #cbd5f8;
+
+    --green: #1bc47d;
+    --light-green: #bbedd8;
+    
+    --pink: #ff5985;
+    --light-pink: #ffcdda;
+    
+    --peach: #ff9059 ;
+    --light-peach: #ffdecd;
+
+    
+    /* # padding spaces */
+    --section-padding: 10dvh 5dvh;
+
+    /* Font styles */
+    --GSans-var: 'GeneralSans-Variable';
+    --GSans-varItal: 'GeneralSans-VariableItalic';
+    --GSans-extraLight: 'GeneralSans-Extralight';
+    --GSans-extraLightItalic: 'GeneralSans-ExtralightItalic';
+    --GSans-light: 'GeneralSans-Light';
+    --GSans-lightItalic: 'GeneralSans-LightItalic';
+    --GSans-reg: 'GeneralSans-Regular';
+    --GSans-italic: 'GeneralSans-Italic';
+    --GSans-med: 'GeneralSans-Medium';
+    --GSans-medItal: 'GeneralSans-MediumItalic';
+    --GSans-semibold: 'GeneralSans-Semibold';
+    --GSans-semiboldItal: 'GeneralSans-SemiboldItalic';
+    --GSans-bold: 'GeneralSans-Bold';
+    --GSans-boldItal: 'GeneralSans-BoldItalic';
+
+
 }
+
+.action {
+    width: 100%;
+    height: 130dvh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: var(--section-padding);
+}
+
+.action-container {
+    background-color: var(--grey);
+    width: 92%;
+    padding: 8% 6%;
+    padding-bottom: 6%;
+    border-radius: 4rem;
+}
+
+.action-container h2 {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.action-container h2 span {
+    color: var(--blue);
+}
+
+.action-images-container {
+    /* background-color: #bbedd8; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.action-images-container img{
+    height: 17rem;
+    border: 1px solid white;
+}
+
+.action-images-container img:nth-child(2) {
+    margin-top: -9rem;
+}
+.action-images-container img:nth-child(3) {
+    margin-top: -6rem;
+}
+.action-images-container img:nth-child(5) {
+    margin-top: -6rem;
+}
+
+
+/* stying bootstrap container */
+.actionLinksContainer {
+    /* background-color: #5174e7; */
+    width: 100%;
+}
+
+.action-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1.5rem 2.2rem;
+    border-radius: 50px;
+    margin-bottom: 0.8rem;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+    transition: padding 0.3s ease-in-out;
+}
+
+.action-link svg {
+    height: 2.5rem;
+    width: 2.5rem;
+    transition: 0.3s ease-in-out;
+    transition-property: transform filter;
+}
+
+.action-link:hover {
+    padding: 1.5rem 2rem;
+}
+
+.action-link:hover svg{
+    transform: scale(1.2);
+    filter: brightness(0.9);
+}
+
+.action-link-container {
+    padding: 0 !important; 
+}
+
+.action-link h5 {
+    font-size: 1.5rem;
+}
+
