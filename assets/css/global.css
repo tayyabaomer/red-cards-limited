@@ -1,90 +1,103 @@
 @import url(./general-sans.css);
 
-
 :root {
+  /* CSS COLORS */
+
+  /* primary colors */
+  --bg-color: #ffffff;
+  --red: #fd5c63;
+  --light-red: hsl(357, 97.6%, 90%);
+  --black: #20282d;
+  --grey: #f4f4f4;
+  --light-gray: #e9e9ea;
+  --lighter-gray: hsl(0, 0%, 83%, 20%);
 
 
-    /* CSS COLORS */
+  --purple: #8d51e7;
+  --light-purple: #f4eefd;
 
-    /* primary colors */
-    --bg-color: #ffffff;
-    --red: #fd5c63;
-    --light-red:hsl(357, 97.60%, 90%);
-    --black: #20282d;
-    --grey: #f4f4f4;
-    --light-gray: #e9e9ea;
-    --lighter-gray: hsl(0, 0%, 83%, 20%);
-
-    /* Secondary color, specially for login btn */
-    --blue: #5174e7; 
-    --light-blue: #cbd5f8;
-
-    /* Tertiary color, for homepage section bg */
-    --blue: #5174e7; 
-    --light-blue: #cbd5f8;
-
-    --green: #1bc47d;
-    --light-green: #bbedd8;
-    
-    --pink: #ff5985;
-    --light-pink: #ffcdda;
-    
-    --peach: #ff9059 ;
-    --light-peach: #ffdecd;
+  --seagreen: #4dc6d6;
+  --light-seagreen: #edf9fb;
 
 
-    /* # padding spaces */
-    --section-padding: 10dvh 5dvh;
+  /* Secondary color, specially for login btn */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
 
+  /* Tertiary color, for homepage section bg */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
 
-    /* Font styles */
-    --GSans-var: 'GeneralSans-Variable';
-    --GSans-varItal: 'GeneralSans-VariableItalic';
-    --GSans-extraLight: 'GeneralSans-Extralight';
-    --GSans-extraLightItalic: 'GeneralSans-ExtralightItalic';
-    --GSans-light: 'GeneralSans-Light';
-    --GSans-lightItalic: 'GeneralSans-LightItalic';
-    --GSans-reg: 'GeneralSans-Regular';
-    --GSans-italic: 'GeneralSans-Italic';
-    --GSans-med: 'GeneralSans-Medium';
-    --GSans-medItal: 'GeneralSans-MediumItalic';
-    --GSans-semibold: 'GeneralSans-Semibold';
-    --GSans-semiboldItal: 'GeneralSans-SemiboldItalic';
-    --GSans-bold: 'GeneralSans-Bold';
-    --GSans-boldItal: 'GeneralSans-BoldItalic';
+  --green: #1bc47d;
+  --light-green: #bbedd8;
 
+  --pink: #ff5985;
+  --light-pink: #ffcdda;
 
+  --peach: #ff9059;
+  --light-peach: #ffdecd;
+
+  /* # padding spaces */
+  --section-padding: 10dvh 5dvh;
+
+  /* Font styles */
+  --GSans-var: "GeneralSans-Variable";
+  --GSans-varItal: "GeneralSans-VariableItalic";
+  --GSans-extraLight: "GeneralSans-Extralight";
+  --GSans-extraLightItalic: "GeneralSans-ExtralightItalic";
+  --GSans-light: "GeneralSans-Light";
+  --GSans-lightItalic: "GeneralSans-LightItalic";
+  --GSans-reg: "GeneralSans-Regular";
+  --GSans-italic: "GeneralSans-Italic";
+  --GSans-med: "GeneralSans-Medium";
+  --GSans-medItal: "GeneralSans-MediumItalic";
+  --GSans-semibold: "GeneralSans-Semibold";
+  --GSans-semiboldItal: "GeneralSans-SemiboldItalic";
+  --GSans-bold: "GeneralSans-Bold";
+  --GSans-boldItal: "GeneralSans-BoldItalic";
 }
-
 
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body,
 html {
-    font-size: 12px;
-    font-family: var(--GSans-reg);
-    background-color: var(--bg-color);
+  font-size: 12px;
+  font-family: var(--GSans-reg);
+  background-color: var(--bg-color);
 }
 
 a {
-    text-decoration: none;
-    color: var(--black);
+  text-decoration: none;
+  color: var(--black);
 }
 
 button {
-    border: none;
-    background: none;
-    color: var(--black);
-    cursor: pointer;
+  border: none;
+  background: none;
+  color: var(--black);
+  cursor: pointer;
 }
 
 li {
-    list-style: none;
+  list-style: none;
+}
+
+
+/* Title and sub title styling for website*/
+
+.heading {
+  font-family: var(--GSans-med);
+  font-size: 5rem;
+}
+
+.sub-heading {
+  font-family: var(--GSans-reg);
+  font-size: 2.6rem;
 }

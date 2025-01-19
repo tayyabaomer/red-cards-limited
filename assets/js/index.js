@@ -95,21 +95,24 @@ function navAnimation() {
 
 
 
-const submenuLinks = document.querySelectorAll('.submenus-menu > ul > li > a');
+// submenu animation 
+function submenuAnimation() {
+    const submenuLinks = document.querySelectorAll('.submenus-menu > ul > li > a');
 
-submenuLinks.forEach(element => {
-
-    element.addEventListener('mouseenter', () => {
-        gsap.to(element, {
-            padding: '1rem 1.1rem',
+    submenuLinks.forEach(element => {
+    
+        element.addEventListener('mouseenter', () => {
+            gsap.to(element, {
+                padding: '1rem 1.1rem',
+            })
         })
-    })
-    element.addEventListener('mouseleave', () => {
-        gsap.to(element, {
-            padding: '1rem 1.8rem',
+        element.addEventListener('mouseleave', () => {
+            gsap.to(element, {
+                padding: '1rem 1.8rem',
+            })
         })
-    })
-});
+    });
+}
 
 
 
@@ -117,6 +120,8 @@ submenuLinks.forEach(element => {
 
 
 
+// submenu anchor animation
+submenuAnimation()
 // Loading animation of navbar with timeline function
 timeLineLoading()
 // Calling the nav function
