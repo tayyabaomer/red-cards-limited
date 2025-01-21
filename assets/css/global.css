@@ -115,4 +115,5 @@ li {
   font-size: 1.3rem;
   letter-spacing: 1px;
   line-height: 1.5;
+  font-family: var(--GSans-reg);
 }
