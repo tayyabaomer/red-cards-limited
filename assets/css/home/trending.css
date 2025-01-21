@@ -58,3 +58,90 @@
     --GSans-boldItal: "GeneralSans-BoldItalic";
   }
   
+
+
+.trending {
+  padding: var(--section-padding);
+  height: 130dvh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trending-conatainer {
+  /* background-color: blanchedalmond; */
+  width: 78%;
+}
+
+.trending-conatainer h2{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.trending-conatainer h2 span {
+  color: #5174e7;
+}
+
+.trending-content-container {
+  /* background-color: #5174e7; */
+}
+
+.trending-box {
+  border-radius: 25px;
+  background-color: var(--grey);
+  overflow: hidden;
+  margin: 0 1rem;
+}
+
+.trending-img {
+  background-image: url(../../images/homepage/trending/trending_bg_winter_bday_invites_blue.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trending-img img {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  height: 33rem;
+  box-shadow: 0 0 20px #b0b0b0;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.trending-content {
+  padding: 0.8rem 2.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.trending-content h5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #3480af; */
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.trending-content h5::after {
+  content: url(../../images/homepage/trending/star.svg);
+  transition-property: transform filter;
+  transition: 0.3s ease-in-out;
+}
+
+.trending-content-container a:hover .trending-content {
+  padding: 0.8rem 2rem;
+}
+
+.trending-content-container a:hover .trending-img img {
+  transform: scale(1.02);
+}
+
+.trending-content-container a:hover .trending-content h5::after {
+  transform: scale(1.1);
+  filter: brightness(0.9);
+}

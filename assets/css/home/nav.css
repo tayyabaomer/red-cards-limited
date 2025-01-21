@@ -89,7 +89,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-  background-color: var(--light-gray);
+  background-color: var(--grey);
 }
 
 .brands-anchor {
@@ -126,7 +126,8 @@ nav > ul > li > a:hover {
 }
 
 .has-submenu > ul {
-  background-color: hsl(0, 0%, 83%, 20%);
+  /* background-color: hsl(0, 0%, 83%, 20%); */
+  background-color: var(--grey);
   position: absolute;
   top: 100%;
   transform: translate(-35%);

@@ -51,7 +51,7 @@
 
 .feature {
   width: 100%;
-  height: 100dvh;
+  height: 80dvh;
   padding: var(--section-padding);
   display: flex;
   align-items: center;

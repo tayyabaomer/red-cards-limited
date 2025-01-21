@@ -84,7 +84,7 @@ Trending Section
 -------------------
 Explore what's trending     (Heading)
 1- Winter Birthday's    (cards)
-2- Engaement Parties    (cards)
+2- Engagement Parties    (cards)
 
 
 
