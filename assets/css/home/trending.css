@@ -139,9 +139,33 @@
 
 .trending-content-container a:hover .trending-img img {
   transform: scale(1.02);
+  box-shadow: 0 0 25px #b0b0b0;
 }
 
 .trending-content-container a:hover .trending-content h5::after {
-  transform: scale(1.1);
+  transform: scale(1.05);
   filter: brightness(0.9);
+}
+
+.trending-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: #bbedd8; */
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+}
+
+.trending-btn a {
+  padding: 1.2rem 2.2rem;
+  background-color: var(--red);
+  font-size: 1.3rem;
+  font-family: var(--GSans-med);
+  color: white;
+  border-radius: 30px;
+}
+
+.trending-btn a:hover {
+  filter: brightness(0.95);
 }

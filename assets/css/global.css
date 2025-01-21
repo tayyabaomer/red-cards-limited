@@ -117,3 +117,12 @@ li {
   line-height: 1.5;
   font-family: var(--GSans-reg);
 }
+
+.btn {
+  padding: 1.2rem 2.2rem;
+  background-color: var(--red);
+  font-size: 1.5rem;
+  font-family: var(--GSans-med);
+  color: white;
+  border-radius: 30px;
+}

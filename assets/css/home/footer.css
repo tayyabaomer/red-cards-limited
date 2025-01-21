@@ -52,3 +52,29 @@
 
 
 }
+
+footer {
+    /* height: 80dvh; */
+    width: 100%;
+    padding: 5rem;
+    padding-bottom: 3rem;
+    background-color: var(--grey);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: var(--black);
+}
+
+
+
+
+
+
+
+
+.copyright {
+    color: #737373;
+    font-size: 1.2rem;
+    text-align: center;
+    border-top: 1px solid #b3b3b3;
+    padding-top: 2rem;
+}
