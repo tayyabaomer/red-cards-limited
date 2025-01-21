@@ -1,4 +1,4 @@
-inkFactoryData = [
+japanArt = [
 
     {
         title: "",

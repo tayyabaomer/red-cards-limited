@@ -121,15 +121,14 @@
     /* background-color: #fd5c63; */
 }
 
-.hero-title-span {
+#hero-title-span {
     display: inline-flex;
-    color: var(--blue);
-    /* font-style: italic; */
+    color: var(--blue) !important;
 }
 
 .hero-description {
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 1px;
     line-height: 1.5;
 }

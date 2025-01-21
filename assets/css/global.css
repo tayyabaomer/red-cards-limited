@@ -92,17 +92,27 @@ li {
 
 /* Title and sub title styling for website*/
 
+/* For section Title */
 .heading {
   font-family: var(--GSans-med);
   font-size: 4rem;
 }
 
+/* for section sub title */
 .heading2 {
   font-family: var(--GSans-reg);
   font-size: 3.2rem;
 }
 
+/* For subTitle or sub Heading text */
 .sub-heading {
   font-family: var(--GSans-light);
-  font-size: 2.2rem;
+  font-size: 2rem;
+}
+
+/* For paragraph */
+.description {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }

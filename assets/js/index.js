@@ -119,6 +119,7 @@ function submenuAnimation() {
 function herotitleTextAnimation() {
   
 var heroTitles = document.querySelectorAll('.hero-title');
+var heroTitleSpan = document.querySelector('#hero-title-span');
 
 heroTitles.forEach(function(prlxH2) {
     var prlxH2TextContent = prlxH2.querySelector('h2').textContent;
@@ -137,7 +138,7 @@ heroTitles.forEach(function(prlxH2) {
         stagger: 0.02,
         duration: 0.8,
     });
-    
+
 });
 
 
