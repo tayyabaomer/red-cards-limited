@@ -1,80 +1,209 @@
 @import url(../global.css);
 
 :root {
+  /* CSS COLORS */
 
-    /* CSS COLORS */
+  /* primary colors */
+  --bg-color: #ffffff;
+  --red: #fd5c63;
+  --light-red: hsl(357, 97.6%, 90%);
+  --black: #20282d;
+  --grey: #f4f4f4;
+  --light-gray: #e9e9ea;
+  --lighter-gray: hsl(0, 0%, 83%, 20%);
 
-    /* primary colors */
-    --bg-color: #ffffff;
-    --red: #fd5c63;
-    --light-red:hsl(357, 97.60%, 90%);
-    --black: #20282d;
-    --grey: #f4f4f4;
-    --light-gray: #e9e9ea;
-    --lighter-gray: hsl(0, 0%, 83%, 20%);
+  /* Secondary color, specially for login btn */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
 
-    /* Secondary color, specially for login btn */
-    --blue: #5174e7; 
-    --light-blue: #cbd5f8;
+  /* Tertiary color, for homepage section bg */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
 
-    /* Tertiary color, for homepage section bg */
-    --blue: #5174e7; 
-    --light-blue: #cbd5f8;
+  --green: #1bc47d;
+  --light-green: #bbedd8;
 
-    --green: #1bc47d;
-    --light-green: #bbedd8;
-    
-    --pink: #ff5985;
-    --light-pink: #ffcdda;
-    
-    --peach: #ff9059 ;
-    --light-peach: #ffdecd;
+  --pink: #ff5985;
+  --light-pink: #ffcdda;
 
-    
-    /* # padding spaces */
-    --section-padding: 10dvh 5dvh;
+  --peach: #ff9059;
+  --light-peach: #ffdecd;
 
-    /* Font styles */
-    --GSans-var: 'GeneralSans-Variable';
-    --GSans-varItal: 'GeneralSans-VariableItalic';
-    --GSans-extraLight: 'GeneralSans-Extralight';
-    --GSans-extraLightItalic: 'GeneralSans-ExtralightItalic';
-    --GSans-light: 'GeneralSans-Light';
-    --GSans-lightItalic: 'GeneralSans-LightItalic';
-    --GSans-reg: 'GeneralSans-Regular';
-    --GSans-italic: 'GeneralSans-Italic';
-    --GSans-med: 'GeneralSans-Medium';
-    --GSans-medItal: 'GeneralSans-MediumItalic';
-    --GSans-semibold: 'GeneralSans-Semibold';
-    --GSans-semiboldItal: 'GeneralSans-SemiboldItalic';
-    --GSans-bold: 'GeneralSans-Bold';
-    --GSans-boldItal: 'GeneralSans-BoldItalic';
+  /* # padding spaces */
+  --section-padding: 10dvh 5dvh;
 
-
+  /* Font styles */
+  --GSans-var: "GeneralSans-Variable";
+  --GSans-varItal: "GeneralSans-VariableItalic";
+  --GSans-extraLight: "GeneralSans-Extralight";
+  --GSans-extraLightItalic: "GeneralSans-ExtralightItalic";
+  --GSans-light: "GeneralSans-Light";
+  --GSans-lightItalic: "GeneralSans-LightItalic";
+  --GSans-reg: "GeneralSans-Regular";
+  --GSans-italic: "GeneralSans-Italic";
+  --GSans-med: "GeneralSans-Medium";
+  --GSans-medItal: "GeneralSans-MediumItalic";
+  --GSans-semibold: "GeneralSans-Semibold";
+  --GSans-semiboldItal: "GeneralSans-SemiboldItalic";
+  --GSans-bold: "GeneralSans-Bold";
+  --GSans-boldItal: "GeneralSans-BoldItalic";
 }
 
 footer {
-    /* height: 80dvh; */
-    width: 100%;
-    padding: 5rem;
-    padding-bottom: 3rem;
-    background-color: var(--grey);
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    color: var(--black);
+  /* height: 70dvh; */
+  width: 100%;
+  padding: 5rem;
+  padding-bottom: 3rem;
+  background-color: var(--grey);
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  color: var(--black);
+  position: static;
+  left: 0;
+  bottom: 0;
 }
 
-
-
-
-
-
-
-
 .copyright {
-    color: #737373;
+  color: #737373;
+  font-size: 1.2rem;
+  text-align: center;
+  border-top: 1px solid var(--light-gray);
+  padding-top: 2rem;
+  /* background-color: #5174e7; */
+}
+
+.footer-icons-links {
+    /* background-color: #cbd5f8; */
+}
+
+.footer-logo > a {
+    margin-right: 3rem;
+}
+
+.footer-icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.7rem;
+    /* background-color: #fd5c63; */
+}
+
+.footer-icons a {
+    background-color: var(--red);
+    padding: 0.6rem;
+    border-radius: 50%;
+}
+
+.footer-icons a:hover {
+    filter: brightness(0.95);
+}
+
+.footer-btn,
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin: 3rem 0;
+    /* background-color: #737373; */
+}
+
+.footer-logo {
+    justify-content: flex-start;
+}
+
+.footer-btn {
+    gap: 1rem;
+    justify-content: flex-end;
+    /* background-color: #fd5c63; */
+}
+
+.footer-btn a {
+    border-radius: 25px;
+    padding: 0.8rem 1.9rem;
+    background-color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footer-btn a:hover {
+    background-color: var(--light-gray);
+}
+
+.footer-links a:hover {
+    color: var(--red);
+}
+
+/* Top footer design */
+
+.footer-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 4rem 0;
+    /* background-color: #e2b4b4; */
+}
+
+.footer-links-item  {
+    width: 65%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* padding-right: 2rem; */
+}
+
+.footer-links-anchor {
+    flex: 1;
+}
+
+.footer-links-anchor h5 {
     font-size: 1.2rem;
-    text-align: center;
-    border-top: 1px solid #b3b3b3;
-    padding-top: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    /* color: #737373; */
+}
+
+.footer-links-anchor a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: var(--GSans-med);
+    display: block;
+    color: #555555;
+    margin-bottom: 0.6rem;
+}
+
+.footer-info-container {
+    width: 30%;
+    border-left: 1px solid var(--light-gray);
+    padding-left: 2rem;
+    /* margin: 0 2rem; */
+    /* background-color: #b3b3b3; */
+}
+
+.footer-info {
+    
+}
+
+.footer-info h5{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: var(--GSans-med);
+    margin-bottom: 1.5rem;
+}
+
+.footer-info p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #555555;
+    font-family: var(--GSans-med);
+    margin-bottom: 2rem;
+}
+
+.footer-info a{
+    display: block;
+    color: #555555;
+    font-family: var(--GSans-med);
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+    font-size: 1.1rem;
 }

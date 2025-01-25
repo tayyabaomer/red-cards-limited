@@ -214,6 +214,20 @@ function brandNameSvg() {
 
 
 
+function copyRightFooter() {
+
+    const copyRight = document.querySelector('.copyright p span');
+
+    const currentDate = new Date().getFullYear();
+    
+    copyRight.innerHTML = currentDate
+
+}
+
+
+
+// dynamic footer date
+copyRightFooter()
 // Svg grow and shrink
 brandNameSvg()
 // Hero Title animation

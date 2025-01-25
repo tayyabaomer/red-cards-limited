@@ -121,9 +121,14 @@
     /* background-color: #fd5c63; */
 }
 
-#hero-title-span {
+#hero-title-span{
     display: inline-flex;
-    color: var(--blue) !important;
+}
+
+#hero-title-span span {
+
+    color: red;
+    /* color: var(--blue); */
 }
 
 .hero-description {

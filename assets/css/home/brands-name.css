@@ -72,7 +72,7 @@
     width: 100%;
     padding: var(--section-padding);
     background-color: white;
-    height: 100dvh;
+    height: 85dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,8 +120,9 @@
     overflow: hidden;
 }
 
-.brands span {
-    display: inline-block;
+.brands h4 {
+    font-size: 1.7rem;
+    font-family: var(--GSans-med);
 }
 
 .brands-name-container a svg {

@@ -62,21 +62,23 @@
 
 .trending {
   padding: var(--section-padding);
-  height: 130dvh;
+  height: 150dvh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: #8d51e7; */
 }
 
 .trending-conatainer {
+  /* margin-top: 5rem; */
   /* background-color: blanchedalmond; */
   width: 78%;
 }
 
 .trending-conatainer h2{
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .trending-conatainer h2 span {
@@ -124,7 +126,8 @@
   justify-content: space-between;
   /* background-color: #3480af; */
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  font-family: var(--GSans-med);
 }
 
 .trending-content h5::after {
@@ -154,7 +157,7 @@
   width: 100%;
   /* background-color: #bbedd8; */
   margin-top: 6rem;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .trending-btn a {

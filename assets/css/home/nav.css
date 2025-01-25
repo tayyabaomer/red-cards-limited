@@ -67,7 +67,7 @@ header {
   z-index: 50;
 }
 
-nav > ul {
+.navigation > ul {
   /* background-color: #1bc47d; */
   display: flex;
   align-items: center;
@@ -75,21 +75,19 @@ nav > ul {
   /* background-color: #fd5c63; */
 }
 
-nav > ul > li {
-  font-size: 1.3rem;
-  font-weight: 600;
-  height: inherit;
-  /* background-color: #fd5c63; */
-}
-
-nav > ul > li > a {
+.navigation > ul > li > a {
   border-radius: 25px;
   padding: 0.8rem 1.9rem;
   transition: 0.3s ease-in-out background-color;
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  height: inherit;
 }
 
-nav > ul > li > a:hover {
-  background-color: var(--grey);
+.navigation > ul > li > a:hover {
+  background-color: var(--light-gray);
 }
 
 .brands-anchor {
@@ -142,6 +140,7 @@ nav > ul > li > a:hover {
   backdrop-filter: blur(3px);
 }
 
+
 .has-submenu > ul > .submenu {
   display: flex;
   align-items: flex-start;
@@ -161,8 +160,11 @@ nav > ul > li > a:hover {
   padding-left: 0.5rem;
 }
 
+.submenus-menu ul {
+  padding-left: 0;
+}
+
 .submenus-menu > ul > li {
-  font-size: 1.1rem;
   font-weight: 600;
   font-family: var(--GSans-light);
   /* background-color: #1bc47d; */
@@ -179,6 +181,9 @@ nav > ul > li > a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.1rem;
 }
 
 .submenus-menu ul li a::after {
