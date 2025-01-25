@@ -106,8 +106,9 @@ li {
 
 /* For subTitle or sub Heading text */
 .sub-heading {
-  font-family: var(--GSans-light);
+  font-family: var(--GSans-reg);
   font-size: 2rem;
+  font-weight: 500;
 }
 
 /* For paragraph */
