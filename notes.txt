@@ -71,12 +71,12 @@ Cards Category
     i-	Get well    *
     ii-	Greeting    *
     iii- Valentine  *
-    iv-	GRADUATION  *
+    iv-	Graduation  *
     v-	Engagement  *
 3-	Thoughts and Feelings
     i-	Congratulations *
     ii-	Sorry   *
-    iii- Goodbye and farewell   *
+    iii- Goodbye and Farewell   *
 
 
 
