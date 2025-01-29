@@ -131,6 +131,10 @@
     scale: 1;
 }
 
+.brands-name-container a:hover {
+    filter: brightness(0.96);
+}
+
 .brands-name-container a:nth-child(1) {
     color: var(--red);
     border: 2px solid transparent;
