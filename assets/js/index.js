@@ -229,6 +229,11 @@ function copyRightFooter() {
 
 
 
+
+
+
+
+
 // dynamic footer date
 copyRightFooter()
 // Svg grow and shrink

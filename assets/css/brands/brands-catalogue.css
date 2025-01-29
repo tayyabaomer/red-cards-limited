@@ -41,6 +41,9 @@
     /* # padding spaces */
     --section-padding: 10dvh 5dvh;
   
+    --cardsbg-lightgray: rgb(248, 248, 248);
+
+
     /* Font styles */
     --GSans-var: "GeneralSans-Variable";
     --GSans-varItal: "GeneralSans-VariableItalic";
@@ -58,3 +61,234 @@
     --GSans-boldItal: "GeneralSans-BoldItalic";
 }
   
+
+.brands-cards-section {
+  /* background-color: #cbd5f8; */
+  padding: var(--section-padding);
+  width: 100%;
+  height: fit-content;
+}
+
+/* .brands-cards-container {
+
+} */
+
+.brands-cards-container > h2{
+  text-align: center;
+}
+
+.brands-cards-container h2 span{
+  color: var(--red);
+}
+
+.brands-cards-container > h5{
+  text-align: center;
+}
+
+.side-text-1 {
+  /* background-color: #1bc47d; */
+  text-align: center;
+  width: 1.5rem;
+  height: 22rem;
+  margin-bottom: 10rem;
+  margin-top: 25rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 600;
+  font-family: var(--GSans-med);
+  position: sticky;
+  top: 40%;
+  right: 0%;
+}
+
+.side-text-2 {
+  /* background-color: #1bc47d; */
+  text-align: center;
+  width: 1.5rem;
+  height: 22rem;
+  margin-bottom: 10rem;
+  margin-top: 25rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 600;
+  font-family: var(--GSans-med);
+  position: sticky;
+  top: 40%;
+  left: 100%;
+}
+
+.brands-cards {
+  width: 100%;
+  /* background-color: #8d51e7; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.categories-cards-container {
+  /* background-color: #fd5c63; */
+  width: 90%;
+  isolation: isolate;
+}
+
+.categories-cards-container h2{
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 800;
+  font-family: var(--GSans-med);
+  position: sticky;
+  top: 20%;
+  z-index: -1;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+
+/* .brands-cards:nth-child(1) > .categories-cards-container > h2{
+
+  color: #d10a10;
+} */
+
+
+/* Cards Styling starts */
+
+
+.cards-container-main {
+  /* height: 100%; */
+  width: 100%;
+  /* background-color: #655f6d; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+  column-gap: 3rem;
+}
+
+
+
+.card-cards {
+  width: 30rem;
+  background-color: var(--cardsbg-lightgray);
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+
+.card-cards:hover .card-cards-img img {
+  transform: scale(1.05);
+}
+
+
+/* image box styling */
+.card-cards-img {
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+  /* background-color: #8d51e7; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(../../images/homepage/trending/trending-bg-pink.svg);
+}
+
+.card-cards-img img{
+  /* width: 100%; */
+  height: 30rem;
+  /* height: 42rem; */
+  /* object-fit: contain; */
+  object-position: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-cards-img > .heart-svg{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgb(179, 179, 179);
+  border-radius: 50%;
+  padding: 0.6rem;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.card-cards-img > .heart-svg:hover {
+  background-color: var(--red);
+}
+
+.card-cards-img .stock-label{
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  padding: 0.2rem 0.8rem;
+  /* background-color: #ff8d8d; */
+  border: 1px solid;
+  border-left: none;
+  /* color: #ee0000; */
+  font-size: 1.1rem;
+  font-family: var(--GSans-reg);
+  font-weight: 600;
+  z-index: 3;
+}
+
+/* Content box styling */
+.card-cards-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0 1rem;
+  padding-top: 1rem;
+}
+
+.card-cards-content .share-svg{
+  background-color: red;
+  margin-top: 0.5rem;
+}
+
+.card-cards-content h5{
+  font-family: var(--GSans-med);
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+
+/* price and cart area */
+.card-cards-svgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.card-cards-svgs p{
+  font-family: var(--GSans-med);
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.card-cards-svgs .card-cart{
+
+}
+
+
+/* See details button */
+.card-cards-detail-btn {
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3.5rem;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: var(--GSans-med);
+}
+
+
+/* Cards Styling end */
