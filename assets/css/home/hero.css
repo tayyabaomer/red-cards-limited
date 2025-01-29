@@ -59,7 +59,8 @@
 .hero {
     color: var(--black);
     width: 100%;
-    padding: var(--section-padding);
+    /* padding: var(--section-padding); */
+    padding: 10dvh;
     height: 110dvh;
     background-color: white;
 }
@@ -80,6 +81,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin-bottom: 8rem;
     /* gap: 2rem; */
     /* background-color: #ffcdda; */
 }
@@ -125,10 +127,8 @@
     display: inline-flex;
 }
 
-#hero-title-span span {
-
-    color: red;
-    /* color: var(--blue); */
+#hero-title-span {
+    color: var(--blue);
 }
 
 .hero-description {

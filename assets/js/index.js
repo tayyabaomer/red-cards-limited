@@ -31,67 +31,67 @@ function timeLineLoading() {
 
 
 // Nav Animation on hover
-// function navAnimation() {
+function navAnimation() {
 
-//     // animating sub menu on mouse enter
-//     const hasSubmenu = document.querySelectorAll('.has-submenu');
+    // animating sub menu on mouse enter
+    const hasSubmenu = document.querySelectorAll('.has-submenu');
 
-//     hasSubmenu.forEach( (link) => { 
+    hasSubmenu.forEach( (link) => { 
     
-//         const submenu = link.querySelector('ul');
+        const submenu = link.querySelector('ul');
     
-//         link.addEventListener('mouseenter', () => {
-//             // console.log("hello");
-//                 gsap.to(submenu, {
-//                     // display: "block",
-//                     visibility: "visible",
-//                     duration: 0.5,
-//                     opacity: 1,
-//                     ease: "power2-out",
-//                     // y: 5
-//                 })
+        link.addEventListener('mouseenter', () => {
+            // console.log("hello");
+                gsap.to(submenu, {
+                    // display: "block",
+                    visibility: "visible",
+                    duration: 0.5,
+                    opacity: 1,
+                    ease: "power2-out",
+                    // y: 5
+                })
     
-//         })
+        })
     
-//         link.addEventListener('mouseleave', () => {
-//             // console.log("HI");
+        link.addEventListener('mouseleave', () => {
+            // console.log("HI");
             
-//             gsap.to(submenu, {
-//                 // display: "none",
-//                 visibility: "hidden",
-//                 duration: 0.5,
-//                 opacity: 0,
-//                 ease: "power2-out",
-//                 // y: -5
-//             })
-//         })
-//     })
+            gsap.to(submenu, {
+                // display: "none",
+                visibility: "hidden",
+                duration: 0.5,
+                opacity: 0,
+                ease: "power2-out",
+                // y: -5
+            })
+        })
+    })
     
 
-//     // hover on anchor will let the box shdow appear
+    // hover on anchor will let the box shdow appear
         
-//     const navLinks = document.querySelectorAll('header ul > li');
+    const navLinks = document.querySelectorAll('header ul > li');
 
-//     const header = document.querySelector('header');
+    const header = document.querySelector('header');
 
-//     navLinks.forEach(links => {
-//         links.addEventListener('mouseenter', () => {
-//             gsap.to(header, {
-//                 boxShadow: "0 0 20px #d4d4d433",
-//                 duration: 0.3
+    navLinks.forEach(links => {
+        links.addEventListener('mouseenter', () => {
+            gsap.to(header, {
+                boxShadow: "0 0 20px #d4d4d433",
+                duration: 0.3
 
-//             })
-//         } )
-//         links.addEventListener('mouseleave', () => {
-//             gsap.to(header, {
-//                 boxShadow: "none",
-//                 duration: 0.3
-//             })
-//         } )
-//     });
+            })
+        } )
+        links.addEventListener('mouseleave', () => {
+            gsap.to(header, {
+                boxShadow: "none",
+                duration: 0.3
+            })
+        } )
+    });
 
 
-// }
+}
 
 
 
