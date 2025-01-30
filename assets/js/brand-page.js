@@ -82,9 +82,9 @@ function stockLabelColor() {
         
       if (stockText === 'in stock') {
         gsap.to(element, {
-            borderColor: ' #008e4c',
-            backgroundColor:  '#97eeb8',
-            color: '#008e4c'
+            borderColor: ' #1bc47d',
+            backgroundColor:  '#bbedd8',
+            color: '#1bc47d'
         })
   
           // element.style.backgroundColor = 'blue'
@@ -92,9 +92,9 @@ function stockLabelColor() {
       }
       else if (stockText === 'out of stock') {
           gsap.to(element, {
-              borderColor: ' #ee0000',
-              backgroundColor:  '#ff8d8d',
-              color: '#ee0000'
+              borderColor: ' #fd5c63',
+              backgroundColor:  'hsl(357, 97.6%, 90%)',
+              color: '#fd5c63'
           })
           
           // element.style.backgroundColor = 'red'

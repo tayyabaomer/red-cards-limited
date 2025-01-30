@@ -67,6 +67,7 @@
   padding: var(--section-padding);
   width: 100%;
   height: fit-content;
+  margin-top: 3rem;
 }
 
 /* .brands-cards-container {
@@ -92,13 +93,14 @@
   height: 22rem;
   margin-bottom: 10rem;
   margin-top: 25rem;
-  font-size: 2rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 600;
   font-family: var(--GSans-med);
   position: sticky;
   top: 40%;
-  right: 0%;
+  left: 0%;
+  color: #3a4247;
 }
 
 .side-text-2 {
@@ -108,13 +110,14 @@
   height: 22rem;
   margin-bottom: 10rem;
   margin-top: 25rem;
-  font-size: 2rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 600;
   font-family: var(--GSans-med);
   position: sticky;
   top: 40%;
-  left: 100%;
+  right: 0%;
+  color: #3a4247;
 }
 
 .brands-cards {
@@ -139,7 +142,7 @@
   position: sticky;
   top: 20%;
   z-index: -1;
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
@@ -162,16 +165,19 @@
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 4rem;
-  column-gap: 3rem;
+  column-gap: 2rem;
 }
 
 
 
 .card-cards {
   width: 30rem;
-  background-color: var(--cardsbg-lightgray);
+  /* background-color: var(--cardsbg-lightgray); */
+  background-color: white;
   border-radius: 25px;
   overflow: hidden;
+  /* border: 1px solid var(--blue); */
+  box-shadow: 0 0 20px var(--light-gray);
 }
 
 
@@ -183,7 +189,7 @@
 /* image box styling */
 .card-cards-img {
   width: 30rem;
-  height: 30rem;
+  height: 28rem;
   position: relative;
   /* background-color: #8d51e7; */
   display: flex;
@@ -195,7 +201,7 @@
 
 .card-cards-img img{
   /* width: 100%; */
-  height: 30rem;
+  height: 26rem;
   /* height: 42rem; */
   /* object-fit: contain; */
   object-position: center;
@@ -243,15 +249,23 @@
 }
 
 .card-cards-content .share-svg{
-  background-color: red;
   margin-top: 0.5rem;
+  border-radius: 50%;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+.card-cards-content .share-svg:hover {
+  background-color: var(--light-gray);
+  filter: brightness(0.95);
 }
 
 .card-cards-content h5{
   font-family: var(--GSans-med);
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.5;
+  color: #3a4247;
 }
 
 
@@ -269,12 +283,18 @@
   font-family: var(--GSans-med);
   font-weight: 500;
   font-size: 1.6rem;
+  color: #3a4247;
 }
 
 .card-cards-svgs .card-cart{
-
+  border-radius: 50%;
+  padding: 0.7rem;
 }
 
+.card-cards-svgs .card-cart:hover {
+  background-color: var(--light-gray);
+  filter: brightness(0.95);
+}
 
 /* See details button */
 .card-cards-detail-btn {
@@ -290,5 +310,58 @@
   font-family: var(--GSans-med);
 }
 
+.card-cards-detail-btn:hover {
+  filter: brightness(0.9);
+}
+
+.card-cards-detail-btn svg {
+  margin-left: 2rem;
+  transition-property: transform margin-left;
+  transition: 0.3s ease-in-out;
+}
+
+.card-cards-detail-btn:hover svg {
+  margin-left: 3rem;
+  transform: scale(1.2);
+}
+
 
 /* Cards Styling end */
+
+
+.link-to-page {
+  /* background-color: #1bc47d; */
+  width: 18%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  transition: width 0.3s ease-in-out;
+}
+
+.link-to-page a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid ;
+  color: var(--blue);
+}
+
+.link-to-page a h5 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.link-to-page:hover {
+  width: 19%;
+}
+
+.link-to-page a svg {
+  transition: transform 0.3s ease-in-out;
+}
+
+.link-to-page:hover a svg {
+  transform: scale(1.2);
+}
+
+.link-to-page a:visited {
+  color: var(--green);
+}
