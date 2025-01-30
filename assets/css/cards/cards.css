@@ -2,59 +2,401 @@
 
 
 :root {
-    /* CSS COLORS */
+  /* CSS COLORS */
+
+  /* primary colors */
+  --bg-color: #ffffff;
+  --red: #fd5c63;
+  --light-red: hsl(357, 97.6%, 90%);
+  --black: #20282d;
+  --grey: #f4f4f4;
+  --light-gray: #e9e9ea;
+  --lighter-gray: hsl(0, 0%, 83%, 20%);
+
+
   
-    /* primary colors */
-    --bg-color: #ffffff;
-    --red: #fd5c63;
-    --light-red: hsl(357, 97.6%, 90%);
-    --black: #20282d;
-    --grey: #f4f4f4;
-    --light-gray: #e9e9ea;
-    --lighter-gray: hsl(0, 0%, 83%, 20%);
+  --purple: #8d51e7;
+  --light-purple: #ddcbf8;
+
+  --seagreen: #4dc6d6;
+  --light-seagreen: #edf9fb;
+
+  /* extralight version */
+  --extra-light-red: #fff2f2;
+  --extra-light-green: #e9fff6;
+  --extra-light-blue: #e9edff;
+  --extra-light-pink: #ffe6ed;
+  --extra-light-peach: #fff1e9;
+  --extra-light-purple: #f4eefd;
+
+
+  /* Secondary color, specially for login btn */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
+
+  /* Tertiary color, for homepage section bg */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
+
+  --green: #1bc47d;
+  --light-green: #bbedd8;
+
+  --pink: #ff5985;
+  --light-pink: #ffcdda;
+
+  --peach: #ff9059;
+  --light-peach: #ffdecd;
+
+  /* # padding spaces */
+  --section-padding: 10dvh 5dvh;
+
+  /* Font styles */
+  --GSans-var: "GeneralSans-Variable";
+  --GSans-varItal: "GeneralSans-VariableItalic";
+  --GSans-extraLight: "GeneralSans-Extralight";
+  --GSans-extraLightItalic: "GeneralSans-ExtralightItalic";
+  --GSans-light: "GeneralSans-Light";
+  --GSans-lightItalic: "GeneralSans-LightItalic";
+  --GSans-reg: "GeneralSans-Regular";
+  --GSans-italic: "GeneralSans-Italic";
+  --GSans-med: "GeneralSans-Medium";
+  --GSans-medItal: "GeneralSans-MediumItalic";
+  --GSans-semibold: "GeneralSans-Semibold";
+  --GSans-semiboldItal: "GeneralSans-SemiboldItalic";
+  --GSans-bold: "GeneralSans-Bold";
+  --GSans-boldItal: "GeneralSans-BoldItalic";
+}
   
-  
-    --purple: #8d51e7;
-    --light-purple: #f4eefd;
-  
-    --seagreen: #4dc6d6;
-    --light-seagreen: #edf9fb;
-  
-  
-    /* Secondary color, specially for login btn */
-    --blue: #5174e7;
-    --light-blue: #cbd5f8;
-  
-    /* Tertiary color, for homepage section bg */
-    --blue: #5174e7;
-    --light-blue: #cbd5f8;
-  
-    --green: #1bc47d;
-    --light-green: #bbedd8;
-  
-    --pink: #ff5985;
-    --light-pink: #ffcdda;
-  
-    --peach: #ff9059;
-    --light-peach: #ffdecd;
-  
-    /* # padding spaces */
-    --section-padding: 10dvh 5dvh;
-  
-    /* Font styles */
-    --GSans-var: "GeneralSans-Variable";
-    --GSans-varItal: "GeneralSans-VariableItalic";
-    --GSans-extraLight: "GeneralSans-Extralight";
-    --GSans-extraLightItalic: "GeneralSans-ExtralightItalic";
-    --GSans-light: "GeneralSans-Light";
-    --GSans-lightItalic: "GeneralSans-LightItalic";
-    --GSans-reg: "GeneralSans-Regular";
-    --GSans-italic: "GeneralSans-Italic";
-    --GSans-med: "GeneralSans-Medium";
-    --GSans-medItal: "GeneralSans-MediumItalic";
-    --GSans-semibold: "GeneralSans-Semibold";
-    --GSans-semiboldItal: "GeneralSans-SemiboldItalic";
-    --GSans-bold: "GeneralSans-Bold";
-    --GSans-boldItal: "GeneralSans-BoldItalic";
-  }
-  
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.cards-catalogue {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-catalogue-container {
+  width: 95%;
+}
+
+/* Styling Cards Banner */
+.cards-catalogue-banner {
+  margin: 3rem 0;
+  background-color: #ffeef3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding-left: 3rem;
+}
+
+.cards-catalogue-svg {
+  height: 18rem;
+  overflow: hidden;
+}
+
+.cards-catalogue-content h2{
+  font-family: var(--GSans-med);
+  font-size: 3.5rem;
+}
+
+.cards-catalogue-content p{
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  font-family: var(--GSans-med);
+}
+
+.cards-catalogue-content p:nth-child(3){
+  margin-top: 4rem;
+  font-size: 1rem;
+}
+
+
+/* Brands filter by name */
+.brands-name-filter {
+  width: 100%;
+  /* background-color: #4dc6d6; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.brands-name-filter span{
+  width: 30%;
+  /* background-color: #246e4f; */
+}
+
+.brands-name-filter .brand-filter-box{
+  width: 70%;
+  /* background-color: #e9e9ea; */
+}
+
+.brands-name-filter ul {
+  width:70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.brands-name-filter li button{
+  /* background-color: #1bc47d; */
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  font-family: var(--GSans-med);
+  transition: all 0.3s ease-in-out;
+}
+
+.brands-name-filter li button:hover {
+  filter: brightness(0.96);
+}
+
+.brands-name-filter li:nth-child(1) button {
+  color: var(--red);
+  border: 2px solid var(--red);
+  background-color: var(--extra-light-red);
+}
+
+.brands-name-filter li:nth-child(2) button {
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  background-color: var(--extra-light-purple);
+}
+
+.brands-name-filter li:nth-child(3) button {
+  color: var(--green);
+  border: 2px solid var(--green);
+  background-color: var(--extra-light-green);
+}
+
+.brands-name-filter li:nth-child(4) button {
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  background-color: var(--extra-light-blue);
+}
+
+.brands-name-filter li:nth-child(5) button {
+  color: var(--seagreen);
+  border: 2px solid var(--seagreen);
+  background-color: var(--light-seagreen);
+}
+
+.brands-name-filter li:nth-child(6) button {
+  color: var(--pink);
+  border: 2px solid var(--pink);
+  background-color: var(--extra-light-pink);
+}
+
+.brands-name-filter li:nth-child(7) button {
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  background-color: var(--extra-light-purple);
+}
+
+.brands-name-filter li:nth-child(8) button {
+  color: var(--peach);
+  border: 2px solid var(--peach);
+  background-color: var(--extra-light-peach);
+}
+
+
+/* Cards section starts */
+.cards-catalogue-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* background-color: #1bc47d; */
+  width: 100%;
+}
+
+/* Sidebar styling */
+.cards-asidebar{
+  width: 25%;
+  /* background-color: #5174e7; */
+}
+
+
+/* Cards styling */
+
+.cards-catalogue-box {
+  width: 70%;
+  /* background-color: #655f6d; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+  column-gap: 2rem;
+}
+
+
+.card-cards {
+  width: 22rem;
+  /* background-color: var(--cardsbg-lightgray); */
+  background-color: white;
+  border-radius: 25px;
+  overflow: hidden;
+  /* border: 1px solid var(--blue); */
+  box-shadow: 0 0 20px var(--light-gray);
+}
+
+
+.card-cards:hover .card-cards-img img {
+  transform: scale(1.05);
+}
+
+
+/* image box styling */
+.card-cards-img {
+  width: 22rem;
+  height: 22rem;
+  position: relative;
+  /* background-color: #8d51e7; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(../../images/homepage/trending/trending-bg-pink.svg);
+}
+
+.card-cards-img img{
+  /* width: 100%; */
+  height: 22rem;
+  /* height: 42rem; */
+  /* object-fit: contain; */
+  object-position: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-cards-img > .heart-svg{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgb(221, 221, 221);
+  border-radius: 50%;
+  padding: 0.6rem;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.card-cards-img > .heart-svg:hover {
+  background-color: var(--red);
+}
+
+.card-cards-img .stock-label{
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  padding: 0.2rem 0.8rem;
+  /* background-color: #ff8d8d; */
+  border: 1px solid;
+  border-left: none;
+  /* color: #ee0000; */
+  font-size: 1.1rem;
+  font-family: var(--GSans-reg);
+  font-weight: 600;
+  z-index: 3;
+  filter: brightness(0.95);
+}
+
+/* Content box styling */
+.card-cards-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0 1rem;
+  padding-top: 1rem;
+}
+
+.card-cards-content .share-svg{
+  margin-top: 0.5rem;
+  border-radius: 50%;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+.card-cards-content .share-svg:hover {
+  background-color: var(--light-gray);
+  filter: brightness(0.95);
+}
+
+.card-cards-content h5{
+  font-family: var(--GSans-med);
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #3a4247;
+}
+
+
+/* price and cart area */
+.card-cards-svgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.card-cards-svgs p{
+  font-family: var(--GSans-med);
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #3a4247;
+}
+
+.card-cards-svgs .card-cart{
+  border-radius: 50%;
+  padding: 0.7rem;
+}
+
+.card-cards-svgs .card-cart:hover {
+  background-color: var(--light-gray);
+  filter: brightness(0.95);
+}
+
+/* See details button */
+.card-cards-detail-btn {
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3.5rem;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: var(--GSans-med);
+}
+
+.card-cards-detail-btn:hover {
+  filter: brightness(0.9);
+}
+
+.card-cards-detail-btn svg {
+  margin-left: 2rem;
+  transition-property: transform margin-left;
+  transition: 0.3s ease-in-out;
+}
+
+.card-cards-detail-btn:hover svg {
+  margin-left: 3rem;
+  transform: scale(1.2);
+}
