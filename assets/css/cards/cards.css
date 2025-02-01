@@ -139,6 +139,15 @@ p {
   /* background-color: #246e4f; */
 }
 
+
+.brand-filter-box h2 {
+  font-family: var(--GSans-light);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
 .brands-name-filter .brand-filter-box{
   width: 70%;
   /* background-color: #e9e9ea; */
@@ -163,7 +172,7 @@ p {
 }
 
 .brands-name-filter li button:hover {
-  filter: brightness(0.96);
+  filter: brightness(0.9);
 }
 
 .brands-name-filter li:nth-child(1) button {
@@ -252,7 +261,7 @@ p {
   border-radius: 25px;
   overflow: hidden;
   /* border: 1px solid var(--blue); */
-  box-shadow: 0 0 20px var(--light-gray);
+  box-shadow: 0 0 5px var(--light-gray);
 }
 
 
@@ -399,4 +408,83 @@ p {
 .card-cards-detail-btn:hover svg {
   margin-left: 3rem;
   transform: scale(1.2);
+}
+
+
+/* asidebar  */
+.cards-asidebar h2{
+  font-family: var(--GSans-light);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.cards-asidebar h5{
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: var(--GSans-light);
+  margin-bottom: 1rem;
+  margin-top: 2.2rem;
+}
+
+.cards-asidebar ul li {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.cards-asidebar ul li button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  background-color: #4dc6d6;
+  padding: 0.8rem 1.2rem;
+  padding-left: 1rem;
+  border-left: 3px solid black;
+  width: 16rem;
+  transition:  0.3s ease-in-out;
+  transition-property: width gap;
+  color: black;
+  border-radius: 5px;
+}
+
+.cards-asidebar ul li button:hover,
+.cards-asidebar ul li .active {
+  width: 16.5rem;
+  gap: 1.5rem;
+  filter: brightness(0.9);
+}
+
+.cards-asidebar ul li:nth-child(1) button {
+  border-left: 3px solid var(--purple);
+  background-color: var(--extra-light-purple);
+}
+
+.cards-asidebar ul li:nth-child(2) button {
+  border-left: 3px solid var(--seagreen);
+  background-color: var(--light-seagreen);
+}
+
+.cards-asidebar ul li:nth-child(3) button {
+  border-left: 3px solid var(--red);
+  background-color: var(--extra-light-red);
+}
+
+.cards-asidebar ul li:nth-child(4) button {
+  border-left: 3px solid var(--green);
+  background-color: var(--extra-light-green);
+}
+
+.cards-asidebar ul li:nth-child(5) button {
+  border-left: 3px solid var(--pink);
+  background-color: var(--extra-light-pink);
+}
+
+.cards-asidebar ul li button p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: var(--GSans-light);
+}
+
+.cards-asidebar ul li button span svg {
+  stroke: black;
 }

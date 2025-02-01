@@ -177,7 +177,7 @@
   border-radius: 25px;
   overflow: hidden;
   /* border: 1px solid var(--blue); */
-  box-shadow: 0 0 20px var(--light-gray);
+  box-shadow: 0 0 5px var(--light-gray);
 }
 
 

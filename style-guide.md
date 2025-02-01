@@ -68,3 +68,52 @@ for css link
 # Font Sizes
 
 ```
+
+
+
+
+
+<!-- color added new andold -->
+
+ /* primary colors */
+  --bg-color: #ffffff;
+  --red: #fd5c63;
+  --light-red: hsl(357, 97.6%, 90%);
+  --black: #20282d;
+  --grey: #f4f4f4;
+  --light-gray: #e9e9ea;
+  --lighter-gray: hsl(0, 0%, 83%, 20%);
+
+
+  
+  --purple: #8d51e7;
+  --light-purple: #ddcbf8;
+
+  --seagreen: #4dc6d6;
+  --light-seagreen: #edf9fb;
+
+  /* extralight version */
+  --extra-light-red: #fff2f2;
+  --extra-light-green: #e9fff6;
+  --extra-light-blue: #e9edff;
+  --extra-light-pink: #ffe6ed;
+  --extra-light-peach: #fff1e9;
+  --extra-light-purple: #f4eefd;
+
+
+  /* Secondary color, specially for login btn */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
+
+  /* Tertiary color, for homepage section bg */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
+
+  --green: #1bc47d;
+  --light-green: #bbedd8;
+
+  --pink: #ff5985;
+  --light-pink: #ffcdda;
+
+  --peach: #ff9059;
+  --light-peach: #ffdecd;
