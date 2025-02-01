@@ -51,7 +51,7 @@
 
 .cards-box-category {
   padding: 3rem 0;
-  height: 300dvh;
+  height: 400dvh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -132,6 +132,7 @@
   transform: rotate(5deg);
 }
 
+
 /* right side */
 .cards-box-content-main {
   width: 50%;
@@ -190,14 +191,15 @@
   font-family: var(--GSans-med);
 }
 
-/* second child styling*/
 
+
+/* second child styling*/
 .cards-box-category-container:nth-child(3) {
     border: 2px solid var(--light-blue); 
 }
 
 .cards-box-category-container:nth-child(3) > .cards-box-category-main {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
 .cards-box-category-container:nth-child(3) .cards-box-media {
@@ -224,7 +226,6 @@
   left: 29rem;
   transform: rotate(5deg);
 }
-
 
 
 /* Third child styling */
@@ -256,22 +257,60 @@
 }
 
 
-/* svg styling  */
 
+/* fourth child styling*/
+
+.cards-box-category-container:nth-child(5) {
+  border: 2px solid var(--light-peach); 
+}
+
+.cards-box-category-container:nth-child(5) > .cards-box-category-main {
+  flex-direction: row-reverse;
+}
+
+.cards-box-category-container:nth-child(5) .cards-box-media {
+  background-color: var(--light-peach);
+  border-radius: 0 60px 60px 0;
+}
+
+.cards-box-category-container:nth-child(5) .cards-box-images img:nth-child(1) {
+height: 31rem;
+top: 5rem;
+left: 4rem;
+transform: rotate(-5deg);
+}
+
+.cards-box-category-container:nth-child(5) .cards-box-images img:nth-child(2) {
+height: 21rem;
+left: 28rem;
+top: -3rem;
+}
+
+.cards-box-category-container:nth-child(5) .cards-box-images img:nth-child(3) {
+height: 20rem;
+top: 25rem;
+left: 29rem;
+transform: rotate(5deg);
+}
+
+
+
+/* svg styling and its bg color */
 
 .cards-box-link svg {
-
   background-color: var(--green);
   border-radius: 50%;
   padding: 5px;
 }
 
 .cards-box-category-container:nth-child(3) .cards-box-link svg {
-
   background-color: var(--blue);
 }
 
 .cards-box-category-container:nth-child(4) .cards-box-link svg {
-
   background-color: var(--pink);
+}
+
+.cards-box-category-container:nth-child(5) .cards-box-link svg {
+  background-color: var(--peach);
 }

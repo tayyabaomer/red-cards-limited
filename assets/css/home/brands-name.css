@@ -71,6 +71,7 @@
 .brands-name {
     width: 100%;
     padding: var(--section-padding);
+    padding-bottom: 3dvh;
     background-color: white;
     height: 85dvh;
     display: flex;

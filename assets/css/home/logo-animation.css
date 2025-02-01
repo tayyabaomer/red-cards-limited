@@ -1,0 +1,154 @@
+@import url(./global.css);
+
+:root {
+  /* CSS COLORS */
+
+  /* primary colors */
+  --bg-color: #ffffff;
+  --red: #fd5c63;
+  --light-red: hsl(357, 97.6%, 90%);
+  --black: #20282d;
+  --grey: #f4f4f4;
+  --light-gray: #e9e9ea;
+  --lighter-gray: hsl(0, 0%, 83%, 20%);
+
+
+  --purple: #8d51e7;
+  --light-purple: #f4eefd;
+
+  --seagreen: #4dc6d6;
+  --light-seagreen: #edf9fb;
+
+
+  /* Secondary color, specially for login btn */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
+
+  /* Tertiary color, for homepage section bg */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
+
+  --green: #1bc47d;
+  --light-green: #bbedd8;
+
+  --pink: #ff5985;
+  --light-pink: #ffcdda;
+
+  --peach: #ff9059;
+  --light-peach: #ffdecd;
+
+  --cardsbg-lightgray: rgb(248, 248, 248);
+
+
+  /* # padding spaces */
+  --section-padding: 10dvh 5dvh;
+
+  /* Font styles */
+  --GSans-var: "GeneralSans-Variable";
+  --GSans-varItal: "GeneralSans-VariableItalic";
+  --GSans-extraLight: "GeneralSans-Extralight";
+  --GSans-extraLightItalic: "GeneralSans-ExtralightItalic";
+  --GSans-light: "GeneralSans-Light";
+  --GSans-lightItalic: "GeneralSans-LightItalic";
+  --GSans-reg: "GeneralSans-Regular";
+  --GSans-italic: "GeneralSans-Italic";
+  --GSans-med: "GeneralSans-Medium";
+  --GSans-medItal: "GeneralSans-MediumItalic";
+  --GSans-semibold: "GeneralSans-Semibold";
+  --GSans-semiboldItal: "GeneralSans-SemiboldItalic";
+  --GSans-bold: "GeneralSans-Bold";
+  --GSans-boldItal: "GeneralSans-BoldItalic";
+}
+
+
+.brands-logo-animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-box {
+  width: 17rem;
+  /* background-color: #1bc47d; */
+  margin-right: 2rem;
+}
+
+.logo-box img{
+  object-fit: contain;
+  object-position: center;
+  width: 15rem;
+}
+
+.logo-box:nth-child(4) img{
+  height: 6rem;
+  width: 13rem;
+}
+
+.logo-box:nth-child(5) img{
+  height: 8rem;
+  width: 9rem;
+}
+
+.logo-box:nth-child(6) img{
+  height: 5rem;
+  width: 10rem;
+}
+
+.logo-box:nth-child(7) img{
+  height: 5rem;
+  width: 12rem;
+}
+
+.brands-logo {
+  /* height: 8rem; */
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+.brands-logo-container {
+  overflow: hidden;
+  position: relative;
+  height: 8rem;
+  width: 100%;
+  white-space: nowrap;
+  /* background-color: #8d51e7; */
+}
+
+.brands-logo-animation {
+  display: inline-flex;
+  align-items: center;
+  /* position: absolute; */
+  height: 8rem;
+  animation: moving infinite 12s linear;
+  /* background-color: #1bc47d; */
+}
+
+@keyframes moving {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.overlay-left{
+  position: absolute;
+  height: inherit;
+  width: 10rem;
+  background: linear-gradient( to right, white 30%, transparent);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.overlay-right{
+  position: absolute;
+  height: inherit;
+  width: 20rem;
+  background: linear-gradient( to left, white 30%, transparent);
+  width: 10rem;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
