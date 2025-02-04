@@ -117,10 +117,9 @@
 .brands-logo-animation {
   display: inline-flex;
   align-items: center;
-  /* position: absolute; */
   height: 8rem;
   animation: moving infinite 12s linear;
-  /* background-color: #1bc47d; */
+  gap: 3rem;
 }
 
 @keyframes moving {

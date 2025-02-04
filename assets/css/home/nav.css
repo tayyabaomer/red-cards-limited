@@ -64,7 +64,8 @@ header {
 /* top header stying */
 .header-top {
   padding: 0.8dvh 5dvh;
-  background-color: rgb(250, 250, 250);
+  /* background-color: rgb(250, 250, 250); */
+  background-color: var(--red);
 }
 
 .header-top ul {
@@ -82,7 +83,7 @@ header {
 
 .header-top ul li a{
   font-size: 1.1rem;
-  /* color: white; */
+  color: white;
 }
 
 .top-header-svg {
@@ -122,10 +123,6 @@ header {
   background-color: var(--light-gray);
 }
 
-.brands-anchor {
-  cursor: default;
-}
-
 .menu-profiles {
   /* background-color: #1bc47d; */
   display: flex;
@@ -133,7 +130,8 @@ header {
   gap: 1dvh;
 }
 
-.menu-profiles li {
+.menu-profiles > li > a,
+.menu-profiles > li > button{
   padding: 0.8rem;
   border-radius: 50%;
   background-color: hsl(0, 0%, 83%, 20%);
@@ -141,9 +139,54 @@ header {
   transition: 0.3s ease-in-out background-color;
 }
 
-.menu-profiles li:hover {
+.menu-profiles > li:hover > a,
+.menu-profiles > li:hover > button{
   background-color: var(--light-gray);
 }
+
+/* profiles-submenu */
+.profile-icon {
+  position: relative;
+}
+
+.profiles-submenus {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  display: none;
+}
+
+.profile-icon:hover .profiles-submenus {
+  display: block;
+}
+
+.profiles-submenus > ul{
+  background-color: var(--grey);
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.profiles-submenus > ul > li{
+  margin: 1.1rem 0;
+  width: 12rem;
+}
+
+.profiles-submenus > ul > li > a {
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: var(--GSans-med);
+  transition: transform 0.3s ease-in;
+}
+
+.profiles-submenus > ul > li > a:hover {
+  transform: scale(1.05);
+}
+
 
 /* Submenu Style starts */
 .has-submenu {
@@ -192,7 +235,7 @@ header {
   padding-left: 0.5rem;
 }
 
-.submenus-menu ul {
+.submenus-menu > ul {
   padding-left: 0;
 }
 
@@ -218,7 +261,7 @@ header {
   font-size: 1.1rem;
 }
 
-.submenus-menu ul li a::after {
+.submenus-menu > ul > li a::after {
   content: url(../../images/nav-icons/icon-arrow-right.svg);
   background-color: var(--red);
   border-radius: 50%;
