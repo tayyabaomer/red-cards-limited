@@ -59,3 +59,108 @@
   --GSans-bold: "GeneralSans-Bold";
   --GSans-boldItal: "GeneralSans-BoldItalic";
 }
+
+
+.account-section {
+  background-color: white;
+  width: 100%;
+  height: 100dvh;
+  position: relative;
+  margin: 5dvh 0;
+}
+
+.account-container {
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.account-container form{
+  /* padding: 3rem; */
+  /* background-color: #1bc47d; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.account-container form h2 {
+  margin-bottom: 2rem;
+}
+
+.labels {
+  position: relative;
+  width: 100%;
+}
+
+.account-container form input {
+  font-size: 1.3rem;
+  padding: 1.5rem 2rem;
+  /* padding-left: 2rem; */
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 35px;
+  margin: 1.5rem 0;
+}
+
+form label {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: var(--GSans-med);
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.account-container form input:focus {
+  outline: none;
+}
+
+form p {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--GSans-med);
+}
+
+form p a {
+  color: var(--blue);
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid var(--blue);
+}
+
+/* Form Btn */
+
+.form-btn {
+  margin-top: 2rem;
+}
+
+.form-btn button {
+  padding: 1.2rem 2.2rem;
+  background-color: var(--red);
+  font-size: 1.5rem;
+  font-family: var(--GSans-med);
+  color: white;
+  border-radius: 30px;
+  filter: brightness(0.9);
+  transition: filter 0.3s ease-in-out;
+}
+
+.form-btn button:hover {
+  filter: brightness(1);
+}
+
+#register {
+  display: none;
+  opacity: 0;
+}
+
+/* signin form */
+#signin {
+  display: block;
+  opacity: 1;
+}

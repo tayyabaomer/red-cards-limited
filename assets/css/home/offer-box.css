@@ -98,7 +98,7 @@
 
 .offer-box {
   /* background-color: #1bc47d; */
-  height: 28rem;
+  /* height: 28rem; */
   width: 30rem;
   display: flex;
   flex-direction: column;
@@ -126,6 +126,6 @@
 }
 
 .offer-description p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
