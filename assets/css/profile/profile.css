@@ -62,3 +62,155 @@
 }
 
 
+.profile {
+  width: 100%;
+  min-height: 100dvh;
+  background-color: white;
+  padding: var(--section-padding);
+}
+
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* profile sidebar */
+.profile-container aside{
+  width: 20%;
+  background-color: var(--grey);
+  min-height: 100dvh;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.profile-container aside a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.profile-container aside a svg {
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-container aside a:hover svg {
+  transform: scale(1.1);
+}
+
+.profile-container aside a p {
+  margin-left: 0.8rem;
+}
+
+/* profile container */
+.profile-main {
+  margin-left: 3rem;
+  /* background-color: #e9e9ea; */
+}
+
+.profile-box h2 {
+  margin-bottom: 3rem;
+}
+
+.profile-pic {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.profile-pic img{
+  height: 15rem;
+  border-radius: 50%;
+  width: 15rem;
+}
+
+/* input filed to upload image */
+#file {
+  display: none;
+}
+
+#upload-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem;
+  border-radius: 5px;
+}
+
+
+/* information container */
+.profile-main {
+  width: 80%;
+}
+
+.profile-content {
+  margin-top: 3rem;
+}
+
+.profile-fields {
+  margin-bottom: 2rem;
+}
+
+.profile-fields label,
+.profile-fields input {
+  border: none;
+  font-size: 1.5rem;
+  font-family: var(--GSans-med);
+  font-weight: 500;
+}
+
+.profile-fields label {
+  display: inline-block;
+  width: 15rem;
+}
+
+.profile-fields input {
+  width: 80%;
+  /* background-color: #1bc47d; */
+}
+
+.profile-fields input:focus {
+  outline: none;
+}
+
+.profile-btn {
+  margin: 5rem 0;
+}
+
+.profile-btn button {
+  margin-right: 3rem;
+  padding: 1.2rem 2.2rem;
+  background-color: var(--red);
+  font-size: 1.2rem;
+  font-family: var(--GSans-med);
+  color: white;
+  border-radius: 30px;
+}
+
+.profile-btn button:nth-child(1):hover {
+  filter: brightness(0.95);
+  box-shadow: 0 0 5px var(--light-red);
+}
+
+.profile-btn button:nth-child(2) {
+  filter: brightness(0.95);
+  box-shadow: 0 0 5px var(--light-red);
+}
+
+.profile-btn button:nth-child(2):hover {
+  filter: brightness(1);
+  box-shadow: 0 0 5px transparent;
+}
+
