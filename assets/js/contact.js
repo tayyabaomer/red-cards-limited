@@ -99,32 +99,8 @@ function submenuAnimation() {
 }
 
 
-// Update image in profile
-function updateImage() {
-
-  const img = document.querySelector('#profile-pic');
-  const file = document.querySelector('#file');
-  
-  file.addEventListener('change', function() {
-  
-    const chosenFIle = this.files[0]
-    if(chosenFIle) {
-      const reader = new FileReader();
-  
-      reader.addEventListener('load', () => {
-        img.setAttribute('src', reader.result);
-      })
-  
-      reader.readAsDataURL(chosenFIle);
-  
-    }
-  
-  })
-  
-}
 
 
-submenuAnimation();
-navAnimation();
-timeLineLoading();
-updateImage();
+submenuAnimation()
+navAnimation()
+timeLineLoading()

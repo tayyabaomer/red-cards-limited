@@ -1,20 +1,20 @@
 
-<!-- This link only load bootstrap 12 column layout system -->
-
-# Why we don't use bootstrap.min.css link instead we use bootstrap-grid.min.css
-In this website we are applying our own custom css as we prefer to use our css to flexibly apply any kind of style, as we are not using bootstrap for styling instead using to make website responive with its 12 column layout system including its property, container, row, col.
-
-* for styling we use our custom css
-* for responsive we use bootstrap 12 cloumn system
-
 -------------------
 
 # Bootstrap Link
+<link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"
+></script>
 
 
 
