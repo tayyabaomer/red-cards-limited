@@ -59,3 +59,27 @@
   --GSans-bold: "GeneralSans-Bold";
   --GSans-boldItal: "GeneralSans-BoldItalic";
 }
+
+.checkout {
+  width: 100%;
+  height: 100dvh;
+  background: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10dvh 0;
+}
+
+.payment-details {
+  width: 47%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-color: red;
+}
+
+.payment-checkout{
+  width: 47%;
+  background-color: var(--grey);
+}

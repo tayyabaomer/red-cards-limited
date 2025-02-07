@@ -225,6 +225,120 @@
       <!-- End head section -->
 
 
+      <!-- start checkout detail container -->
+      <section class="checkout">
+
+        <div class="payment-details">
+          <h2>Checkout</h2>
+
+          <div class="billing">
+
+            <div class="country-box">
+              <h5>Billing address</h5>
+              <label for="country">Country</label>
+              <select name="country" id="country">
+                <option value="country">Pakistan</option>
+                <option value="country">USA</option>
+                <option value="country">UK</option>
+                <option value="country">Afghanistan</option>
+                <option value="country">Italy</option>
+                <option value="country">Mexico</option>
+                <option value="country">France</option>
+                <option value="country">Portogal</option>
+                <option value="country">Saudi arabia</option>
+                <option value="country">Turkey</option>
+                <option value="country">Kazakhistan</option>
+                <option value="country">Palestine</option>
+                <option value="country">Nepal</option>
+                <option value="country">India</option>
+                <option value="country">Bhutan</option>
+                <option value="country">Oman</option>
+                <option value="country">Morocco</option>
+                <option value="country">Lebnan</option>
+                <option value="country">Iraq</option>
+                <option value="country">Egypt</option>
+                <option value="country">Tunisia</option>
+                <option value="country">Yemen</option>
+                <option value="country">Kuwait</option>
+              </select>
+            </div>
+            <div class="address-box">
+              <label for="address1">Address 1</label>
+              <input type="text" id="address1">
+            </div>
+            <div class="address-box">
+              <label for="address2">Address 1</label>
+              <input type="text" id="address2">
+            </div>
+          </div>
+
+          <div class="payment-method">
+            <h2>Payment method</h2>
+            <div class="payment-method-container">
+              <!-- cards payment option -->
+              <div class="payment-gateways">
+                <div class="gateways-container">
+                  <input type="radio" name="card-gateways" id="card-gateways">
+                  <label for="card-gateways"><img src="./assets/images/payment-cards-img/payment-card.svg" alt="">Cards</label>
+                </div>
+                <div class="gateways-options">
+                  <ul>
+                    <li>
+                      <button><img src="./assets/images/payment-cards-img/visa.jpg" alt="visa"></button>
+                    </li>
+                    <li>
+                      <button><img src="./assets/images/payment-cards-img/master-card.jpg" alt="master"></button>
+                    </li>
+                    <li>
+                      <button><img src="./assets/images/payment-cards-img/payoneer.jpg" alt="payoneer"></button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="payment-fileds">
+                <label for="card-number">Card number</label>
+                <input type="number" id="card-number">
+              </div>
+              <div class="payment-expiry">
+                <div class="payment-fields">
+                  <label for="month">Expiry date</label>
+                  <input type="number" id="month">
+                </div> 
+                <div class="payment-fields">
+                  <label for="cvv">CVC/CVV</label>
+                  <input type="number" id="cvv">
+                </div> 
+              </div>
+              <div class="payment-fileds">
+                <label for="name-card">Name on card</label>
+                <input type="text" id="name-card">
+              </div>
+
+              <!-- cards payment option -->
+              <div class="payment-gateways">
+                <div class="gateways-container">
+                  <input type="radio" name="card-gateways" id="card-gateways">
+                  <label for="card-gateways"><img src="./assets/images/payment-cards-img/paypal.jpg" alt="paypal">Cards</label>
+                </div>
+              </div>
+
+            </div>
+            <div class="payment-btn">
+              <button class="btn">Complete checkout</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="payment-checkout">
+          <h2>Order details</h2>
+        </div>
+        
+      </section>
+      <!-- End checkout detail container -->
+
+
 			<!-- starts footer section -->
 			<footer>
 			<div class="container-fluid">
