@@ -101,6 +101,19 @@ function submenuAnimation() {
 
 
 
+function copyRightFooter() {
+
+    const copyRight = document.querySelector('.copyright p span');
+
+    const currentDate = new Date().getFullYear();
+
+    copyRight.innerHTML = currentDate
+
+}
+
+
+
+copyRightFooter() 
 submenuAnimation()
 navAnimation()
 timeLineLoading()

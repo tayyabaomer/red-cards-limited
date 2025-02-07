@@ -62,12 +62,13 @@
 
 .checkout {
   width: 100%;
-  height: 100dvh;
+  /* height: 100dvh; */
   background: white;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   padding: 10dvh 0;
+  padding-left: 10dvh;
 }
 
 .payment-details {
@@ -84,7 +85,9 @@
   background-color: var(--grey);
 }
 
-
+.payment-details > h2 {
+  margin: 2rem 0;
+}
 
 .payment-method {
   width: 100%;
@@ -105,10 +108,12 @@
 
 .payment-gateways:nth-child(1) {
   border-bottom: 2px solid gray;
+  margin-bottom: 2rem;
 }
 
 .payment-gateways:nth-child(5) {
   border-top: 2px solid gray;
+  margin-top: 2rem;
 }
 
 .gateways-options ul  {
@@ -149,15 +154,24 @@
   width: 100%;
 }
 
+.country-box  {
+  padding: 0 1.5rem;
+}
+
+.billing > h5 {
+  margin-bottom: 2rem;
+}
+
 .payment-fields {
   position: relative;
+  padding: 0 1.5rem;
 }
 
 .payment-fields label,
 .address-box label  {
   position: absolute;
   top: 0;
-  left: 25px;
+  left: 40px;
   font-size: 1.3rem;
   font-weight: 500;
   font-family: var(--GSans-med);
@@ -167,6 +181,7 @@
 
 .address-box {
   position: relative;
+  padding: 0 1.5rem;
 }
 
 .payment-fields input,
@@ -176,7 +191,7 @@
   width: 100%;
   border: 2px solid gray;
   border-radius: 35px;
-  margin: 1.5rem 0;
+  margin: 1.1rem 0;
 }
 
 input:focus {
@@ -189,3 +204,158 @@ input:focus {
   align-items: center;
   justify-content: space-between;
 }
+
+.payment-method > h5 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.payment-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid gray; */
+}
+
+.payment-btn button {  
+  padding: 1.2rem 2.2rem;
+  background-color: var(--red);
+  font-size: 1.5rem;
+  font-family: var(--GSans-med);
+  color: white;
+  border-radius: 30px;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.payment-btn button:hover {
+  filter: brightness(0.95);
+}
+
+.country-box {
+  margin-bottom: 1.5rem;
+}
+
+.country-box label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--GSans-med); 
+}
+
+
+
+/* Order details styling */
+.payment-checkout {
+  min-height: 40dvh;
+  padding-left: 3rem;
+}
+
+.payment-checkout h2{
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* order card box start styling */
+.order-card-container {
+  margin-right: 10dvh;
+}
+
+.order-card {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  border-top: 2px solid black;
+  padding: 1rem 0;
+  padding-right: 1rem;
+}
+
+.order-card-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding-right: 2rem;
+  /* border: 2px solid black; */
+  width: 90%;
+}
+
+.order-card-amount {
+  /* border: 2px solid black; */
+  width: 10%;
+}
+
+.order-card-box img {
+  height: 6rem;
+  width: 6rem;
+  object-fit: cover;
+}
+
+.order-card-box h5 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: var(--GSans-med); 
+}
+
+.order-card-amount p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--GSans-med); 
+}
+
+
+/* total billing value */
+.checkout-accumulated-value {
+  margin: 5rem 0;
+  border-top: 4px solid black;
+  padding-top: 1rem;
+  margin-right: 10dvh;
+}
+
+.accumulated-amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  padding-right: 1rem;
+  border-bottom: 2px solid black;
+}
+
+.accumulated-amount p {
+  width: 90%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--GSans-med); 
+}
+
+.accumulated-amount h5 {
+  width: 10%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--GSans-med); 
+}
+
+
+
+/* media quries */
+
+/* for Mobile */
+@media (max-width: 767px){
+
+}
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+
+}
+
+
+/* for laptop */
+@media (min-width: 1024px){
+
+}
+
+
+
+

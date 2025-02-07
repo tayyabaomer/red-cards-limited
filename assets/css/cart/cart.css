@@ -132,6 +132,7 @@ figure {
   height: 12rem;
   border: 1px solid black;
   margin-right: 2rem;
+  margin-bottom: 0;
 }
 
 figure img {

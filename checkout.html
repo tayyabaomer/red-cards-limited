@@ -229,14 +229,15 @@
       <section class="checkout">
 
         <div class="payment-details">
-          <h2>Checkout</h2>
+          <h2 class="heading">Checkout</h2>
 
           <div class="billing">
 
+            <h5 class="sub-heading">Billing address</h5>
+
             <div class="country-box">
-              <h5>Billing address</h5>
               <label for="country">Country</label>
-              <select name="country" id="country">
+              <select name="country" id="country"> 
                 <option value="country">Pakistan</option>
                 <option value="country">USA</option>
                 <option value="country">UK</option>
@@ -273,7 +274,7 @@
           </div>
 
           <div class="payment-method">
-            <h2>Payment method</h2>
+            <h5 class="sub-heading">Payment method</h5>
             <div class="payment-method-container">
               <!-- cards payment option -->
               <div class="payment-gateways">
@@ -298,41 +299,85 @@
 
               <div class="payment-fields">
                 <label for="card-number">Card number</label>
-                <input type="number" id="card-number">
+                <input type="text" id="card-number">
               </div>
               <div class="payment-expiry">
                 <div class="payment-fields">
                   <label for="month">Expiry date</label>
-                  <input type="number" id="month">
+                  <input type="text" id="month">
                 </div> 
                 <div class="payment-fields">
                   <label for="cvv">CVC/CVV</label>
-                  <input type="number" id="cvv">
+                  <input type="text" id="cvv">
                 </div> 
               </div>
               <div class="payment-fields">
                 <label for="name-card">Name on card</label>
                 <input type="text" id="name-card">
               </div>
-
+              
               <!-- cards payment option -->
               <div class="payment-gateways">
                 <div class="gateways-container">
                   <input type="radio" name="card-gateways" id="card-gateways">
-                  <label for="card-gateways"><button><img src="./assets/images/payment-cards-img/paypal.jpg" alt="paypal"></button>Cards</label>
+                  <label for="card-gateways"><button><img src="./assets/images/payment-cards-img/paypal.jpg" alt="paypal"></button>Paypal</label>
                 </div>
               </div>
 
             </div>
             <div class="payment-btn">
-              <button class="btn">Complete checkout</button>
+              <button>Complete checkout</button>
             </div>
           </div>
 
         </div>
 
         <div class="payment-checkout">
-          <h2>Order details</h2>
+          <h2 class="heading">Order details</h2>
+
+          <!-- order mini card box container -->
+          <div class="order-card-container">
+
+            <!-- card box -->
+            <div class="order-card">
+              <div class="order-card-box">
+                <img src="./assets/images/card-categories/goodluck.avif" alt="order card">
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus voluptatem,</h5>
+              </div>
+              <div class="order-card-amount">
+                <p>$30</p>
+              </div>
+            </div>
+
+            <div class="order-card">
+              <div class="order-card-box">
+                <img src="./assets/images/card-categories/sympathy.avif" alt="order card">
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus voluptatem,</h5>
+              </div>
+              <div class="order-card-amount">
+                <p>$40</p>
+              </div>
+            </div>
+
+            <div class="order-card">
+              <div class="order-card-box">
+                <img src="./assets/images/card-categories/wedding.avif" alt="order card">
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus voluptatem,</h5>
+              </div>
+              <div class="order-card-amount">
+                <p>$50</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- accumulated amount -->
+          <div class="checkout-accumulated-value">
+            <div class="accumulated-amount">
+              <p>Total (3 cards)</p>
+              <h5>$120</h5>
+            </div>
+          </div>
+
         </div>
 
       </section>
