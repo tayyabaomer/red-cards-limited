@@ -100,6 +100,11 @@
   /* border: 1px solid black; */
 }
 
+.delete-btn {
+  display: none;
+}
+
+
 .cart-item-qty {
   display: flex;
   align-items: center;
@@ -164,7 +169,7 @@ figure img {
   width: 20%;
 }
 
-.cart-remove-btn button {
+.cart-remove-btn .remove-btn {
   padding: 1.2rem 2.2rem;
   background-color: var(--red);
   font-size: 1.2rem;
@@ -173,7 +178,7 @@ figure img {
   border-radius: 30px;
 }
 
-.cart-remove-btn button:hover {
+.cart-remove-btn .remove-btn:hover {
   filter: brightness(0.95);
 }
 
@@ -189,7 +194,7 @@ figure img {
   padding: 3rem 0;  
 }
 
-.cart-remove-btn a{
+.cart-remove-btn .checkout-btn{
   filter: brightness(0.9);
   box-shadow: 0 0 10px var(--light-red);
   padding: 1.2rem 2.2rem;
@@ -201,7 +206,267 @@ figure img {
   transition: filter 0.3s ease-in-out;
 }
 
-.cart-remove-btn a:hover {
+.cart-remove-btn .checkout-btn:hover {
   filter: brightness(1);
   box-shadow: 0 0 10px transparent;
+}
+
+
+.checkout-cart {
+  display: none;
+}
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 611px){
+
+  .cart {
+    padding: 4dvh;
+    min-height: 60dvh;
+  }
+  
+  .cart h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .cart-card {
+    margin-bottom: 2rem;
+  }
+
+  .cart-item-qty {
+    width: 5%;
+  }
+
+  .cart-box {
+    width: 75%;
+  }
+  
+  .cart-item-qty p {
+    font-size: 1.2rem;
+  }
+  
+  .cart-price {
+    width: 6%;
+    padding: 0 1rem;
+  }
+  
+  .cart-price p {
+    font-size: 1.2rem;
+  }
+  
+  figure {
+    height: 7rem;
+    margin-right: 1rem;
+  }
+  
+  .cart-content {
+    margin-top: 1rem;
+  }
+  
+  .cart-content h5 {
+    /* width: 15ch; */
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .cart-content p {
+    display: none;
+  }
+  
+  .cart-remove-btn {
+    padding: 0 1rem;
+    width: 8%;
+  }
+  
+  .remove-btn {
+    display: none;
+  }
+
+  .delete-btn {
+    display: block;
+  }
+  
+  /* Check out button design */
+  .checkout-container {
+    padding: 2rem 0;  
+  }
+  
+  .cart-remove-btn a{
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+
+  }
+
+  .cart-price p {
+    margin: 0;
+  }
+  
+  .checkout-btn {
+    display: none;
+  }
+
+  .checkout-cart {
+    margin-left: 1rem;
+    display: block;
+  }
+
+}
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 612px){
+
+  .cart {
+    padding: 5dvh;
+    min-height: 60dvh;
+  }
+  
+  .cart h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .cart-card {
+    margin-bottom: 2rem;
+  }
+
+  .cart-item-qty {
+    width: 6%;
+  }
+  
+  .cart-item-qty p {
+    font-size: 1.2rem;
+  }
+  
+  .cart-price {
+    width: 12%;
+  }
+  
+  .cart-price p {
+    font-size: 1.2rem;
+  }
+  
+  figure {
+    height: 8.5rem;
+    margin-right: 1rem;
+  }
+  
+  .cart-content {
+    margin-top: 1rem;
+  }
+  
+  .cart-content h5 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .cart-content p {
+    display: none;
+  }
+  
+  .cart-remove-btn {
+    padding: 1rem;
+  }
+  
+  .cart-remove-btn .remove-btn {
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+  }
+  
+  
+  /* Check out button design */
+  .checkout-container {
+    padding: 2rem 0;  
+  }
+  
+  .cart-remove-btn .checkout-btn{
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+
+  }
+
+  .cart-price p {
+    margin: 0;
+  }
+  
+  
+}
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+
+  .cart {
+    padding: 6dvh 8dvh;
+  }
+  
+  .cart h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .cart-card {
+    margin-bottom: 2rem;
+  }
+
+  .cart-item-qty {
+    width: 6%;
+  }
+  
+  .cart-item-qty p {
+    font-size: 1.2rem;
+  }
+  
+  .cart-price {
+    width: 12%;
+  }
+  
+  .cart-price p {
+    font-size: 1.2rem;
+  }
+  
+  figure {
+    height: 8.5rem;
+    margin-right: 1rem;
+  }
+  
+  .cart-content {
+    margin-top: 1rem;
+  }
+  
+  .cart-content h5 {
+    font-size: 1.2rem;
+  }
+  
+  .cart-content p {
+    margin: 0;
+  }
+  
+  .cart-remove-btn {
+    padding: 1rem;
+  }
+  
+  .cart-remove-btn .remove-btn {
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+  }
+  
+  
+  /* Check out button design */
+  .checkout-container {
+    padding: 2rem 0;  
+  }
+  
+  .cart-remove-btn .checkout-btn{
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+
+  }
+
+  .cart-price p {
+    margin: 0;
+  }
+
+
 }

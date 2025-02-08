@@ -117,3 +117,30 @@ for css link
 
   --peach: #ff9059;
   --light-peach: #ffdecd;
+
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 611px){}
+
+
+
+/* for Mobile */
+@media (max-width: 767px){
+
+}
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+
+}
+
+
+/* for laptop */
+@media (min-width: 1024px){
+
+}

@@ -129,7 +129,7 @@
 }
 
 
-/* bottom container { */
+/* bottom container  */
 .gateways-container  {
   display: flex;
   align-items: center;
@@ -198,11 +198,16 @@ input:focus {
   outline: none;
 }
 
-/* teo input in one line */
+/* two input in one line */
 .payment-expiry {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.payment-expiry > .payment-fields {
+  width: 50%;
 }
 
 .payment-method > h5 {
@@ -342,17 +347,253 @@ input:focus {
 /* for Mobile */
 @media (max-width: 767px){
 
+  .checkout {
+    align-items: center;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 5dvh 0;
+    padding-bottom: 10vh;
+  }
+  
+  .payment-details {
+    width: 90%;
+  }
+  
+  .payment-checkout{
+    width: 90%;
+  }
+  
+  .payment-details > h2 {
+    margin: 1rem 0;
+  }
+  
+  /* start payment method styling */
+  .payment-gateways:nth-child(1) {
+    margin-bottom: 1rem;
+  }
+  
+  .payment-gateways:nth-child(5) {
+    margin-top: 1rem;
+  }
+
+  /* styling input fileds same as register input */
+  .country-box  {
+    padding: 0 1rem;
+  }
+
+  .billing > h5 {
+    margin-bottom: 1rem;
+  }
+
+  .payment-fields {
+    padding: 0 1rem;
+  }
+
+  .payment-fields label,
+  .address-box label  {
+    top: -3px;
+    font-size: 1.1rem;
+  }
+
+  .address-box {
+    padding: 0 1rem;
+  }
+
+  .payment-fields input,
+  .address-box input {
+    font-size: 1.1rem;
+    padding: 0.8rem 1rem;
+  }
+
+    
+  /* two input in one line */
+  .payment-method > h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .payment-btn button {  
+    padding: 1rem 2rem;
+  }
+
+  .country-box {
+    margin-bottom: 1rem;
+  }
+
+  .country-box label {
+    font-size: 1.3rem;
+  }
+
+  /* Order details styling */
+  .payment-checkout {
+    padding: 3rem;
+  }
+
+  .payment-checkout h2{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  /* order card box start styling */
+  .order-card-container {
+    margin-right: 0;
+  }
+
+  .order-card {
+    margin-top: 1rem;
+    padding: 1rem 0;
+    padding-right: 1rem;
+  }
+
+  .order-card-box {
+    padding-right: 1rem;
+  }
+
+  .order-card-amount p {
+    font-size: 1.3rem;
+  }
+
+
+  /* total billing value */
+  .checkout-accumulated-value {
+    margin: 2rem 0;
+    margin-right: 0;
+  }
+
+  .accumulated-amount p {
+    font-size: 1.3rem;
+  }
+
+  .accumulated-amount h5 {
+    font-size: 1.3rem;
+  }
+
 }
 
 
 /* for Tablet */
 @media (max-width: 1023px) and (min-width: 768px)  {
 
-}
+  .checkout {
+    align-items: center;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 5dvh 0;
+    padding-bottom: 10vh;
+  }
+  
+  .payment-details {
+    width: 80%;
+  }
+  
+  .payment-checkout{
+    width: 80%;
+  }
+  
+  .payment-details > h2 {
+    margin: 1rem 0;
+  }
+  
+  /* start payment method styling */
+  .payment-gateways:nth-child(1) {
+    margin-bottom: 1rem;
+  }
+  
+  .payment-gateways:nth-child(5) {
+    margin-top: 1rem;
+  }
+
+  /* styling input fileds same as register input */
+  .country-box  {
+    padding: 0 1rem;
+  }
+
+  .billing > h5 {
+    margin-bottom: 1rem;
+  }
+
+  .payment-fields {
+    padding: 0 1rem;
+  }
+
+  .payment-fields label,
+  .address-box label  {
+    top: -3px;
+    font-size: 1.1rem;
+  }
+
+  .address-box {
+    padding: 0 1rem;
+  }
+
+  .payment-fields input,
+  .address-box input {
+    font-size: 1.1rem;
+    padding: 0.8rem 1rem;
+  }
+
+    
+  /* two input in one line */
+  .payment-method > h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .payment-btn button {  
+    padding: 1rem 2rem;
+  }
+
+  .country-box {
+    margin-bottom: 1rem;
+  }
+
+  .country-box label {
+    font-size: 1.3rem;
+  }
+
+  /* Order details styling */
+  .payment-checkout {
+    padding: 3rem;
+  }
+
+  .payment-checkout h2{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  /* order card box start styling */
+  .order-card-container {
+    margin-right: 0;
+  }
+
+  .order-card {
+    margin-top: 1rem;
+    padding: 1rem 0;
+    padding-right: 1rem;
+  }
+
+  .order-card-box {
+    padding-right: 1rem;
+  }
+
+  .order-card-amount p {
+    font-size: 1.3rem;
+  }
 
 
-/* for laptop */
-@media (min-width: 1024px){
+  /* total billing value */
+  .checkout-accumulated-value {
+    margin: 2rem 0;
+    margin-right: 0;
+  }
+
+  .accumulated-amount p {
+    font-size: 1.3rem;
+  }
+
+  .accumulated-amount h5 {
+    font-size: 1.3rem;
+  }
 
 }
 

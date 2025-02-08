@@ -130,3 +130,69 @@ li {
   color: white;
   border-radius: 30px;
 }
+
+
+
+/* media quries */
+
+/* for Mobile */
+@media (max-width: 767px){
+/* For section Title */
+.heading {
+  font-size: 2.5rem;
+}
+
+/* for section sub title */
+.heading2 {
+  font-size: 2rem;
+}
+
+/* For subTitle or sub Heading text */
+.sub-heading {
+  font-family: var(--GSans-med);
+  font-size: 1.5rem;
+}
+}
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+/* For section Title */
+.heading {
+  font-size: 3rem;
+}
+
+/* for section sub title */
+.heading2 {
+  font-size: 2rem;
+}
+
+/* For subTitle or sub Heading text */
+.sub-heading {
+  font-family: var(--GSans-med);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+}
+
+
+/* for laptop */
+@media (min-width: 1024px){
+/* For section Title */
+.heading {
+  font-family: var(--GSans-med);
+  font-size: 4rem;
+}
+
+/* for section sub title */
+.heading2 {
+  font-family: var(--GSans-reg);
+  font-size: 2.8rem;
+}
+
+/* For subTitle or sub Heading text */
+.sub-heading {
+  font-family: var(--GSans-med);
+  font-size: 1.8rem;
+}
+}

@@ -21,3 +21,20 @@ main .top-btn {
 main .top-btn:hover {
     filter: brightness(0.95);
 }
+
+
+/* media quries */
+
+/* for Mobile */
+@media (max-width: 1024px){
+    main .top-btn {
+        padding: 0 0.8rem;
+        padding-top: 0.3rem;
+        font-size: 1.5rem;
+    }
+    
+    main .top-btn:hover {
+        filter: none;
+    }
+    
+}
