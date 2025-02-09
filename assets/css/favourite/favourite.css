@@ -1,6 +1,5 @@
 @import url(../global.css);
 
-
 :root {
   /* CSS COLORS */
 
@@ -13,13 +12,11 @@
   --light-gray: #e9e9ea;
   --lighter-gray: hsl(0, 0%, 83%, 20%);
 
-
   --purple: #8d51e7;
   --light-purple: #f4eefd;
 
   --seagreen: #4dc6d6;
   --light-seagreen: #edf9fb;
-
 
   /* Secondary color, specially for login btn */
   --blue: #5174e7;
@@ -39,7 +36,6 @@
   --light-peach: #ffdecd;
 
   --cardsbg-lightgray: rgb(248, 248, 248);
-
 
   /* # padding spaces */
   --section-padding: 10dvh 5dvh;
@@ -61,7 +57,6 @@
   --GSans-boldItal: "GeneralSans-BoldItalic";
 }
 
-
 /* primary container */
 .favorite-section {
   padding: var(--section-padding);
@@ -78,11 +73,10 @@
   /* background-color: #1bc47d; */
 }
 
-.favorite-main h2{
+.favorite-main h2 {
   text-align: center;
   margin-bottom: 5rem;
 }
-
 
 /* secondary container */
 .favorite-container {
@@ -92,4 +86,51 @@
   flex-wrap: wrap;
   column-gap: 3rem;
   row-gap: 5rem;
+}
+
+
+/* media quries */
+
+/* for Mobile */
+@media (max-width: 767px){
+
+  .favorite-section {
+    padding: 5dvh;
+    padding-bottom: 5rem;
+    align-items: center;
+  }
+
+  .favorite-main h2 {
+    margin-bottom: 3rem;
+  }  
+
+  /* secondary container */
+  .favorite-container {
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 3rem;
+  }
+}
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+
+  /* primary container */
+  .favorite-section {
+    padding: 5dvh;
+    padding-bottom: 10rem;
+    align-items: center;
+  }
+
+  .favorite-main h2 {
+    margin-bottom: 3rem;
+  }
+
+  /* secondary container */
+  .favorite-container {
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 3rem;
+  }
 }

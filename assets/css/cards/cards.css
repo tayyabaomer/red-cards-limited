@@ -106,9 +106,14 @@ p {
   overflow: hidden;
 }
 
+
+.cards-catalogue-content {
+  padding: 1.5rem 0;
+}
+
 .cards-catalogue-content h2{
-  font-family: var(--GSans-med);
-  font-size: 3.5rem;
+  /* font-family: var(--GSans-med);
+  font-size: 3.5rem; */
 }
 
 .cards-catalogue-content p{
@@ -487,4 +492,497 @@ p {
 
 .cards-asidebar ul li button span svg {
   stroke: black;
+}
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+
+/* Styling Cards Banner */
+.cards-catalogue-banner {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+  align-items: flex-start;
+}
+
+.cards-catalogue-svg {
+  height: 22rem;
+  overflow: visible;
+  position: relative;
+  isolation: isolate;
+}
+
+.cards-catalogue-svg img {
+  height: 10rem;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.cards-catalogue-content h2{
+  margin-top: 1.5rem;
+}
+
+.cards-catalogue-content p{
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  font-family: var(--GSans-med);
+  width: 40ch;
+}
+
+.cards-catalogue-content p:nth-child(3){
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+
+
+/* Brands filter by name */
+.brands-name-filter span{
+  width: 0;
+}
+
+
+.brand-filter-box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.brands-name-filter {
+  margin-bottom: 3rem;
+}
+
+.brands-name-filter .brand-filter-box{
+  width: 100%;
+}
+
+.brands-name-filter ul {
+  width: 100%;
+}
+
+.brands-name-filter li button{
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+}
+
+/* Cards section starts */
+.cards-catalogue-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Sidebar styling */
+.cards-asidebar{
+  width: 100%;
+  /* background-color: #5174e7; */
+}
+
+
+/* Cards styling */
+
+.cards-catalogue-box {
+  width: 100%;
+  /* background-color: #655f6d; */
+  justify-content: center;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  margin-top: 3rem;
+}
+
+
+.card-cards {
+  width: 20rem;
+}
+
+
+/* image box styling */
+.card-cards-img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.card-cards-img img{
+  height: 18rem;
+}
+
+.card-cards-img .stock-label{
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+}
+
+/* Content box styling */
+
+.card-cards-content .share-svg{
+  margin-top: 0.5rem;
+  padding: 0.6rem;
+}
+
+.card-cards-content h5{
+  font-size: 1rem;
+}
+
+
+/* price and cart area */
+.card-cards-svgs {
+  padding: 0 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.card-cards-svgs p{
+  font-size: 1.3rem;
+}
+
+.card-cards-svgs .card-cart{
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+
+/* See details button */
+.card-cards-detail-btn {
+  height: 3rem;
+  font-size: 1.1rem;
+}
+
+.card-cards-detail-btn svg {
+  margin-left: 1rem;
+  padding: 0.1rem;
+}
+
+.card-cards-detail-btn:hover svg {
+  margin-left: 1.5rem;
+  transform: scale(1.05);
+}
+
+
+/* asidebar  */
+.cards-asidebar h2{
+  font-size: 1.2rem;
+}
+
+.cards-asidebar h5{
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.cards-asidebar ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.cards-asidebar ul li {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.cards-asidebar ul li button{
+  gap: 0.5rem;
+  padding: 0.8rem 1rem;
+  padding-left: 0.5rem;
+  width: 12rem;
+}
+
+.cards-asidebar ul li button:hover,
+.cards-asidebar ul li .active {
+  width: 12.5rem;
+  gap: 1rem;
+}
+
+.cards-asidebar ul li button p {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: var(--GSans-med);
+}
+}
+
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+
+
+/* Styling Cards Banner */
+.cards-catalogue-banner {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.cards-catalogue-svg {
+  height: 15rem;
+  overflow: visible;
+  position: relative;
+  isolation: isolate;
+}
+
+.cards-catalogue-svg img {
+  height: 10rem;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.cards-catalogue-content p{
+  width: 40ch;
+}
+
+.cards-catalogue-content p:nth-child(3){
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+
+
+/* Brands filter by name */
+.brands-name-filter span{
+  width: 0;
+}
+
+
+.brand-filter-box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.brands-name-filter {
+  margin-bottom: 3rem;
+}
+
+.brands-name-filter .brand-filter-box{
+  width: 100%;
+}
+
+.brands-name-filter ul {
+  width: 100%;
+}
+
+.brands-name-filter li button{
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+}
+
+/* Cards section starts */
+.cards-catalogue-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Sidebar styling */
+.cards-asidebar{
+  width: 100%;
+  /* background-color: #5174e7; */
+}
+
+
+/* Cards styling */
+
+.cards-catalogue-box {
+  width: 100%;
+  /* background-color: #655f6d; */
+  justify-content: center;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  margin-top: 3rem;
+}
+
+
+.card-cards {
+  width: 20rem;
+}
+
+
+/* image box styling */
+.card-cards-img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.card-cards-img img{
+  height: 18rem;
+}
+
+.card-cards-img .stock-label{
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+}
+
+/* Content box styling */
+
+.card-cards-content .share-svg{
+  margin-top: 0.5rem;
+  padding: 0.6rem;
+}
+
+.card-cards-content h5{
+  font-size: 1rem;
+}
+
+
+/* price and cart area */
+.card-cards-svgs {
+  padding: 0 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.card-cards-svgs p{
+  font-size: 1.3rem;
+}
+
+.card-cards-svgs .card-cart{
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+
+/* See details button */
+.card-cards-detail-btn {
+  height: 3rem;
+  font-size: 1.1rem;
+}
+
+.card-cards-detail-btn svg {
+  margin-left: 1rem;
+  padding: 0.1rem;
+}
+
+.card-cards-detail-btn:hover svg {
+  margin-left: 1.5rem;
+  transform: scale(1.05);
+}
+
+
+/* asidebar  */
+.cards-asidebar h2{
+  font-size: 1.2rem;
+}
+
+.cards-asidebar h5{
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.cards-asidebar ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.cards-asidebar ul li {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.cards-asidebar ul li button{
+  gap: 0.5rem;
+  padding: 0.8rem 1rem;
+  padding-left: 0.5rem;
+  width: 12rem;
+}
+
+.cards-asidebar ul li button:hover,
+.cards-asidebar ul li .active {
+  width: 12.5rem;
+  gap: 1rem;
+}
+
+.cards-asidebar ul li button p {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: var(--GSans-med);
+}
+
+}
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+
+/* Styling Cards Banner */
+.cards-catalogue-banner {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.cards-catalogue-svg {
+  height: 15rem;
+  overflow: visible;
+  position: relative;
+  isolation: isolate;
+}
+
+.cards-catalogue-svg img {
+  height: 10rem;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+/* Brands filter by name */
+.brands-name-filter span{
+  width: 0;
+}
+
+
+.brand-filter-box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.brands-name-filter {
+  margin-bottom: 3rem;
+}
+
+.brands-name-filter .brand-filter-box{
+  width: 100%;
+}
+
+.brands-name-filter ul {
+  width: 100%;
+}
+
+.brands-name-filter li button{
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+}
+
+
+/* Cards styling */
+
+.cards-catalogue-box {
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  margin-top: 5rem;
+}
+
+
+.card-cards {
+  width: 20rem;
+}
+
+
+/* image box styling */
+.card-cards-img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.card-cards-img img{
+  height: 18rem;
+}
+
+
+
 }
