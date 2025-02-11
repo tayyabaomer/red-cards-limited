@@ -1,0 +1,132 @@
+          <!-- card left -->
+          <div class = "product-imgs">
+            <div class = "img-display">
+              <div class = "img-showcase">
+                 <img src="./assets/images/card-categories/thankyou.avif" alt = "shoe image"/>
+              </div>
+            </div>
+            <div class = "img-select">
+              <div class = "img-item">
+                <img src="./assets/images/brands/back-img/image-1.jpg" alt = "shoe image"/>
+              </div>
+              <div class = "img-item">
+                  <img src="./assets/images/card-categories/birthday.avif" alt = "shoe image"/>
+              </div>
+              <div class = "img-item">
+                  <img src="./assets/images/card-categories/engagement.avif" alt = "shoe image"/>
+              </div>
+              <div class = "img-item">
+                  <img src="./assets/images/card-categories/goodluck.avif" alt = "shoe image"/>
+              </div>
+              
+            </div>
+          </div>
+          <!-- card right -->
+          <div class = "product-content">
+            <h2 class = "product-title">Another Beautiful Year of Marriage Anniversary Card for Couple</h2>
+            <div class = "product-rating">
+              $4.99 ⭐⭐⭐⭐⭐
+            </div>
+       
+            <div class = "product-detail">
+              <h2>Details</h2>
+              <p>
+                  Anniversary greeting card for couple features a heart and flowers
+                  design on a woodgrain style background. Glitter, foil and metallic
+                  ink accents add charm.
+                </p>
+                <p>
+                  Specifications : Front: Happy Anniversary <br />
+                  Inside message: As you celebrate another beautiful year of marriage,
+                  remember how much you mean to all the people who love you.
+                  Congratulations <br />
+                  Dimensions: 5" x 7.25" Envelope & seal: Includes one card and one
+                  envelope with a Gold Crown seal. Envelope color may vary. <br />
+                  Item number: 499AVY9945
+                </p>
+              <ul>
+                <li>In Stock</li>
+                </ul>
+            </div>
+       
+            <div class = "purchase-info">
+              <h2 class="deliver-heading">Delivery Options</h2>
+                <div class="deliver">
+                  <div class="deliver-icon-1">
+                    <svg
+                      class="delivery-svg"
+                      id="Delivery-Truck--Streamline-Carbon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      height="25"
+                      width="80"
+                    >
+                      <desc>
+                        Delivery Truck Streamline Icon: https://streamlinehq.com
+                      </desc>
+                      <defs></defs>
+                      <title>delivery-truck</title>
+                      <path
+                        d="m14.96 8.305 -1.5 -3.5A0.5 0.5 0 0 0 13 4.5h-1.5V3.5a0.5 0.5 0 0 0 -0.5 -0.5H1.5a0.5 0.5 0 0 0 -0.5 0.5v8.5a0.5 0.5 0 0 0 0.5 0.5h1.07a2 2 0 0 0 3.86 0h3.14a2 2 0 0 0 3.86 0H14.5a0.5 0.5 0 0 0 0.5 -0.5v-3.5a0.5 0.5 0 0 0 -0.04 -0.195ZM11.5 5.5h1.17l1.07 2.5H11.5ZM4.5 13a1 1 0 1 1 1 -1 1 1 0 0 1 -1 1Zm5.07 -1.5h-3.14a2 2 0 0 0 -3.86 0H2V4h8.5v6.28A2 2 0 0 0 9.57 11.5ZM11.5 13a1 1 0 1 1 1 -1 1 1 0 0 1 -1 1Zm2.5 -1.5h-0.57A2 2 0 0 0 11.5 10v-1h2.5Z"
+                        fill="#ff9059"
+                        stroke-width="0.5"
+                      ></path>
+                      <path
+                        id="_Transparent_Rectangle_"
+                        d="M0 0h16v16H0Z"
+                        fill="none"
+                        stroke-width="0.5"
+                      ></path>
+                    </svg>
+                    <p>Ship to me</p>
+                    <p>Arrives 01/24-08/28</p>
+                  </div>
+                  <div class="deliver-icon-2">
+                    <svg
+                      id="Store--Streamline-Carbon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      height="25"
+                      width="80"
+                    >
+                      <desc>Store Streamline Icon: https://streamlinehq.com</desc>
+                      <defs></defs>
+                      <title>shop</title>
+                      <path
+                        d="m15 5.34 -1 -3A0.5 0.5 0 0 0 13.5 2H2.5a0.5 0.5 0 0 0 -0.5 0.34l-1 3A0.595 0.595 0 0 0 1 5.5v3a0.5 0.5 0 0 0 0.5 0.5h0.5v5h1V9h3v5h8V9h0.5a0.5 0.5 0 0 0 0.5 -0.5v-3a0.595 0.595 0 0 0 0 -0.16ZM13 13H7v-4h6Zm1 -5h-2v-2h-1v2h-2.5v-2h-1v2h-2.5v-2H4v2H2v-2.42L2.86 3h10.28L14 5.58Z"
+                        fill="#000000"
+                        stroke-width="0.5"
+                      ></path>
+                      <path
+                        id="_Transparent_Rectangle_"
+                        d="M0 0h16v16H0Z"
+                        fill="none"
+                        stroke-width="0.5"
+                      ></path>
+                    </svg>
+                    <p>Store Pickup</p>
+                    <p>Ready in 3 hours</p>
+                  </div>
+                </div>
+              <select class="quantity form-select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                  <option value="">5</option>
+                  <option value="">6</option>
+                  <option value="">7</option>
+                  <option value="">8</option>
+                  <option value="">9</option>
+                  <option value="">10</option>
+                  <option value="">11</option>
+                  <option value="">12</option>
+                  <option value="">13</option>
+                  <option value="">14</option>
+                  <option value="">15</option>
+                </select>
+              <button type = "button" class = "btn-cart">
+                Add to Cart <i class = "fas fa-shopping-cart"></i>
+              </button>
+          </div>
+          </div>
