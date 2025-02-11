@@ -314,3 +314,128 @@ transform: rotate(5deg);
 .cards-box-category-container:nth-child(5) .cards-box-link svg {
   background-color: var(--peach);
 }
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+
+  .cards-box-category {
+    padding: 2rem 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    /* background-color: #cbd5f8; */
+  }
+
+  .cards-box-category h2 {
+    margin-bottom: 3rem;
+  }
+
+  .cards-box-content > h5 {
+    margin-top: 3rem;
+    /* background-color: #1bc47d; */
+  }
+  
+  /* starting cards category box */
+  .cards-box-category-container {
+    height: 80dvh;
+    width: 85%;
+    border: 2px solid var(--light-green);
+    border-radius: 60px;
+    position: relative;
+  }
+
+  .cards-box-category-main {
+    flex-direction: column;
+  }
+
+  /* left side */
+  .cards-box-media {
+    width: 100%;
+    border-radius: 60px 60px 0 0;
+  }
+
+  .cards-box-media > img {
+    width: 100%;
+    height: calc(100% + 3rem);
+    object-fit: cover;
+    position: absolute;
+    top: -4rem;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .cards-box-images {
+    position: relative;
+    isolation: isolate;
+    object-fit: cover;
+  }
+  
+  .cards-box-images img {
+    position: absolute;
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cards-box-images img:nth-child(1) {
+    height: 12rem;
+    top: -2rem;
+    right: 8rem;
+    z-index: 3;
+    transform: rotate(-5deg);
+  }
+  
+  .cards-box-images img:nth-child(2) {
+    height: 14rem;
+    left: 2rem;
+    top: 1rem;
+    z-index: 5;
+  }
+  
+  .cards-box-images img:nth-child(3) {
+    height: 10rem;
+    top: 9rem;
+    right: 2rem;
+    z-index: 3;
+    transform: rotate(5deg);
+  }
+ 
+  .cards-box-media > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  /* right side */
+  .cards-box-content-main {
+    width: 100%;
+  }
+
+
+}
+
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+
+}
+
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+
+}
+

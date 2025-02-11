@@ -190,3 +190,308 @@
     border-radius: 5rem;
     z-index: -1;
 }
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px) {
+    
+  .hero {
+    padding: 3dvh;
+    height: auto;
+    text-align: center;
+    /* background-color: #bbedd8; */
+}
+
+.hero-container {
+  margin-top: 3rem;
+  height: auto;
+  flex-direction: column;
+  /* background-color: #1bc47d; */
+}
+
+.hero-left  {
+  height: inherit;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.hero-subTitle {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+.hero-subTitle h5 {
+  font-size: 1rem;
+}
+
+.hero-title h2 {
+  font-size: 3.4rem;
+  overflow: hidden;
+}
+
+.hero-description {
+  display: none;
+}
+
+
+/* hero left container */
+
+.hero-right {
+/* background-color: #5174e7; */
+width: 40%;
+height: 50dvh;
+margin-bottom: 6rem;
+}
+
+.hero-right-container {
+position: relative;
+isolation: isolate;
+}
+
+.hero-right-container .hero-svg {
+height: 52dvh;
+width: 100dvh;
+left: 50%;
+}
+
+.hero-backdrop {
+top: 30%;
+left: 50%;
+}
+
+.hero-right-container .img {    
+top: 2rem;
+left:50%;
+height: 45dvh;
+top: 0%;
+}
+
+.hero-backdrop  {
+height: 48dvh;
+width: 50dvh;
+}
+
+}
+
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+
+  .hero {
+    padding: 5dvh;
+    height: auto;
+    text-align: center;
+    /* background-color: #bbedd8; */
+}
+
+.hero-container {
+  margin-top: 3rem;
+  height: auto;
+  flex-direction: column;
+  /* background-color: #1bc47d; */
+}
+
+.hero-left  {
+  height: inherit;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.hero-subTitle {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+.hero-subTitle h5 {
+  font-size: 1rem;
+}
+
+.hero-title h2 {
+  font-size: 3.4rem;
+  overflow: hidden;
+}
+
+.hero-description {
+  display: none;
+}
+
+
+/* hero left container */
+
+.hero-right {
+/* background-color: #5174e7; */
+width: 40%;
+height: 50dvh;
+margin-bottom: 3rem;
+}
+
+.hero-right-container {
+position: relative;
+isolation: isolate;
+}
+
+.hero-right-container .hero-svg {
+height: 52dvh;
+width: 100dvh;
+left: 50%;
+}
+
+.hero-backdrop {
+top: 30%;
+left: 50%;
+}
+
+.hero-right-container .img {    
+top: 2rem;
+left:50%;
+height: 45dvh;
+top: 0%;
+}
+
+.hero-backdrop  {
+height: 48dvh;
+width: 50dvh;
+}
+
+}
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px) {
+
+  .hero {
+      padding: 5dvh;
+      height: auto;
+      /* background-color: #bbedd8; */
+  }
+
+  .hero-container {
+    margin-top: 3rem;
+    height: auto;
+    /* background-color: #1bc47d; */
+}
+
+.hero-left  {
+    height: inherit;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 0rem;
+}
+
+.hero-subTitle {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hero-subTitle h5 {
+    font-size: 1rem;
+}
+
+.hero-title h2 {
+    font-size: 3.4rem;
+    overflow: hidden;
+}
+
+.hero-description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1.8;
+}
+
+
+/* hero left container */
+
+.hero-right {
+  /* background-color: #5174e7; */
+  width: 40%;
+  height: 50dvh;
+}
+
+.hero-right-container {
+  position: relative;
+  isolation: isolate;
+}
+
+.hero-right-container .hero-svg {
+  height: 50dvh;
+  width: 100dvh;
+  left: 45%;
+}
+
+.hero-backdrop {
+  top: 30%;
+  left: 45%;
+}
+
+.hero-right-container .img {    
+  top: 2rem;
+  left: 45%;
+  height: 45dvh;
+  top: 0%;
+}
+
+.hero-backdrop  {
+  height: 48dvh;
+  width: 50dvh;
+}
+
+}
+
+
+@media (max-width: 1260px) and (min-width: 1024px) {
+
+
+  .hero {
+    padding: 5dvh;
+    height: auto;
+}
+
+
+.hero-container {
+   margin-top: 3rem;
+    height: auto;
+}
+
+  /* hero left container */
+  .hero-right {
+    width: 40%;
+    height: 80dvh;
+  }
+
+  .hero-right-container .hero-svg {
+    height: 80dvh;
+    width: 75dvh;
+  }
+
+  .hero-right-container .img {    
+    height: 70dvh;
+  }
+
+  .hero-backdrop  {
+    height: 70dvh;
+    width: 70dvh;
+  }
+
+}

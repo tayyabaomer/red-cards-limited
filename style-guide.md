@@ -144,3 +144,23 @@ for css link
 @media (min-width: 1024px){
 
 }
+
+
+
+
+<!-- other media queries -->
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){}
+
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {}
+
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {}
+

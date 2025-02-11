@@ -1,161 +1,250 @@
 @import url(../global.css);
 
-
 :root {
-    /* CSS COLORS */
-  
-    /* primary colors */
-    --bg-color: #ffffff;
-    --red: #fd5c63;
-    --light-red: hsl(357, 97.6%, 90%);
-    --black: #20282d;
-    --grey: #f4f4f4;
-    --light-gray: #e9e9ea;
-    --lighter-gray: hsl(0, 0%, 83%, 20%);
-  
-  
-    --purple: #8d51e7;
-    --light-purple: #f4eefd;
-  
-    --seagreen: #4dc6d6;
-    --light-seagreen: #edf9fb;
-  
-  
-    /* Secondary color, specially for login btn */
-    --blue: #5174e7;
-    --light-blue: #cbd5f8;
-  
-    /* Tertiary color, for homepage section bg */
-    --blue: #5174e7;
-    --light-blue: #cbd5f8;
-  
-    --green: #1bc47d;
-    --light-green: #bbedd8;
-  
-    --pink: #ff5985;
-    --light-pink: #ffcdda;
-  
-    --peach: #ff9059;
-    --light-peach: #ffdecd;
-  
-    /* # padding spaces */
-    --section-padding: 10dvh 5dvh;
-  
-    /* Font styles */
-    --GSans-var: "GeneralSans-Variable";
-    --GSans-varItal: "GeneralSans-VariableItalic";
-    --GSans-extraLight: "GeneralSans-Extralight";
-    --GSans-extraLightItalic: "GeneralSans-ExtralightItalic";
-    --GSans-light: "GeneralSans-Light";
-    --GSans-lightItalic: "GeneralSans-LightItalic";
-    --GSans-reg: "GeneralSans-Regular";
-    --GSans-italic: "GeneralSans-Italic";
-    --GSans-med: "GeneralSans-Medium";
-    --GSans-medItal: "GeneralSans-MediumItalic";
-    --GSans-semibold: "GeneralSans-Semibold";
-    --GSans-semiboldItal: "GeneralSans-SemiboldItalic";
-    --GSans-bold: "GeneralSans-Bold";
-    --GSans-boldItal: "GeneralSans-BoldItalic";
-  }
-  
+  /* CSS COLORS */
+
+  /* primary colors */
+  --bg-color: #ffffff;
+  --red: #fd5c63;
+  --light-red: hsl(357, 97.6%, 90%);
+  --black: #20282d;
+  --grey: #f4f4f4;
+  --light-gray: #e9e9ea;
+  --lighter-gray: hsl(0, 0%, 83%, 20%);
+
+  --purple: #8d51e7;
+  --light-purple: #f4eefd;
+
+  --seagreen: #4dc6d6;
+  --light-seagreen: #edf9fb;
+
+  /* Secondary color, specially for login btn */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
+
+  /* Tertiary color, for homepage section bg */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
+
+  --green: #1bc47d;
+  --light-green: #bbedd8;
+
+  --pink: #ff5985;
+  --light-pink: #ffcdda;
+
+  --peach: #ff9059;
+  --light-peach: #ffdecd;
+
+  /* # padding spaces */
+  --section-padding: 10dvh 5dvh;
+
+  /* Font styles */
+  --GSans-var: "GeneralSans-Variable";
+  --GSans-varItal: "GeneralSans-VariableItalic";
+  --GSans-extraLight: "GeneralSans-Extralight";
+  --GSans-extraLightItalic: "GeneralSans-ExtralightItalic";
+  --GSans-light: "GeneralSans-Light";
+  --GSans-lightItalic: "GeneralSans-LightItalic";
+  --GSans-reg: "GeneralSans-Regular";
+  --GSans-italic: "GeneralSans-Italic";
+  --GSans-med: "GeneralSans-Medium";
+  --GSans-medItal: "GeneralSans-MediumItalic";
+  --GSans-semibold: "GeneralSans-Semibold";
+  --GSans-semiboldItal: "GeneralSans-SemiboldItalic";
+  --GSans-bold: "GeneralSans-Bold";
+  --GSans-boldItal: "GeneralSans-BoldItalic";
+}
 
 /* Starts Top Cards Category section */
 .cards-types-category {
-    /* background-color: #cbd5f8; */
-    padding: var(--section-padding);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  /* background-color: #cbd5f8; */
+  padding: var(--section-padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .cards-types-main {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1.2rem;
-    /* background-color: #8d51e7; */
-    width: 98rem;
-    margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.2rem;
+  /* background-color: #8d51e7; */
+  width: 98rem;
+  margin-top: 4rem;
 }
 
 .card-type-box {
-    border-radius: 10px;
-    /* background-color: violet; */
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    height: 21rem;
-    transition: 0.1s ease-in-out;
+  border-radius: 10px;
+  /* background-color: violet; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 21rem;
+  transition: 0.1s ease-in-out;
 }
 
 .card-type-box img {
-    height: 15rem;
+  height: 15rem;
 }
 
 .card-type-box h5 {
-    font-size: 1.2rem;
-    font-family: var(--GSans-med);
-    font-weight: 600;
+  font-size: 1.2rem;
+  font-family: var(--GSans-med);
+  font-weight: 600;
 }
 
 .cards-types-category h2 {
-    font-size: 7rem;
-    font-family: var(--GSans-med);
-    font-weight: 500;
+  font-size: 7rem;
+  font-family: var(--GSans-med);
+  font-weight: 500;
 }
 
-.cards-types-category h2 span{
-    color: var(--red);
+.cards-types-category h2 span {
+  color: var(--red);
 }
 
 .card-type-box:nth-child(1) {
-    background-color: var(--light-peach);
+  background-color: var(--light-peach);
 }
 
 .card-type-box:nth-child(2) {
-    background-color: #bbedd8;
+  background-color: #bbedd8;
 }
 
 .card-type-box:nth-child(3) {
-    background-color: #caeef3;
+  background-color: #caeef3;
 }
 
 .card-type-box:nth-child(4) {
-    background-color: #ffcdda;
+  background-color: #ffcdda;
 }
 
 .card-type-box:nth-child(5) {
-    background-color: #ffedbf;
+  background-color: #ffedbf;
 }
 
 .card-type-box:nth-child(6) {
-    background-color: var(--light-blue);
+  background-color: var(--light-blue);
 }
 
 .card-type-box:nth-child(7) {
-    background-color: #ffcdda;
+  background-color: #ffcdda;
 }
 
 .card-type-box:nth-child(8) {
-    background-color: #ddcbf8;
+  background-color: #ddcbf8;
 }
 
 .card-type-box:nth-child(9) {
-    background-color: #bbedd8;
+  background-color: #bbedd8;
 }
 
 .card-type-box:nth-child(10) {
-    background-color: #ffdecd;
+  background-color: #ffdecd;
 }
-
 
 .card-type-box:hover {
-    background-color: var(--red);
-    color: white;
+  background-color: var(--red);
+  color: white;
+}
+
+/* End Top Cards Category section */
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+
+/* Starts Top Cards Category section */
+.cards-types-category {
+    padding: 3dvh;
+    text-align: center;
+  }
+  
+  .cards-types-main {
+    width: 30rem;
+    margin-top: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+  
+  .card-type-box {
+    height: 17rem;
+  }
+  
+  .card-type-box img {
+    height: 12rem;
+  }
+  
+  .cards-types-category h2 {
+    font-size: 2.4rem;
+  }
+  
 }
 
 
-/* End Top Cards Category section */
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+
+/* Starts Top Cards Category section */
+.cards-types-category {
+    padding: 3dvh;
+    text-align: center;
+  }
+  
+  .cards-types-main {
+    width: 40rem;
+    margin-top: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  
+  .card-type-box {
+    height: 17rem;
+  }
+  
+  .card-type-box img {
+    height: 12rem;
+  }
+  
+  .cards-types-category h2 {
+    font-size: 3rem;
+  }
+  
+
+}
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+/* Starts Top Cards Category section */
+.cards-types-category {
+    width: 100%;
+    padding: 3dvh;
+  }
+  
+  .cards-types-main {
+    width: 58rem;
+    margin-top: 3rem;
+  }
+  
+  .card-type-box {
+    height: 17rem;
+  }
+  
+  .card-type-box img {
+    height: 12rem;
+  }
+  
+  .cards-types-category h2 {
+    font-size: 5rem;
+  }
+  
+}
 

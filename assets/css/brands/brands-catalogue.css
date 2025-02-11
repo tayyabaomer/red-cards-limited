@@ -139,9 +139,9 @@
   font-size: 6rem;
   font-weight: 800;
   font-family: var(--GSans-med);
-  position: sticky;
+  /* position: sticky;
   top: 20%;
-  z-index: -1;
+  z-index: -1; */
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -154,8 +154,6 @@
 
 
 /* Cards Styling starts */
-
-
 .cards-container-main {
   /* height: 100%; */
   width: 100%;
@@ -330,9 +328,11 @@
 /* Cards Styling end */
 
 
+
+/* page link stylig */
 .link-to-page {
   /* background-color: #1bc47d; */
-  width: 18%;
+  width: 18rem;
   margin: 0 auto;
   margin-bottom: 5rem;
   transition: width 0.3s ease-in-out;
@@ -365,4 +365,302 @@
 
 .link-to-page a:visited {
   color: var(--green);
+}
+
+
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+
+
+
+  .brands-cards-section {
+    padding: 3rem;
+    margin-top: 0;
+  }
+  
+  .side-text-1 {
+    width: 1rem;
+  }
+  
+  .side-text-2 {
+    width: 1rem;
+  }
+  
+  .categories-cards-container {
+    width: 90%;
+  }
+
+  .categories-cards-container h2{
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .card-cards {
+    width: 20rem;
+  }  
+  
+  /* Cards Styling starts */
+  .cards-container-main {
+    justify-content: center;
+    row-gap: 2.5rem;
+  }
+  
+  .card-cards {
+    width: 20rem;
+  }
+  
+  
+  /* image box styling */
+  .card-cards-img {
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .card-cards-img img{
+    height: 18rem;
+  }
+  
+  .card-cards-img .stock-label{
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Content box styling */
+  
+  .card-cards-content .share-svg{
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+  }
+  
+  .card-cards-content h5{
+    font-size: 1rem;
+  }
+  
+  
+  /* price and cart area */
+  .card-cards-svgs {
+    padding: 0 1rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .card-cards-svgs p{
+    font-size: 1.3rem;
+  }
+  
+  .card-cards-svgs .card-cart{
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+  
+  
+  /* See details button */
+  .card-cards-detail-btn {
+    height: 3rem;
+    font-size: 1.1rem;
+  }
+  
+  .card-cards-detail-btn svg {
+    margin-left: 1rem;
+    padding: 0.1rem;
+  }
+  
+  .card-cards-detail-btn:hover svg {
+    margin-left: 1.5rem;
+    transform: scale(1.05);
+  }  
+
+  .link-to-page {
+    width: 15rem;
+    margin-bottom: 3rem;
+  }
+
+  .link-to-page a h5 {
+    font-size: 1.1rem;
+  }
+  
+  .link-to-page:hover {
+    width: 16rem;
+  }
+
+  .link-to-page:hover a svg {
+    transform: scale(1.1);
+  }
+  
+}
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+
+
+  .brands-cards-section {
+    padding: 3rem;
+    margin-top: 0;
+  }
+  
+  .side-text-1 {
+    width: 1rem;
+  }
+  
+  .side-text-2 {
+    width: 1rem;
+  }
+  
+  .categories-cards-container {
+    width: 90%;
+  }
+
+  .categories-cards-container h2{
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .card-cards {
+    width: 20rem;
+  }  
+  
+  /* Cards Styling starts */
+  .cards-container-main {
+    justify-content: center;
+    row-gap: 2.5rem;
+  }
+  
+  /* image box styling */
+  .card-cards-img {
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .card-cards-img img{
+    height: 18rem;
+  }
+  
+  .card-cards-img .stock-label{
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Content box styling */
+  
+  .card-cards-content .share-svg{
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+  }
+  
+  .card-cards-content h5{
+    font-size: 1rem;
+  }
+  
+  
+  /* price and cart area */
+  .card-cards-svgs {
+    padding: 0 1rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .card-cards-svgs p{
+    font-size: 1.3rem;
+  }
+  
+  .card-cards-svgs .card-cart{
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+  
+  
+  /* See details button */
+  .card-cards-detail-btn {
+    height: 3rem;
+    font-size: 1.1rem;
+  }
+  
+  .card-cards-detail-btn svg {
+    margin-left: 1rem;
+    padding: 0.1rem;
+  }
+  
+  .card-cards-detail-btn:hover svg {
+    margin-left: 1.5rem;
+    transform: scale(1.05);
+  }  
+
+  .link-to-page {
+    width: 17rem;
+    margin-bottom: 3rem;
+  }
+  
+  .link-to-page:hover {
+    width: 18rem;
+  }
+
+}
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+
+
+  .brands-cards-section {
+    padding: 3rem;
+    margin-top: 0;
+  }
+  
+  .side-text-1 {
+    width: 1rem;
+  }
+  
+  .side-text-2 {
+    width: 1rem;
+  }
+  
+  .categories-cards-container {
+    width: 90%;
+  }
+
+  .categories-cards-container h2{
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+
+  /* Cards Styling starts */
+  .cards-container-main {
+    justify-content: center;
+    row-gap: 2.5rem;
+  }
+
+  .link-to-page {
+    width: 18rem;
+    margin-bottom: 3rem;
+  }
+  
+  .link-to-page:hover {
+    width: 18.5rem;
+  }
+
+
+  .card-cards {
+    width: 20rem;
+  }
+  
+  
+  /* image box styling */
+  .card-cards-img {
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .card-cards-img img{
+    height: 18rem;
+  }
+  
+
 }

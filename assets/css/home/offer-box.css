@@ -129,3 +129,138 @@
   font-size: 1.5rem;
   margin-top: 1rem;
 }
+
+
+
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+
+
+  .offer-section {
+    height: auto;
+    width: 100%;
+    padding: 5dvh;
+    /* padding-top: 5dvh; */
+  }
+  
+  .offer-section  h2 {
+    margin-bottom: 3rem;
+  }
+  
+  .offer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+  
+  }
+  
+  .offer-svg {
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-red);
+    border-radius: 50%;
+    margin-top: 2rem;
+  }
+  
+  .offer-box {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 2.2rem;
+    border: 2px solid var(--light-red);
+    border-radius: 25px;
+  }
+
+  .offer-title h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: var(--GSans-reg);
+    margin-top: 1rem;
+  }
+  
+  .offer-description p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+    
+}
+
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+
+  .offer-section {
+    height: auto;
+    width: 100%;
+    padding: 5dvh;
+    /* padding-top: 5dvh; */
+  }
+  
+  .offer-section  h2 {
+    margin-bottom: 3rem;
+  }
+  
+  .offer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+  
+  }
+  
+  .offer-svg {
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-red);
+    border-radius: 50%;
+    margin-top: 2rem;
+  }
+  
+  .offer-box {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 2.2rem;
+    border: 2px solid var(--light-red);
+    border-radius: 25px;
+  }
+
+  .offer-title h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: var(--GSans-reg);
+    margin-top: 1rem;
+  }
+  
+  .offer-description p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  
+  
+}
+
+

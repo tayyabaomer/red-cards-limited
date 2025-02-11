@@ -151,3 +151,91 @@
     font-family: var(--GSans-med);
 }
 
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+
+    .action {
+        height: auto;
+    }
+
+    .action-images-container{
+        display: none;
+    }
+
+    .action-link {
+        padding: 1rem 2rem;
+    }
+
+    .action-link h5 {
+        font-size: 1.3rem;
+    }
+
+    .action-container {
+        width: 100%;
+        padding: 4% 3%;
+        padding-bottom: 6%;
+    }
+
+    .action-link-container {
+        width: 100%;
+    }
+
+    .action-link:hover {
+        padding: 1rem 2rem;
+    }
+    
+}
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+    .action-images-container{
+        display: none;
+    }    
+    
+    .action-link {
+        padding: 1rem 2rem;
+    }
+
+    .action-link h5 {
+        font-size: 1.3rem;
+    }
+
+    .action-container {
+        width: 100%;
+        padding: 4% 3%;
+        padding-bottom: 6%;
+    }
+
+    .action-link-container {
+        width: 100%;
+    }
+
+    .action-link:hover {
+        padding: 1rem 2rem;
+    }
+    
+}
+
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+    .action-images-container{
+        display: none;
+    }
+}
+
+
+/* for laptop */
+@media (min-width: 1024px){
+    .action-images-container img{
+        height: 15rem;
+        border: 1px solid white;
+    }
+
+}

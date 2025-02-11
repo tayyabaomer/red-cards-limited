@@ -69,6 +69,7 @@
   
 
 .brands-name {
+    text-align: center;
     width: 100%;
     padding: var(--section-padding);
     padding-bottom: 3dvh;
@@ -132,7 +133,8 @@
     scale: 1;
 }
 
-.brands-name-container a:hover {
+.brands-name-container a:hover,
+.brands-name-container .active {
     filter: brightness(0.96);
 }
 
@@ -215,4 +217,142 @@
 
 .brands-name-container a:nth-child(8):hover {
     border: 2px solid var(--peach);
+}
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+
+    .brands-name {
+        padding: 3dvh;
+        padding-bottom: 5dvh;
+        height: auto;
+    }
+    
+    .brands-name h2 {
+        margin-bottom: 1rem;
+    }
+    
+    .brands-name h2 span {
+        /* font-style: italic; */
+        color: var(--red);
+    }
+    
+    .brands-name h3 {
+        margin-bottom: 3rem;
+    }
+    
+    .brands-name-container {
+        /* background-color: #bbedd8; */
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .brands-name-container a {
+        padding: 0.4rem 1.2rem;
+        gap: 1rem;
+    }
+    
+    .brands h4 {
+        font-size: 1.2rem;
+    }
+    
+    .brands-name-container a svg {
+        height: 1.5rem;
+        width: 1.5rem;
+        scale: 1;
+    }    
+
+}
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+    .brands-name {
+        padding: 3dvh;
+        padding-bottom: 5dvh;
+        height: auto;
+        /* background-color: #1bc47d; */
+    }
+    
+    .brands-name h2 {
+        margin-bottom: 1rem;
+    }
+    
+    .brands-name h2 span {
+        /* font-style: italic; */
+        color: var(--red);
+    }
+    
+    .brands-name h3 {
+        margin-bottom: 3rem;
+    }
+    
+    .brands-name-container {
+        /* background-color: #bbedd8; */
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .brands-name-container a {
+        padding: 0.8rem 1.8rem;
+        gap: 1rem;
+    }
+    
+    .brands h4 {
+        font-size: 1.2rem;
+    }
+    
+    .brands-name-container a svg {
+        height: 1.5rem;
+        width: 1.5rem;
+        scale: 1;
+    }   
+}
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+    .brands-name {
+        padding: 3dvh;
+        padding-bottom: 7dvh;
+        height: auto;
+    }
+    
+    .brands-name h2 {
+        margin-bottom: 1rem;
+    }
+    
+    .brands-name h2 span {
+        /* font-style: italic; */
+        color: var(--red);
+    }
+    
+    .brands-name h3 {
+        margin-bottom: 3rem;
+    }
+    
+    .brands-name-container {
+        /* background-color: #bbedd8; */
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .brands-name-container a {
+        padding: 0.8rem 1.8rem;
+        gap: 1rem;
+    }
+    
+    .brands h4 {
+        font-size: 1.5rem;
+    }
+    
+    .brands-name-container a svg {
+        height: 1.5rem;
+        width: 1.5rem;
+        scale: 1;
+    }  
+
 }
