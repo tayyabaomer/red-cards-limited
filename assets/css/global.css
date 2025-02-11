@@ -74,6 +74,7 @@ html {
   font-size: 12px;
   font-family: var(--GSans-reg) !important;
   background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 a {

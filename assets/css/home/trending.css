@@ -172,3 +172,62 @@
 .trending-btn a:hover {
   filter: brightness(0.95);
 }
+
+
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+  .trending {
+    padding: 5dvh;
+    height: auto;
+  }
+  .trending-img img {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    height: 18rem;
+    box-shadow: 0 0 20px #b0b0b0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+}
+
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {  
+  .trending {
+    padding: 5dvh;
+    height: auto;
+  }
+  .trending-img img {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    height: 25rem;
+    box-shadow: 0 0 20px #b0b0b0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+}
+
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {  
+  .trending {
+    height: auto;
+  }
+
+  .trending-img img {
+    height: 28rem;
+  }
+  
+
+
+}
+

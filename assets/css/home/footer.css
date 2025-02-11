@@ -10,6 +10,7 @@
   --black: #20282d;
   --grey: #f4f4f4;
   --light-gray: #e9e9ea;
+  --extra-light-gray: #f8f8f8;
   --lighter-gray: hsl(0, 0%, 83%, 20%);
 
   /* Secondary color, specially for login btn */
@@ -207,3 +208,437 @@ footer {
     font-weight: 500;
     font-size: 1.1rem;
 }
+
+.footer-accordian  {
+    display: none;
+}
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+    .footer-accordian  {
+        display: block;
+    }
+    
+    .footer-link-container {
+        display: none;
+    }
+
+    .accordion {
+        background-color: var(--grey); /* Light gray background */
+      }
+      
+      .accordion-item {
+        background-color: var(--grey); /* Slightly darker gray for each item */
+      }
+      
+      .accordion-button {
+        background-color: var(--grey); /* Blue background for the button */
+        color: black;
+      }
+      
+      .accordion-button:not(.collapsed) {
+        background-color: var(--grey); /* Darker blue when collapsed */
+        color: black;
+      }
+      
+      .accordion-body {
+        background-color: var(--extra-light-gray); /* White background for the content */
+      }
+
+    .brand-accordian > h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        font-family: var(--GSans-med);
+    }
+
+    .accordion-header > button {
+        font-size: 1.1rem;
+        font-weight: 500;
+        font-family: var(--GSans-med);
+    }
+
+    .accordion-header > button:focus {
+        outline: none;
+    }
+
+    .accordion-body {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+        font-size: 1rem;
+        font-family: var(--GSans-light);
+        font-weight: 600;
+    }
+    
+footer {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .footer-logo > a {
+      margin-right: 1rem;
+  }
+  
+  .footer-icons {
+      display: inline-flex;
+      align-items: center;
+      justify-content: start;
+      gap: 0.7rem;
+      /* background-color: #fd5c63; */
+  }
+  
+  .footer-icons a {
+      padding: 0.4rem;
+  }
+  
+
+  .footer-btn,
+  .footer-logo {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+  }
+  
+  .footer-logo {
+      justify-content: flex-start;
+  }
+  
+  .footer-btn {
+      gap: 1rem;
+      justify-content: flex-start;
+      /* background-color: #fd5c63; */
+  }
+  
+  .footer-btn a {
+      border-radius: 25px;
+      padding: 0.6rem 1.5rem;
+      background-color: white;
+      font-size: 1.3rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease-in-out;
+  }
+  
+/* Top footer design */
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 4rem 0;
+    /* background-color: #e2b4b4; */
+}
+
+.footer-links-anchor {
+    flex: 1;
+}
+
+.footer-links-anchor h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    /* color: #737373; */
+}
+
+.footer-links-anchor a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: var(--GSans-med);
+    display: block;
+    color: #555555;
+    margin-bottom: 0.6rem;
+}
+
+.footer-info-container {
+    width: 100%;
+    border-left: 1px solid var(--light-gray);
+    padding-left: 1rem;
+    /* margin: 0 2rem; */
+    /* background-color: #b3b3b3; */
+}
+
+.footer-info h5{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: var(--GSans-med);
+    margin-bottom: 1.5rem;
+}
+
+.footer-info p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #555555;
+    font-family: var(--GSans-med);
+    margin-bottom: 2rem;
+}
+
+.footer-info a{
+    display: block;
+    color: #555555;
+    font-family: var(--GSans-med);
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+/* accordian styling */ 
+.brand-accordian {
+    width: 100%;
+}
+
+
+}
+
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+    .footer-accordian  {
+        display: block;
+    }
+    
+    .footer-link-container {
+        display: none;
+    }
+
+    .accordion {
+        background-color: var(--grey); /* Light gray background */
+      }
+      
+      .accordion-item {
+        background-color: var(--grey); /* Slightly darker gray for each item */
+      }
+      
+      .accordion-button {
+        background-color: var(--grey); /* Blue background for the button */
+        color: black;
+      }
+      
+      .accordion-button:not(.collapsed) {
+        background-color: var(--grey); /* Darker blue when collapsed */
+        color: black;
+      }
+      
+      .accordion-body {
+        background-color: var(--extra-light-gray); /* White background for the content */
+      }
+
+    .brand-accordian > h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        font-family: var(--GSans-med);
+    }
+
+    .accordion-header > button {
+        font-size: 1.1rem;
+        font-weight: 500;
+        font-family: var(--GSans-med);
+    }
+
+    .accordion-header > button:focus {
+        outline: none;
+    }
+
+    .accordion-body {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+        font-size: 1rem;
+        font-family: var(--GSans-light);
+        font-weight: 600;
+    }
+    
+footer {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .footer-logo > a {
+      margin-right: 1rem;
+  }
+  
+  .footer-icons {
+      display: inline-flex;
+      align-items: center;
+      justify-content: start;
+      gap: 0.7rem;
+      /* background-color: #fd5c63; */
+  }
+  
+  .footer-icons a {
+      padding: 0.4rem;
+  }
+  
+
+  .footer-btn,
+  .footer-logo {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+  }
+  
+  .footer-logo {
+      justify-content: flex-start;
+  }
+  
+  .footer-btn {
+      gap: 1rem;
+      justify-content: flex-start;
+      /* background-color: #fd5c63; */
+  }
+  
+  .footer-btn a {
+      border-radius: 25px;
+      padding: 0.6rem 1.5rem;
+      background-color: white;
+      font-size: 1.3rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease-in-out;
+  }
+  
+/* Top footer design */
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 4rem 0;
+    /* background-color: #e2b4b4; */
+}
+
+.footer-links-anchor {
+    flex: 1;
+}
+
+.footer-links-anchor h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    /* color: #737373; */
+}
+
+.footer-links-anchor a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: var(--GSans-med);
+    display: block;
+    color: #555555;
+    margin-bottom: 0.6rem;
+}
+
+.footer-info-container {
+    width: 100%;
+    border-left: 1px solid var(--light-gray);
+    padding-left: 1rem;
+    /* margin: 0 2rem; */
+    /* background-color: #b3b3b3; */
+}
+
+.footer-info h5{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: var(--GSans-med);
+    margin-bottom: 1.5rem;
+}
+
+.footer-info p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #555555;
+    font-family: var(--GSans-med);
+    margin-bottom: 2rem;
+}
+
+.footer-info a{
+    display: block;
+    color: #555555;
+    font-family: var(--GSans-med);
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+/* accordian styling */ 
+.brand-accordian {
+    width: 100%;
+}
+
+
+}
+
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+    .footer-accordian  {
+        display: block;
+    }
+    
+    .footer-link-container {
+        display: none;
+    }
+    .accordion {
+        background-color: var(--grey); /* Light gray background */
+      }
+      
+      .accordion-item {
+        background-color: var(--grey); /* Slightly darker gray for each item */
+      }
+      
+      .accordion-button {
+        background-color: var(--grey); /* Blue background for the button */
+        color: black;
+      }
+      
+      .accordion-button:not(.collapsed) {
+        background-color: var(--grey); /* Darker blue when collapsed */
+        color: black;
+      }
+      
+      .accordion-body {
+        background-color: var(--extra-light-gray); /* White background for the content */
+      }
+
+    .brand-accordian > h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        font-family: var(--GSans-med);
+    }
+
+    .accordion-header > button {
+        font-size: 1.1rem;
+        font-weight: 500;
+        font-family: var(--GSans-med);
+    }
+
+    .accordion-header > button:focus {
+        outline: none;
+    }
+
+    .accordion-body {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+        font-size: 1rem;
+        font-family: var(--GSans-light);
+        font-weight: 600;
+    }
+
+}
+
+

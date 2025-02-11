@@ -14,6 +14,7 @@
   --lighter-gray: hsl(0, 0%, 83%, 20%);
 
 
+
   --purple: #8d51e7;
   --light-purple: #f4eefd;
 
@@ -64,7 +65,7 @@
 
 .profile {
   width: 100%;
-  min-height: 100dvh;
+  height: fit-content;
   background-color: white;
   padding: var(--section-padding);
 }
@@ -79,7 +80,7 @@
 .profile-container aside{
   width: 20%;
   background-color: var(--grey);
-  min-height: 100dvh;
+  height: 100dvh;
   padding: 1.5rem;
   border-radius: 10px;
 }
@@ -212,5 +213,265 @@
 .profile-btn button:nth-child(2):hover {
   filter: brightness(1);
   box-shadow: 0 0 5px transparent;
+}
+
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+
+  .profile {
+    width: 100%;
+    padding: 3dvh;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* profile sidebar */
+  .profile-container aside{
+    width: 100%;
+    background-color: var(--grey);
+    height: fit-content;
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  /* profile container */
+  .profile-main {
+    margin-left: 0;
+    /* background-color: #e9e9ea; */
+  }
+
+  .profile-box {
+    width: 100%;
+  }
+  
+  .profile-box h2 {
+    margin-bottom: 3rem;
+  }
+
+  /* information container */
+  .profile-main {
+    width: 90%;
+  }
+  
+  .profile-content {
+    margin-top: 3rem;
+  }
+  
+  .profile-fields {
+    margin-bottom: 2rem;
+  }
+  
+  .profile-fields label,
+  .profile-fields input {
+    border: none;
+    font-size: 1.1rem;
+    font-family: var(--GSans-med);
+    font-weight: 500;
+  }
+  
+  .profile-fields label {
+    display: inline-block;
+    width: 15rem;
+  }
+  
+  .profile-fields input {
+    width: 100%;
+  }
+  
+  .profile-btn {
+    margin: 5rem 0;
+  }
+  
+  .profile-btn button {
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.2rem;
+  }
+
+
+}
+
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+  .profile {
+    width: 100%;
+    padding: 3dvh;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* profile sidebar */
+  .profile-container aside{
+    width: 100%;
+    background-color: var(--grey);
+    height: fit-content;
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  /* profile container */
+  .profile-main {
+    margin-left: 0;
+    /* background-color: #e9e9ea; */
+  }
+
+  .profile-box {
+    width: 100%;
+  }
+  
+  .profile-box h2 {
+    margin-bottom: 3rem;
+  }
+
+  /* information container */
+  .profile-main {
+    width: 90%;
+  }
+  
+  .profile-content {
+    margin-top: 3rem;
+  }
+  
+  .profile-fields {
+    margin-bottom: 2rem;
+  }
+  
+  .profile-fields label,
+  .profile-fields input {
+    border: none;
+    font-size: 1.3rem;
+    font-family: var(--GSans-med);
+    font-weight: 500;
+  }
+  
+  .profile-fields label {
+    display: inline-block;
+    width: 15rem;
+  }
+  
+  .profile-fields input {
+    width: 100%;
+  }
+  
+  .profile-btn {
+    margin: 5rem 0;
+  }
+  
+  .profile-btn button {
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.2rem;
+  }
+
+  
+}
+
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+  .profile {
+    width: 100%;
+    padding: 3dvh;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* profile sidebar */
+  .profile-container aside{
+    width: 40%;
+    background-color: var(--grey);
+    height: fit-content;
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  /* profile container */
+  .profile-main {
+    margin-left: 0;
+    /* background-color: #e9e9ea; */
+  }
+
+  .profile-box {
+    width: 100%;
+  }
+  
+  .profile-box h2 {
+    margin-bottom: 3rem;
+  }
+
+  /* information container */
+  .profile-main {
+    width: 90%;
+  }
+  
+  .profile-content {
+    margin-top: 3rem;
+  }
+  
+  .profile-fields {
+    margin-bottom: 2rem;
+  }
+  
+  .profile-fields label,
+  .profile-fields input {
+    border: none;
+    font-size: 1.1rem;
+    font-family: var(--GSans-med);
+    font-weight: 500;
+  }
+  
+  .profile-fields label {
+    display: inline-block;
+    width: 15rem;
+  }
+  
+  .profile-fields input {
+    width: 100%;
+  }
+  
+  .profile-btn {
+    margin: 5rem 0;
+  }
+  
+  .profile-btn button {
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.2rem;
+  }
+
 }
 

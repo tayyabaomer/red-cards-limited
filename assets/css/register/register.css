@@ -13,6 +13,7 @@
   --lighter-gray: hsl(0, 0%, 83%, 20%);
 
 
+
   --purple: #8d51e7;
   --light-purple: #f4eefd;
 
@@ -164,3 +165,135 @@ form p a {
   display: block;
   opacity: 1;
 }
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+  .account-section {
+    height: 80dvh;
+    margin: 3dvh 0;
+  }
+  
+  .account-container {
+    width: 80%;
+  }
+  
+  .account-container form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .account-container form h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .labels {
+    position: relative;
+    width: 100%;
+  }
+  
+  .account-container form input {
+    padding: 0.8rem 1.8rem;
+    border: 2px solid gray;
+    border-radius: 35px;
+    margin: 1.5rem 0;
+  }
+  
+  form p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  form p a {
+    color: var(--blue);
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid var(--blue);
+  }
+  
+  /* Form Btn */
+  
+  .form-btn {
+    margin-top: 2rem;
+  }
+  
+  .form-btn button {
+    padding: 0.8rem 1.8rem;
+    font-size: 1.2rem;
+  }
+
+  }
+
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {  
+  .account-section {
+  height: 80dvh;
+  margin: 3dvh 0;
+}
+
+.account-container {
+  width: 80%;
+}
+
+.account-container form{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.account-container form h2 {
+  margin-bottom: 2rem;
+}
+
+.labels {
+  position: relative;
+  width: 100%;
+}
+
+.account-container form input {
+  padding: 0.8rem 1.8rem;
+  border: 2px solid gray;
+  border-radius: 35px;
+  margin: 1.5rem 0;
+}
+
+form p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+form p a {
+  color: var(--blue);
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid var(--blue);
+}
+
+/* Form Btn */
+
+.form-btn {
+  margin-top: 2rem;
+}
+
+.form-btn button {
+  padding: 0.8rem 1.8rem;
+  font-size: 1.2rem;
+}
+}
+
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+  .account-container {
+    width: 50%;
+  }
+  
+}
+
