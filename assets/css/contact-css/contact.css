@@ -1,4 +1,257 @@
 @import url(../global.css);
 
 
+:root {
+  /* CSS COLORS */
+
+  /* primary colors */
+  --bg-color: #ffffff;
+  --red: #fd5c63;
+  --light-red: hsl(357, 97.6%, 90%);
+  --black: #20282d;
+  --grey: #f4f4f4;
+  --light-gray: #e9e9ea;
+  --lighter-gray: hsl(0, 0%, 83%, 20%);
+
+
+  --purple: #8d51e7;
+  --light-purple: #f4eefd;
+
+  --seagreen: #4dc6d6;
+  --light-seagreen: #edf9fb;
+
+
+  /* Secondary color, specially for login btn */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
+
+  /* Tertiary color, for homepage section bg */
+  --blue: #5174e7;
+  --light-blue: #cbd5f8;
+
+  --green: #1bc47d;
+  --light-green: #bbedd8;
+
+  --pink: #ff5985;
+  --light-pink: #ffcdda;
+
+  --peach: #ff9059;
+  --light-peach: #ffdecd;
+
+  --cardsbg-lightgray: rgb(248, 248, 248);
+
+
+  /* # padding spaces */
+  --section-padding: 10dvh 5dvh;
+
+  /* Font styles */
+  --GSans-var: "GeneralSans-Variable";
+  --GSans-varItal: "GeneralSans-VariableItalic";
+  --GSans-extraLight: "GeneralSans-Extralight";
+  --GSans-extraLightItalic: "GeneralSans-ExtralightItalic";
+  --GSans-light: "GeneralSans-Light";
+  --GSans-lightItalic: "GeneralSans-LightItalic";
+  --GSans-reg: "GeneralSans-Regular";
+  --GSans-italic: "GeneralSans-Italic";
+  --GSans-med: "GeneralSans-Medium";
+  --GSans-medItal: "GeneralSans-MediumItalic";
+  --GSans-semibold: "GeneralSans-Semibold";
+  --GSans-semiboldItal: "GeneralSans-SemiboldItalic";
+  --GSans-bold: "GeneralSans-Bold";
+  --GSans-boldItal: "GeneralSans-BoldItalic";
+}
+
+
+
+/*******************************\
+    BANNER ITEMS
+\*******************************/
+
+.contact-banner {
+  height: auto;
+}
+
+.contact-banner-text {
+  margin-top: 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-banner-text p {
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+
+.location-btn a {
+  padding: 1.2rem 2.2rem;
+  background-color: var(--red);
+  font-size: 1.5rem;
+  font-family: var(--GSans-med);
+  color: white;
+  border-radius: 30px;
+}
+
+.location-btn a:hover {
+  filter: brightness(0.95);
+}
+
+
+/************************\
+  GOOGLE MAP
+\************************/
+
+.location-map {
+  margin: 5rem 0;
+}
+
+.location-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.location-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.map-container {
+  height: 60vh;
+  width: 100%;
+}
+
+.map-container iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.location-container a {
+  text-decoration: none;
+}
+
+.location-btn {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* restyle anchoe of box cards */
+.offer-description a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: var(--GSans-med);
+  color: var(--light-red);
+  height: 5rem;
+}
+
+.contact-offer-box {
+  width: 35rem;
+}
+
+.offer-box:hover .offer-description a {
+  color: var(--red);
+}
+
+.offer-description h6 {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: var(--GSans-med);
+}
+
+.offer-section {
+  padding: 5dvh;
+}
+
+
+
+/* media quries */
+
+/* for smaller mobile */
+@media (max-width: 499px){
+  .offer-section {
+    height: auto;
+    width: 100%;
+    padding: 3dvh;
+  }
+
+  .map-container {
+    height: auto;
+    width: 100%;
+  }
+  
+  .location-map {
+    margin: 3rem 0;
+  }
+
+  .location-btn > a{
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+  }
+  
+  .contact-offer-box {
+    width: 25rem;
+  }
+  
+
+}
+
+
+
+/* for Mobile */
+@media (max-width: 767px) and (min-width: 500px) {
+  .offer-section {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .location-map {
+    margin: 5rem 0;
+  }
+  
+  .location-btn > a{
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+  }
+
+  .contact-offer-box {
+    width: 30rem;
+  }
+  
+
+}
+
+
+
+/* for Tablet */
+@media (max-width: 1023px) and (min-width: 768px)  {
+  .offer-section {
+    height: auto;
+    width: 100%;
+    padding: 3rem;
+  }
+  
+  .location-map {
+    margin: 5rem 0;
+  }
+
+  .location-btn > a{
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+  }
+
+}
+
 

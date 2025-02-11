@@ -213,6 +213,12 @@ footer {
     display: none;
 }
 
+.brand-accordian h2 {
+    margin-bottom: 2rem;
+}
+
+
+
 /* media quries */
 
 /* for smaller mobile */
