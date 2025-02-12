@@ -264,16 +264,12 @@ margin:40px 0;
 }
 
 .btn-cart {
-  width: 150px;
-  height: 45px;
-  border-radius: 25px;
-  padding: 10px;
-  background-color: #ff9059;
+  padding: 1.2rem 2.2rem;
+  background-color: var(--red);
+  font-size: 1.5rem;
+  font-family: var(--GSans-med);
   color: white;
-  font-weight: 600;
-  border: none;
-  cursor:pointer;
-  margin-bottom: 2rem;
+  border-radius: 30px;
 }
 .quantity {
   width: 149px;
@@ -284,6 +280,6 @@ margin:40px 0;
   margin-bottom: 2rem;
 }
 .btn-cart:hover{
-  box-shadow: #ff9059 0px 5px 19px 0px;
+  filter: brightness(0.95);
 }
   

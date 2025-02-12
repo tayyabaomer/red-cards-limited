@@ -59,3 +59,107 @@
   --GSans-bold: "GeneralSans-Bold";
   --GSans-boldItal: "GeneralSans-BoldItalic";
 }
+
+
+/* About Us Page */
+
+.image-fluid {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.image1 {
+  width: 350px;
+  height: 300px;
+  margin-top: 350px;
+  border-radius: 25px;
+}
+.image2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 300px;
+  border-radius: 25px;
+  z-index: 10;
+}
+@media screen and (max-width: 992px) {
+  .vid {
+    display: none;
+  }
+  .vid-mobile {
+    display: block !important;
+    margin-bottom: 30px;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .image1,
+  .image2 {
+    width: 200px;
+    height: 180px;
+  }
+
+  .image1 {
+    margin-top: 200px;
+  }
+
+  .image2 {
+    left: 175px;
+  }
+
+  .image-fluid {
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 280px;
+  }
+
+  .vid {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+.heading-about {
+  font-size: 2.5rem;
+  font-family: var(--GSans-bold);
+  color: #fd5c63;
+  margin-top: 50px;
+}
+span {
+  text-decoration: underline gray;
+}
+.description {
+  font-family: var(--Gsans-reg);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.main-headings {
+  font-family: var(--Gsans-reg);
+  font-size: 3.2rem;
+}
+.vid {
+  width: 80%;
+  height: 100%;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+.about-btn {
+  padding: 1.2rem 2.2rem;
+  background-color: var(--red);
+  font-size: 1.5rem;
+  font-family: var(--GSans-med);
+  color: white;
+  border-radius: 30px;
+}
+.about-btn:hover {
+  filter: brightness(0.95);
+}
+.vid-mobile {
+  display: none;
+}

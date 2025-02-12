@@ -68,6 +68,15 @@
 }
   
 
+/* for cards rendering */
+/* .card-cards {
+  display: block;
+} */
+
+/* .card-cards[style*="display: none"] {
+  display: none !important;
+} */
+
 ul {
   margin: 0;
   padding: 0;

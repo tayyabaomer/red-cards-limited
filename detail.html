@@ -317,17 +317,18 @@
       </header>
       <!-- End head section -->
 
+      <!-- <img src="./assets/images/brands/Archies/arch-anniversary2.jpg" alt=""> -->
 
       <div class="card-wrapper">
         <div class="card-detail-container">
 
           <script>
 
-            const ulrParams = new URLSearchParams(window.location.search);
-            const cardsID = ulrParams.get('id');
+            var urlParams = new URLSearchParams(window.location.search);
+            var cardsID = urlParams.get('id');
 
-            const cardsSpecifications = brandsData.find( c => {
-              return (c.id == cardsID)
+            var cardsSpecifications = brandsData.find( function(card) {
+              return (card.id == cardsID)
             })
 
             if(cardsSpecifications) {
@@ -336,7 +337,7 @@
           <div class = "product-imgs">
             <div class = "img-display">
               <div class = "img-showcase">
-                 <img src="./assets/images/${cardsSpecifications.category} Cards/${cardsSpecifications.image}.jpg" alt = "shoe image"/>
+                 <img src="./assets/images/brands/${cardsSpecifications.brands}/${cardsSpecifications.image}.jpg" alt = "shoe image"/>
               </div>
             </div>
             <div class = "img-select">
