@@ -1459,6 +1459,7 @@ brandsData = [
     //WEDDING CARD DETAIL END
 
     {
+      id:"118",
       title: "Celebrating Family Anniversary Card",
       detail: "Anniversary greeting card for a special couple in your family features an elegant floral wreath design paired with a heartfelt message of love. Foil and metallic ink details.",
       Category:"Anniversary",
@@ -1470,6 +1471,7 @@ brandsData = [
   },
   
   {
+    id:"119",
       title: "The Beauty of Love Anniversary Card for Couple",
       detail: "Anniversary greeting card features illustrated poppies and butterflies in soft hues with foil lettering and a caring message.",
       Category:"Anniversary",
@@ -1480,6 +1482,7 @@ brandsData = [
       image:"ink-anniversary2",
   },
   {
+    id:"120",
       title: "A Lifetime of Love Anniversary Card",
       detail: "Anniversary greeting card features an elegant illustration of two daisies in silvery green hues paired with a heartfelt message of congratulations for them both. Foil and metallic ink details.",
       Category:"Anniversary",
@@ -1490,6 +1493,7 @@ brandsData = [
       image:"ink-anniversary3",
   },
   {
+    id:"121",
       title: "You’re So Good Together Anniversary Card for Couple",
       detail: "Anniversary greeting card for couple features a coffee press and two steaming mugs of morning joe. Die-cut rounded corners and foil.",
       Category:"Anniversary",
@@ -1504,6 +1508,7 @@ brandsData = [
   //BIRTHDAY CARD DETAIL START
 
   {
+    id:"122",
       title:"Birthday Card",
       detail:"Celebrate Eid by sending greeting cards to loved ones and family around you! Explore our collection or customize one at Ink Factory.",
       category:"Birthday",
@@ -1515,6 +1520,7 @@ brandsData = [
 
   },
   {
+    id:"123",
       title:"Quarantine Birthday Card",
       detail:"If your loved one is spending their birthday in quarantine or isolation this year, make their day a little brighter by sending greeting cards on their birthday! From cute to funny to cheerful we have a card that would put up a smile on their face! A birthday is a day to express your feelings and convey your warm wishes to your dear ones. This birthday card will help you to do the same. So, gear up and make your loved ones feel special on their birthday with a personalized gift card.",
       category:"Birthday",
@@ -1526,6 +1532,7 @@ brandsData = [
 
   },
   {
+    id:"124",
       title:"Another Year Older, Another Year Bolder",
       detail:"Ink Factory Birthday Greeting Cards are very special cards to make your loved ones feel special. A birthday is a day to express your feelings and convey your warm wishes to your dear ones. This birthday card will help you to do the same. The card has a very unique and perfect theme for the birthday occasion. This will give a special warmth and also make the other one feel wanted. So, gear up and make your loved ones feel special on their birthday with this particular card. We have birthday cards.",
       category:"Birthday",
@@ -1537,6 +1544,7 @@ brandsData = [
 
   },
   {
+    id:"125",
       title:"A Day to Celebrate YOU",
       detail:"Ink Factory Birthday Greeting Cards are very special cards to make your loved ones feel special. A birthday is a day to express your feelings and convey your warm wishes to your dear ones. This birthday card will help you to do the same. The card has a very unique and perfect theme for the birthday occasion. This will give a special warmth and also make the other one feel wanted. So, gear up and make your loved ones feel special on their birthday with this particular card",
       category:"Birthday",
@@ -1548,6 +1556,7 @@ brandsData = [
 
   },
   {
+    id:"126",
       title:"Birthday Vibes Only",
       detail:"Ink Factory Birthday Greeting Cards are very special cards to make your loved ones feel special. A birthday is a day to express your feelings and convey your warm wishes to your dear ones. This birthday card will help you to do the same. The card has a very unique and perfect theme for the birthday occasion. This will give a special warmth and also make the other one feel wanted. So, gear up and make your loved ones feel special on their birthday with this particular card. We have birthday cards",
       category:"Birthday",
@@ -1563,6 +1572,7 @@ brandsData = [
   //CONGRATULATION CARD DETAIL START
 
   {
+    id:"127",
       title:"Gold Star Congratulations Card",
       detail:"Congratulations on the many years of dedicated work! This photo card features white and gold stars against a navy background that reads Congratulations on Your Anniversary! The photo can also be customized with your company name. For a touch of shine, the photo is mounted with a gold foil border.",
       category:"Congratulations",
@@ -1573,6 +1583,7 @@ brandsData = [
       image:"ink-congra1",
   },
   {
+    id:"128",
       title:"Glittering Congratulations Card",
       detail:"It's time to celebrate! Big and small accomplishments are worth recognizing and this card is great just for that! The design features an image of black, white, and gold presents beautifully wrapped and decorated with bows. A big and bold Congratulations is printed in the center and for a personal touch you can include your company name on it.",
       category:"Congratulations",
@@ -1583,6 +1594,7 @@ brandsData = [
       image:"ink-congra2",
   },
   {
+    id:"129",
       title:"Gold Star Congratulations Card",
       detail:"Your employees deserve to be recognized for their achievements. Show them your appreciation by giving them this beautiful blue and silver card. The foil greeting is in the center.Congrats! is written just behind and you can add your company name at the bottom for a personal touch.",
       category:"Congratulations",
@@ -1593,6 +1605,7 @@ brandsData = [
       image:"ink-congra3",
   },
   {
+    id:"130",
       title:"Happy New Home Key Congratulations Card",
       detail:"Wishing you a happy new home! Be sure to share your appreciation and excitement for your clients on their new home! This card features a red background with a white house key in the center that reads Happy New Home. There is gold foil detailing around the key for a pop of shine! For a personal touch include your company name on the front in matching foil.",
       category:"Congratulations",
@@ -1603,6 +1616,7 @@ brandsData = [
       image:"ink-congra4",
   },
   {
+    id:"131",
       title:"Retiring in the Sand Card",
       detail:"It's time to hit the beach! Wish a coworker a happy retirement with this great photo card. The photo features a close-up picture of the sandy beach with a Happy Retirement message written in it. Seashells, rope and star accents add a nice touch. The photo is mounted to a silver foil border for a nice finishing touch.",
       category:"Congratulations",
@@ -1617,6 +1631,7 @@ brandsData = [
   //ENGAGEMENT CARD DETAIL START
 
   {
+    id:"132",
       title:"The Journey Starts Here",
       detail:"Celebrate your engagement in style with beautiful Engagement Party Invitations from Ink Factory! Explore our collection or customize one with your design. Sending invites to your friends & family for an engagement party is now within the bounds of good manners, Whether you’re looking for the most elaborate styles like rose gold engagement invitations and letterpress engagement invitations, or you’re looking for simple engagement invitations or cheap engagement invitations, you can create your engagement invitations online with Paperlust. We offer a huge range of personalized engagement cards",
       category:"Engagement",
@@ -1627,6 +1642,7 @@ brandsData = [
       image:"ink-engaged1",
   },
   {
+    id:"133",
       title:"Here's to Your Forever",
       detail:"lebrate your engagement in style with beautiful Engagement Party Invitations from Ink Factory! Explore our collection or customize one with your design. Sending invites to your friends & family for an engagement party is now within the bounds of good manners, Whether you’re looking for the most elaborate styles like rose gold engagement invitations and letterpress engagement invitations, or you’re looking for simple engagement invitations or cheap engagement invitations, you can create your engagement invitations online with Paperlust. We offer a huge range of personalized engagement cards, from vintage engagement party invitations to sleek modern ones.",
       category:"Engagement",
@@ -1637,6 +1653,7 @@ brandsData = [
       image:"ink-engaged2",
   },
   {
+    id:"134",
       title:"A Lifetime of Love Awaits",
       detail:"Celebrate your engagement in style with beautiful Engagement Party Invitations from Ink Factory! Explore our collection or customize one with your design. Sending invites to your friends & family for an engagement party is now within the bounds of good manners, Whether you’re looking for the most elaborate styles like rose gold engagement invitations and letterpress engagement invitations, or you’re looking for simple engagement invitations or cheap engagement invitations, you can create your engagement invitations online with Paperlust. We offer a huge range of personalized engagement cards",
       category:"Engagement",
@@ -1651,6 +1668,7 @@ brandsData = [
   //GET WELL CARD DETAIL START
 
   {
+    id:"135",
       title:"Floral Get Well Card",
       detail:"A lovely Get Well Soon design that's ready whenever you need it! Simple in design, but plenty elegant with light blue vines and leaves throughout. Have this design ready whenever an associate is in need of a little pick me up!",
       category:"Get Well Soon",
@@ -1661,6 +1679,7 @@ brandsData = [
       image:"ink-getwell1",
   },
   {
+    id:"136",
       title:"Healing Wishes Card",
       detail:"Send Get Well wishes to your loved ones! The drawings in the greeting are sure to make their day brighter. A gold foil border frames the clever design and mounts the photo to the card.",
       category:"Get Well Soon",
@@ -1671,6 +1690,7 @@ brandsData = [
       image:"ink-getwell2",
   },
   {
+    id:"137",
       title:"Contemporary Get Well Card",
       detail:"Brushstrokes of pastel blue contrast with shining foil in varied shades of blue. This design is stylish and contemporary, perfect for your expressions of concern and your get well wishes. Caring thoughts are always welcome. Due to the variegated nature of the rainbow foil the color of the foil will appear slightly different on each card.",
       brands:"InkFactory",
@@ -1680,6 +1700,7 @@ brandsData = [
       image:"ink-getwell3",
   },
   {
+    id:"138",
       title:"Vintage Get Well Card",
       detail:"A vine of deep pink morning glories encircles a rich, gold foil greeting as it helps you wish someone well. The delicate vine and blossoms are accented and framed with gold to enrich your sincere good wishes.",
       brands:"InkFactory",
@@ -1689,6 +1710,7 @@ brandsData = [
       image:"ink-getwell4",
   },
   {
+    id:"139",
       title:"Get Well Sunflowers Card",
       detail:"This get well card is perfect for brightening up someone's day. Beautiful sunflowers sit on top of a ledge against a blue wall. Get Well Soon is printed on the front in a swirly font. The photo is mounted to a white card stock with a silver prismatic border. For a personal touch, add your company name to the front of this card.",
       category:"Get Well Soon",
@@ -1703,6 +1725,7 @@ brandsData = [
   //SORRY CARD DETAIL START
 
   {
+    id:"140",
       title:"Bouquet Apologique",
       detail:"The Sorry Card features a whimsical design that showcases a delightful bouquet of vibrant flowers cradled by a cheerful black and white cat. Nestled within beautifully arranged blossoms, the card radiates warmth and charm, making it the perfect gesture of heartfelt apologies.",
       category:"Sorry",
@@ -1713,6 +1736,7 @@ brandsData = [
       image:"ink-sorry1",
   },
   {
+    id:"141",
       title:"Accept My Apology",
       detail:"This charming Sorry card features an endearing illustration of a wide-eyed bunny sheepishly peeking out from a vibrant bouquet of colorful flowers. The background is a cheerful yellow, adding a bright and uplifting vibe to the design. The flowers vary in shades of red, orange, purple, blue, and pink,",
       category:"Sorry",
@@ -1723,6 +1747,7 @@ brandsData = [
       image:"ink-sorry2",
   },
   {
+    id:"142",
       title:"Pedaling Apologies",
       detail:"This charming Sorry Card showcases a whimsical hand-drawn illustration of a vintage-style bicycle, adding a playful touch. The bicycle trails a whimsical string of red heart-shaped balloons, which infuse the design with warmth, love, and a hint of fun. The words I'm wheelie sorry are cleverly integrated into the design in a bold, handwritten font,",
       category:"Sorry",
@@ -1733,6 +1758,7 @@ brandsData = [
       image:"ink-sorry3",
   },
   {
+    id:"143",
       title:"Sorry for The Damage I Made",
       detail:"This delightful Sorry Card features a charming illustration of a wide-eyed elephant standing sheepishly among a variety of colorful vases. One of the vases on the floor lies broken, adding a humorous touch to the scene. The soft, pastel background ensures the vibrant hues of the vases pop, creating a visual appeal. The text,I’m sorry for the damage I made, is prominently displayed in a playful, friendly font at the bottom. ",
       category:"Sorry",
@@ -1743,6 +1769,7 @@ brandsData = [
       image:"ink-sorry4",
   },
   {
+    id:"145",
       title:"Let Me Make Your Day",
       detail:"Brighten someone's day with a quirky and adorable cheer-up card! Featuring a charming, polka-dotted bear with a serene expression and a cheerful squirrel holding a tiny flower, this design radiates warmth and positivity. The bold, heatwarming message Let me make your day pops against a lively orange speech bubble, adding a fun and uplifting touch.",
       category:"Sorry",
@@ -1757,6 +1784,7 @@ brandsData = [
   //THANKYOU CARD DETAIL START
 
   {
+    id:"146",
       title:"Little Note to Say",
       detail:"This charming thank you card design features an adorable, hand-drawn bird holding an envelope in its beak. The bird, illustrated in warm, earthy tones, stands out against a soft, beige background, adding a touch of whimsy and warmth. Underneath the delightful artwork is the phrase just a little note to say... written in a playful, cursive font that curves gently",
       category:"Thankyou",
@@ -1767,6 +1795,7 @@ brandsData = [
       image:"ink-thankyou1",
   },
   {
+    id:"147",
       title:"Wonderful Blossoms",
       detail:"This charming Thank You Card features a delightful, nature-inspired design adorned with a plethora of watercolor flowers and fluttering butterflies around the border. The elegant floral motif, in soft, delicate hues, creates a harmonious and cheerful ambiance perfect for expressing gratitude.",
       category:"Thankyou",
@@ -1777,6 +1806,7 @@ brandsData = [
       image:"ink-thankyou2",
   },
   {
+    id:"148",
       title:"Verdant Sketch For Thankyou Card",
       detail:"This elegant Thank You card design is a perfect way to show your gratitude with sophistication and style. It features a detailed botanical illustration in shimmering gold, adding a touch of nature's grace to your message. The simple yet chic thin gold lines framing the design enhance its refined appearance. ",
       category:"Thankyou",
@@ -1787,6 +1817,7 @@ brandsData = [
       image:"ink-thankyou3",
   },
   {
+    id:"149",
       title:"Painted Bows Thankyou Card",
       detail:"This thank you card radiates charm and elegance with its delightful design. The textured cream background sets a soft, sophisticated tone, sprinkled with a whimsical array of beautifully tied bows in soft shades of blue and pink. The bows dance around the edges, adding a celebratory feel, while small pastel dots akin to confetti add a touch of playfulness.",
       category:"Thankyou",
@@ -1797,6 +1828,7 @@ brandsData = [
       image:"ink-thankyou4",
   },
   {
+    id:"150",
       title:"Butterfly garden Thankyou Card",
       detail:"This charming thank-you card design features a whimsical assortment of butterflies and delicate foliage, embracing a sense of gratitude and elegance. With three delightful colorways to choose from, the design remains cohesive in its gentle, pastel hues, and soft watercolor-like appearance.",
       category:"Thankyou",
@@ -1811,6 +1843,7 @@ brandsData = [
   //VALENTINE CARD DETAIL START
 
   {
+    id:"151",
       title:"Home is wherever i'm with you",
       detail:"This vibrant Valentine's Day card is bursting with playful charm and vivid illustrations. At the heart of the design, bold, whimsical lettering proclaims, Home is wherever I'm with you,surrounded by an eclectic mix of colorful icons. ",
       category:"Valentine",
@@ -1821,6 +1854,7 @@ brandsData = [
       image:"ink-valentine1",
   },
   {
+    id:"152",
       title:"Love frame Card",
       detail:"This charming Valentine's Day card features a whimsical pastel palette and an abundance of adorable illustrations. Set against a soft pink background, the design is sprinkled with cute elements like cherry-topped cupcakes, heart-shaped chocolates, and delightful stars. ",
       category:"Valentine",
@@ -1831,6 +1865,7 @@ brandsData = [
       image:"ink-valentine2",
   },
   {
+    id:"153",
       title:"Lover My Valentine",
       detail:"This delightful Valentine's Day card features a playful and charming design that radiates love. Set against a warm, blush-pink background, the card is adorned with whimsical doodles of hearts, love letters, and sweet treats like donut hearts. A large, bold, and uneditable message, You're my MY MY LOVER," ,
       category:"Valentine",
@@ -1841,6 +1876,7 @@ brandsData = [
       image:"ink-valentine3",
   },
   {
+    id:"154",
       title:"Feeling lucky",
       detail:" Feel the charm of love with this playful Valentine's Day card! The front features a delightful illustration of two cherry-topped dice adorned with hearts, symbolizing the sweet gamble of romance. Above, the words Feeling Lucky are whimsically displayed in a vintage font, while below, To Have You adds a heartfelt touch.",
       category:"Valentine",
@@ -1851,6 +1887,7 @@ brandsData = [
       image:"ink-valentine4",
   },
   {
+    id:"155",
       title:"Modern Love",
       detail:"Dive into the spirit of love with this enchanting Valentine's Day card! A vibrant red heart, intricately detailed with scalloped edges, takes center stage against a soft, textured backdrop. Surrounding the heart, whimsical, smaller hearts dance gracefully with delicate lines, forming a charming bouquet of love. ",
       category:"Valentine",
@@ -1868,6 +1905,7 @@ brandsData = [
 //ANNIVERSARY CARD DETAIL START
 
 {
+  id:"156",
   title:"Romantic Anniversary Card",
   detail:"his card is written with a romantic touch, featuring loving words to express deep feelings towards your partner on your special day. Perfect for those looking to share their heartfelt emotions. ",
   category:"Anniversary",
@@ -1878,6 +1916,7 @@ brandsData = [
   image:"open-anniversary1",
 },
 {
+  id:"157",
   title:"Still Not Sick of You",
   detail:"This card is perfect for couples who like to celebrate their anniversary with a bit of humor. It blends playful, funny words with affection for a light-hearted message. ",
   category:"Anniversary",
@@ -1888,6 +1927,7 @@ brandsData = [
   image:"open-anniversary2",
 },
 {
+  id:"158",
   title:"Heartwarming Anniversary Card",
   detail:"This card is ideal for expressing heartfelt emotions, perfect for conveying the deep connection and love shared between partners. It’s a simple yet meaningful way to celebrate your love.  ",
   category:"Anniversary",
@@ -1899,6 +1939,7 @@ brandsData = [
 },
 
 {
+  id:"159",
   title:"You’re My Favorite Weirdo",
   detail:"For couples who celebrate their unique relationship quirks, this fun and quirky card is the perfect choice. It’s playful and filled with humor, designed to bring a smile with an inside joke.",
   category:"Anniversary",
@@ -1913,6 +1954,7 @@ brandsData = [
       //BIRTHDAY CARD DETAIL START
 
       {
+        id:"160",
           title:"Another Year Older, But Not Wiser",
           detail:"This card is perfect for someone who loves humor and doesn’t mind a playful poke at aging. The card combines fun, light-hearted humor with birthday wishes that are sure to make the recipient laugh. ",
           category:"Birthday",
@@ -1924,6 +1966,7 @@ brandsData = [
   
       },
       {
+        id:"161",
           title:"Wishing You the Best Today and Always",
           detail:"A heartfelt birthday card that celebrates the special bond you share with the recipient. It’s perfect for close friends or family members and conveys deep affection and warm wishes. ",
           category:"Birthday",
@@ -1935,6 +1978,7 @@ brandsData = [
   
       },
       {
+        id:"162",
           title:"Cute & Playful Birthday Card",
           detail:"Perfect for someone with a youthful spirit, this cute card features adorable illustrations and a playful message. Great for friends, family, or even children.",
           category:"Birthday",
@@ -1946,6 +1990,7 @@ brandsData = [
   
       },
       {
+        id:"163",
           title:"Celebrate Life’s Beautiful Moments",
           detail:"This elegant card is perfect for someone who enjoys the finer things in life. It features sophisticated designs and a timeless message, ideal for a refined celebration. ",
           category:"Birthday",
@@ -1957,6 +2002,7 @@ brandsData = [
   
       },
       {
+        id:"164",
           title:"Cheers to You and Your Special Day",
           detail:"For those who love retro style, this card is designed with vintage motifs, combining nostalgia with heartfelt birthday wishes. Perfect for someone who appreciates old-fashioned charm. ",
           category:"Birthday",
@@ -1972,6 +2018,7 @@ brandsData = [
       //GET WELL CARD DETAIL START
 
       {
+        id:"165",
           title:"Wishing You Strength and Comfort",
           detail:"This card expresses deep sympathy and heartfelt wishes for recovery. It’s perfect for sending to someone who’s going through a tough time or recovering from illness or surgery. ",
           category:"Get Well Soon",
@@ -1983,6 +2030,7 @@ brandsData = [
   
       },
       {
+        id:"166",
           title:"Feel Better Soon",
           detail:"This bright and cheerful card is designed to lift the spirits of someone recovering. It uses playful designs and vibrant colors to bring a smile.",
           category:"Get Well Soon",
@@ -1994,6 +2042,7 @@ brandsData = [
   
       },
       {
+        id:"167",
           title:"Inspirational Get Well Card",
           detail:"This motivational card is perfect for someone who needs a little encouragement and positivity during their recovery. It’s meant to inspire them to stay strong and keep fighting.  ",
           category:"Get Well Soon",
@@ -2009,6 +2058,7 @@ brandsData = [
       //SORRY CARD DETAIL START
 
       {
+        id:"168",
           title:"Heartfelt Apology Card",
           detail:"This card expresses deep regret and sincere apologies. It’s perfect for when you want to show genuine remorse and make amends in a thoughtful and heartfelt way.",
           category:"Sorry",
@@ -2020,6 +2070,7 @@ brandsData = [
   
       },
       {
+        id:"169",
           title:"Oops... My Bad",
           detail:"For a light-hearted and humorous apology, this card uses playful language and designs to apologize in a fun way. It’s great for situations where humor can help ease the tension.",
           category:"Sorry",
@@ -2035,6 +2086,7 @@ brandsData = [
       //Thankyou Card Detail Start
 
       {
+        id:"170",
           title:"Thank You From the Bottom of My Heart",
           detail:"This card expresses deep gratitude and appreciation for someone's kindness or support. Perfect for personal, sincere messages, whether for a gift, favor, or act of kindness.",
           category:"Thankyou",
@@ -2046,6 +2098,7 @@ brandsData = [
   
       },
       {
+        id:"171",
           title:"Thanks a Million... And Then Some",
           detail:"This card is perfect for adding a bit of humor to your gratitude. It’s ideal for someone who enjoys a lighthearted and fun approach to thank-you notes.",
           category:"Thankyou",
@@ -2060,6 +2113,7 @@ brandsData = [
       //valentine Card Detail Start
 
       {
+        id:"172",
           title:"You Stole My Heart",
           detail:"For couples who enjoy a bit of humor, this funny and lighthearted card is perfect for expressing love with a smile. Great for someone who loves a playful tone!",
           category:"Valentine",
@@ -2071,6 +2125,7 @@ brandsData = [
   
       },
       {
+        id:"173",
           title:"To My One and Only Valentine Love",
           detail:"This elegant card is designed with a sophisticated touch, perfect for someone who appreciates a timeless and classic Valentine’s message. Ideal for long-term relationships and heartfelt sentiments.",
           category:"Valentine",
@@ -2082,6 +2137,7 @@ brandsData = [
   
       },
       {
+        id:"174",
           title:"You’re My Favorite Valentine",
           detail:" A sweet and adorable card designed with loveable imagery, perfect for a partner who enjoys the cute side of romance. This card is designed to bring a smile to their face with its adorable visuals.",
           category:"Valentine",
@@ -2093,6 +2149,7 @@ brandsData = [
   
       },
       {
+        id:"175",
           title:"A Love So Beautifu",
           detail:"This card features beautiful poetry or lyrical expressions of love, making it perfect for someone who appreciates words and romantic gestures. Perfect for anniversaries or special Valentine’s moments.",
           category:"Valentine",
@@ -2109,6 +2166,7 @@ brandsData = [
     //ANNIVERSARY CARD DETAIL START
 
     {
+      id:"176",
       title:"A Journey of Love",
       detail:"Celebrate the timeless bond you share with your special someone. This anniversary card features a heartfelt message and beautiful design to express your love and gratitude. Whether it's your first anniversary or your 50th, this card captures the essence of togetherness and everlasting love.",
       category:"anniversary",
@@ -2120,6 +2178,7 @@ brandsData = [
 
   },
   {
+    id:"177",
       title:"To My Forever Love",
       detail:"A beautifully designed anniversary card to express the deep love and affection you feel for your partner. This card features romantic imagery with delicate details, perfect for celebrating the love and memories you have created together.",
       category:"anniversary",
@@ -2131,6 +2190,7 @@ brandsData = [
 
   },
   {
+    id:"178",
       title:"Still Love You After All These Years",
       detail:"his playful anniversary card is for couples who enjoy humor. With witty messages and fun illustrations, this card brings a smile while celebrating the enduring love and bond between partners..",
       category:"anniversary",
@@ -2142,6 +2202,7 @@ brandsData = [
 
   },
   {
+    id:"179",
       title:"A Lifetime of Love",
       detail:"This luxurious anniversary card is perfect for couples who appreciate refined beauty. With intricate gold foil and elegant typography, it’s a timeless keepsake to mark your special day.",
       category:"anniversary",
@@ -2157,6 +2218,7 @@ brandsData = [
   //BIRTHDAY CARD DETAIL START
 
   {
+    id:"180",
       title:"Quarantine Birthday Card",
       detail:"If your loved one is spending their birthday in quarantine or isolation this year, make their day a little brighter by sending greeting cards on their birthday! From cute to funny to cheerful we have a card that would put up a smile on their face! A birthday is a day to express your feelings and convey your warm wishes to your dear ones. This birthday card will help you to do the same. So, gear up and make your loved ones feel special on their birthday with a personalized gift card.",
       category:"Birthday",
@@ -2168,6 +2230,7 @@ brandsData = [
 
   },
   {
+    id:"181",
       title:"Birthday Card For Loved One",
       detail:"If your loved one is spending their birthday in quarantine or isolation this year, make their day a little brighter by sending greeting cards on their birthday! From cute to funny to cheerful we have a card that would put up a smile on their face! A birthday is a day to express your feelings and convey your warm wishes to your dear ones. This birthday card will help you to do the same. So, gear up and make your loved ones feel special on their birthday with a personalized gift card.",
       category:"Birthday",
@@ -2179,6 +2242,7 @@ brandsData = [
 
   },
   {
+    id:"182",
       title:"Another Year Older, Another Year Bolder",
       detail:"Ink Factory Birthday Greeting Cards are very special cards to make your loved ones feel special. A birthday is a day to express your feelings and convey your warm wishes to your dear ones. This birthday card will help you to do the same. The card has a very unique and perfect theme for the birthday occasion. This will give a special warmth and also make the other one feel wanted. So, gear up and make your loved ones feel special on their birthday with this particular card. We have birthday cards.",
       category:"Birthday",
@@ -2191,6 +2255,7 @@ brandsData = [
 
   },
   {
+    id:"183",
       title:"A Day to Celebrate YOU",
       detail:"If your loved one is spending their birthday in quarantine or isolation this year, make their day a little brighter by sending greeting cards on their birthday! From cute to funny to cheerful we have a card that would put up a smile on their face! A birthday is a day to express your feelings and convey your warm wishes to your dear ones. This birthday card will help you to do the same. So, gear up and make your loved ones feel special on their birthday with a personalized gift card.",
       category:"Birthday",
@@ -2202,6 +2267,7 @@ brandsData = [
 
   },
   {
+    id:"184",
       title:"Birthday Vibes Only",
       detail:"If your loved one is spending their birthday in quarantine or isolation this year, make their day a little brighter by sending greeting cards on their birthday! From cute to funny to cheerful we have a card that would put up a smile on their face! A birthday is a day to express your feelings and convey your warm wishes to your dear ones. This birthday card will help you to do the same. So, gear up and make your loved ones feel special on their birthday with a personalized gift card.",
       category:"Birthday",
@@ -2217,6 +2283,7 @@ brandsData = [
   //CONGRATULATION CARD DETAIL START
 
   {
+    id:"185",
       title: "Floral Congrats",
       detail: "Celebrate special moments with our stunning congratulations card! This elegant design features vibrant floral arrangements of deep pinks, rich oranges, and lush greens, creating a beautiful and cheerful composition. The word Congrats, is beautifully hand-lettered in an eye-catching, elegant font. Available in three breathtaking colorways, each card offers the perfect backdrop to enhance the intricate floral details. Ideal for any occasion, this card adds a personal and heartfelt touch, making your congratulations truly memorable. Send your best wishes in style and make them smile with this charming floral design!",
       Category: "Congratulations",
@@ -2228,6 +2295,7 @@ brandsData = [
 
   },
   {
+    id:"186",
       title: "Happy Faces",
       detail: "Celebrate success with a splash of color and joy! This vibrant.Congratulations card bursts with personality, featuring large, playful letters in a rainbow of cheerful hues. Each letter sports a happy face, spreading smiles and positive vibes. Sprinkled around the text are confetti-like shapes, with dashes, zigzags, and splashes that make the card feel like a mini party. Perfect for any achievement, this card radiates warmth and excitement, making your congratulations truly memorable. It’s sure to bring a big smile to the recipient’s face. Great for graduations, job promotions, and any cause for celebration!",
       Category: "Congratulations",
@@ -2238,6 +2306,7 @@ brandsData = [
       image : "paper-congra2",
   },
   {
+    id:"187",
       title: "Congrats so happy",
       detail: "Celebrate bright moments with our delightful Congratulations Card! Featuring a charming hand-drawn floral design, this card bursts with vibrant blossoms and leafy greens, creating an inviting and cheerful backdrop. The elegant, prominent ,Congrats text at the center adds a touch of sophistication. Available in four beautiful colorways to suit any taste, each variant retains the same joyful essence. Perfect for congratulating someone on their achievements, this card is sure to bring a smile to their face. Make their special moment unforgettable with a card that truly speaks from the heart!",
       Category: "Congratulations",
@@ -2248,6 +2317,7 @@ brandsData = [
       image : "paper-congra3",
   },
   {
+    id:"188",
       title: "Congratulation You Did It",
       detail: "Celebrate success with this cheerful congratulations card! The playful design features an adorable teal monkey joyfully dancing against a vibrant pink background. The monkey exudes excitement and happiness, making it perfect for any happy occasion. With whimsical trees in softer shades of pink adding to the delightful scene, this card is bound to bring a smile to anyone's face. Whether it's a graduation, a promotion, or a personal achievement, this charming card is the perfect way to say, Well done, you did it! in the most fun and uplifting way.",
       Category: "Congratulations",
@@ -2258,6 +2328,7 @@ brandsData = [
       image : "paper-congra4",
   },
   {
+    id:"189",
       title: "Congrats To You Card",
       detail:
         "Celebrate life’s triumphs with our congratulation card. Elegantly designed in vibrant colors with heartfelt messages that makes this card a perfect one to express your feeling of joy. Whether it is a new job, graduation, or a personal achievement, send your warmest wishes with a card that beautifully expresses your congratulation and admiration.",
@@ -2273,6 +2344,7 @@ brandsData = [
     //ENGAGEMENT CARD DETAIL START
 
     {
+      id:"190",
       title: "Bold Ring Engagement Card",
       detail: "Celebrate love and new beginnings with our charming engagement card design! Featuring a whimsical, hand-drawn gold and green floral wreath encircling a radiant engagement ring illustration, this card shouts joy with a big ,Woo Hoo! at its center. Delicate flowers and leafy branches add a touch of nature's elegance, making your congratulations heartfelt and enchanting. The bottom part includes warm, professional typography to personalize with the happy couple's names and a thoughtful message, blending simplicity with sophistication. Perfect for expressing your excitement and best wishes for their magical journey ahead!",
       Category: "Engagement",
@@ -2284,6 +2356,7 @@ brandsData = [
   },
 
   {
+    id:"191",
       title: "Forever and ever",
       detail: "Celebrate the joy of forever with this enchanting engagement card! Crafted on a soft coral background, it features a whimsical gold ring adorned with vibrant, blooming flowers. The delicate blooms in shades of blue, pink, and orange create a stunning contrast that captures the essence of love and new beginnings. The heartfelt message ,forever and ever is elegantly written in a white, flowing script at the bottom, adding a romantic touch. Perfect for congratulating the happy couple, this charming design encapsulates the magic of their promise to one another. Ideal for loved ones embarking on their journey to forever!",
       Category: "Engagement",
@@ -2295,6 +2368,7 @@ brandsData = [
   },
 
   {
+    id:"192",
       title: "Engaged & Ecstatic",
       detail: "Celebrate love with this elegant engagement card design, perfect for the happy couple! Adorned with a delicate floral arrangement, the centerpiece is a sparkling diamond ring symbolizing eternal commitment. Soft hues and sophisticated greenery frame the heartwarming message of ,Congrats! that stands out prominently. Available in two beautiful colorways, each variant brings its own unique charm while sharing the same refined features. Spread joy and well wishes with these timeless, artfully crafted cards, designed to make their special moment even more memorable.",
       Category: "Engagement",
@@ -2306,6 +2380,7 @@ brandsData = [
   },
 
   {
+    id:"193",
       title: "Best Yes Ever",
       detail: "Celebrate your love story with our elegantly charming wedding card design, available in four stunning colorways. Featuring the romantic phrase ,best yes ever in graceful calligraphy, this card captures the essence of your joyous moment. Whether you prefer classic soft pink, timeless black with golden shimmer, pure white with rose gold script, or dazzling gold on white, each design exudes sophistication and romance. Perfect for setting the tone of your unforgettable day, these cards blend modern elegance with heartfelt simplicity, ensuring your announcement is as unforgettable as your love.",
       Category: "Engagement",
@@ -2317,6 +2392,7 @@ brandsData = [
   },
 
   {
+    id:"194",
       title: "Nice Ring Card for your big day",
       detail: "Celebrate love's grand moment with this charming engagement card design! Set against a soft, pastel-hued background, a radiant engagement ring takes center stage, symbolizing eternal commitment and joy. The ring, detailed with gleaming gold accents, encircles a heartfelt ,Congrats inscribed with whimsical, modern typography. Delicate leaf motifs adorn the design, adding a touch of natural elegance and grace. Perfect for sharing your heartfelt wishes on this special occasion, this card captures the essence of romance and happy beginnings in a stylish, contemporary way.",
       Category: "Engagement",
@@ -2331,6 +2407,7 @@ brandsData = [
   //GET WELL CARD DETAIL START
 
   {
+    id:"195",
       title: " You'll Bee Better Soon",
       detail: "This delightful get well card features a whimsical design with two cheerful bees buzzing around. The background is a soft cream, complemented by vibrant orange honeycomb patterns scattered playfully across the card. At the bottom, a charming little beehive adds a warm touch. The centerpiece is a lively, handwritten-style message saying “You’ll bee better soon” in a mix of black and warm orange tones. Perfect for bringing a smile and a touch of sunshine to someone’s recovery journey, this card radiates positive energy and cheer.",
       Category: "Get Well Soon",
@@ -2341,6 +2418,7 @@ brandsData = [
       image : "paper-getwell1",
   },
   {
+    id:"196",
       title: "Caring Thoughts For you",
       detail: "Brighten someone’s day with this vibrant Get Well Soon card! This cheerful card features a beautiful watercolor design of vibrant red and orange flowers, accented by a charming little ladybug resting delicately on one of the petals. The lively, hand-painted style adds a warm and personal touch, while the lush green stems bring a burst of life and hope. The message ,Get well soon is elegantly scripted at the top, offering a heartfelt sentiment. At the bottom, an additional thoughtful phrase sends loving, caring thoughts to aid in their recovery, making it the perfect card to lift spirits and send your best wishes.",
       Category: "Get Well Soon",
@@ -2352,6 +2430,7 @@ brandsData = [
   },
 
   {
+    id:"197",
       title: "Wishing Well",
       detail: "SThis Get Well card radiates warmth and comfort with its beautifully illustrated design. A soft pastel background sets the tranquil mood, featuring a charming envelope bursting with vibrant, hand-painted florals. Delicate blue and pink blooms, along with lush green leaves, convey a heartfelt message of hope and recovery. A tiny red heart peeks out from the envelope, adding a touch of love and care. The phrase ,Thinking of You is elegantly inscribed below in a gentle, flowing font, making it perfect for sending your warm wishes and strength to someone in need of some cheer. This card is sure to brighten their day and lift their spirits.",
       Category: "Get Well Soon",
@@ -2362,6 +2441,7 @@ brandsData = [
       image : "paper-getwell3",
   },
   {
+    id:"198",
       title: "Healthy And Happy Again",
       detail: "This delightful get well card features a charming illustration of a cozy dog nestled under a warm blanket, sporting a purple ice pack on its head. The playful, hand-drawn style of the image adds a touch of whimsy and comfort. Above the endearing canine, the prominent message reads, I want you to be healthy and happy again! in bold, blue lettering. The card's inviting design is sure to bring a smile and convey heartfelt wishes for a speedy recovery to your loved one.",
       Category: "Get Well Soon",
@@ -2373,6 +2453,7 @@ brandsData = [
   },
 
   {
+    id:"199",
       title: "Get Well Really Soon",
       detail: "Brighten someone's day with this delightful Get Well card! The design features cheerful, colorful letters in large, playful font spelling out Get Well Soon on a warm, cream background. Each letter is uniquely shaded in vibrant hues of pink, yellow, green, purple, and blue, exuding positive energy and optimism. A whimsical, handwritten-style really adds a personal touch to the message. Perfect for sending your warmest wishes and a touch of joy to someone on the mend, this card radiates kindness and care. Let them know you’re thinking of them and wishing them a speedy recovery in the most colorful way possible!",
       Category: "Get Well Soon",
@@ -2387,6 +2468,7 @@ brandsData = [
   //SORRY CARD DETAIL START
 
   {
+    id:"200",
       title: "I'm Sorry",
       detail: "This charming I'm Sorry card features a delicate and heartwarming design, perfect for expressing your sincerest apologies. A soft, pastel pink gerbera daisy adorns the left side, bringing a touch of natural elegance. The daisy is intricately detailed, adding texture and depth to the card. The message, “I’m sorry...”, is elegantly scripted in a warm, deep purple hue on a gently checkered cream background. The scalloped edges of the bordered message area lend a whimsical touch. Accents of a small button and bow in muted tones complete the design, making it an endearing way to convey your heartfelt regrets.",
       Category: "Sorry",
@@ -2398,6 +2480,7 @@ brandsData = [
   },
 
   {
+    id:"201",
       title: "Give Me a Chance",
       detail: "This charming Sorry Card features a heartfelt design that effortlessly tugs at the heartstrings. Against a soft green background, the card showcases an adorable bunny character, dressed in a cute polka-dotted outfit, with a genuinely remorseful expression. The character's hands are clasped together, emphasizing regret and seeking forgiveness. Above, a playful orange speech bubble with polka dots highlights the prominent text I'm sorry.At the bottom of the card, a hopeful message ,Give me a chance written in gentle, warm tones completes the design, making it impossible for the recipient not to feel the sincerity and affection.",
       Category: "Sorry",
@@ -2408,6 +2491,7 @@ brandsData = [
       image : "paper-sorry2",
   },
   {
+    id:"202",
       title: "Sorry For The Inconvenience",
       detail: "The Sorry Card features a whimsical design that showcases a delightful bouquet of vibrant flowers cradled by a cheerful black and white cat. Nestled within beautifully arranged blossoms, the card radiates warmth and charm, making it the perfect gesture of heartfelt apologies. The design is available in two elegant colorways, with a soft pastel background and contrasting vibrant foliage, giving you the option to choose the one that best suits your style. This enchanting card will surely convey your sincere apology with a touch of playfulness and sincerity.",
       Category: "Sorry",
@@ -2419,6 +2503,7 @@ brandsData = [
   },
 
   {
+    id:"203",
       title: "Sorry For The Trouble",
       detail: "These sorry cards are a beautiful blend of vibrant colors and nature-inspired elements. Each design features an enchanting frame of hand-drawn flowers and birds in stunning shades of red, white, and blue backgrounds, making the heartfelt message in elegant script stand out. The lush floral arrangements and delicate birds create a soothing, harmonious atmosphere, perfect for conveying your sincerest apologies. Ideal for any situation, these cards combine the charm of intricate artwork with a thoughtful sentiment, ensuring your message is delivered in the most heartfelt way.",
       Category: "Sorry",
