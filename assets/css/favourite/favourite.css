@@ -57,6 +57,8 @@
   --GSans-boldItal: "GeneralSans-BoldItalic";
 }
 
+
+
 /* primary container */
 .favorite-section {
   padding: var(--section-padding);
