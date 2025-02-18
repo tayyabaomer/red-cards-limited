@@ -87,7 +87,7 @@
 }
 @media screen and (max-width: 992px) {
   .vid {
-    display: none;
+    display: block;
   }
   .vid-mobile {
     display: block !important;
@@ -145,7 +145,7 @@ span {
 }
 .vid {
   width: 80%;
-  height: 100%;
+  /* height: 100%; */
   margin-top: 70px;
   margin-left: 80px;
 }
